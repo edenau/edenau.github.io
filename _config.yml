@@ -34,9 +34,9 @@ disqus:
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: au_eden
 github: edenau
 linkedin: edenau
+twitter: au_eden
 #google: username
 #medium: username
 email: eden.au@ed.ac.uk
@@ -44,6 +44,7 @@ email: eden.au@ed.ac.uk
 # instagram: myinstagram
 # pinterest: mypinterest
 # spotify: myspotify
+# gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
@@ -52,7 +53,7 @@ email: eden.au@ed.ac.uk
 # lanyrd: mylanyrd
 
 authors:
-    rodferro:
+    edenau:
         name: Eden Au
         bio: data scientist
         external-image: false
