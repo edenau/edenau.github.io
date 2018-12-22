@@ -34,13 +34,13 @@ disqus:
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: FerroRodolfo
-github: RodolfoFerro
-linkedin: rodolfoferro
-google: RodolfoFerro
-medium: FerroRodolfo
-email: rodolfoferroperez@gmail.com
-youtube: channel/UC3Q7iZXB950Bvtjpml9jqZg
+twitter: au_eden
+github: edenau
+linkedin: edenau
+#google: 
+#medium: 
+email: eden.au@ed.ac.uk
+# youtube: channel/UC3Q7iZXB950Bvtjpml9jqZg
 # instagram: myinstagram
 # pinterest: mypinterest
 # spotify: myspotify
@@ -53,11 +53,11 @@ youtube: channel/UC3Q7iZXB950Bvtjpml9jqZg
 
 authors:
     rodferro:
-        name: Rodolfo Ferro
-        bio: With great power comes great responsibility.
+        name: Eden Au
+        bio: data scientist
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: FerroRodolfo
+        twitter: au_eden
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
