@@ -1,9 +1,9 @@
 # main text of home
-name: Eden Au
-bio: "PhD student at the University of Edinburgh, majored in machine learning and climate modeling."
+name: Rodolfo Ferro
+bio: "Let's build our future. 🚀"
 
 # twitter summary info
-description: "Data Scientist 📈 · #Chelsea FC 💙⚽"
+description: "Math student · Tech lead @ #FutureLab · 🚩 GitHub Campus Expert · xGSA · @ClubesCienciaMx · @defpodcastmx · #Python 💙🐍 · I'm the Spider-Man · #SoyUG"
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,12 +16,12 @@ resume: true
 resume-external: false
 resume-url: resume
 
-url: https://edenau.github.io
+url: https://rodolfoferro.github.io
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
- analytics-google: 'UA-131317483-1'
+# analytics-google: 'UA-MYANALYTICS'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -34,13 +34,13 @@ disqus:
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: au_eden
-github: edenau
-linkedin: edenau
-#google: 
-# medium: 
-email: eden.au@ed.ac.uk
-# youtube: channel/UC3Q7iZXB950Bvtjpml9jqZg
+twitter: FerroRodolfo
+github: RodolfoFerro
+linkedin: rodolfoferro
+google: RodolfoFerro
+medium: FerroRodolfo
+email: rodolfoferroperez@gmail.com
+youtube: channel/UC3Q7iZXB950Bvtjpml9jqZg
 # instagram: myinstagram
 # pinterest: mypinterest
 # spotify: myspotify
@@ -52,12 +52,12 @@ email: eden.au@ed.ac.uk
 # lanyrd: mylanyrd
 
 authors:
-    edenau:
-        name: Eden Au
+    rodferro:
+        name: Rodolfo Ferro
         bio: With great power comes great responsibility.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: au_eden
+        twitter: FerroRodolfo
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
