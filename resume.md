@@ -67,7 +67,7 @@ I am experienced in developing data-driven solutions.
 I love teaching and helping people.
 <ul>
   <li>
-    2018 – present: <b>Tutor & Demonstrator, <i>University of Edinburgh</i>.</b> Click <a href="{{ site.url }}/teaching/">here</a> for more details.
+    2018 – present: <b>Tutor & Demonstrator, <i>University of Edinburgh</i>.</b> <a href="{{ site.url }}/teaching/">More details</a>.
   </li>
   <li>
     2016 – present: <b>Advisory Board Member & Head of Admissions (Engineering Science), <i>Project Access Hong Kong</i>.</b> Providing free mentoring service to widen access into Oxbridge, and help talented less-privileged young people in Hong Kong and around the globe achieve their academic goals.
@@ -79,7 +79,7 @@ I love teaching and helping people.
 During my undergraduate years, I was fully funded by Swire, and also funded by both college and department for my excellent academic performance. I am now fully funded by NERC and the Met Office UK.
 <ul>
   <li>
-    2018: <b>CASE Studentship</b>, Natural Environment Research Council (NERC) and the Met Office, <i>a full scholarship for my PhD study</i>. More info <a href="https://www.ed.ac.uk/e4-dtp/how-to-apply/funding-and-eligibility">here</a>.
+    2018: <b>CASE Studentship</b>, Natural Environment Research Council (NERC) and the Met Office, <i>a full scholarship for my PhD study</i>. <a href="https://www.ed.ac.uk/e4-dtp/how-to-apply/funding-and-eligibility">More info</a>.
   </li>
   <li>
     2018: <b>Head of Department&#39;s Prize</b>, Department of Engineering Science, University of Oxford.
@@ -88,7 +88,7 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
     2015: <b>University College Finalist&#39;s Scholarship</b>, University College, University of Oxford.
   </li>
   <li>
-    2014: <b>Undergraduate Swire Scholarship</b>, John Swire & Sons Ltd., <i>a full scholarship for my undergraduate study</i>. More info <a href="https://www.univ.ox.ac.uk/learn-at-univ/undergraduate-bursaries/">here</a>.
+    2014: <b>Undergraduate Swire Scholarship</b>, John Swire & Sons Ltd., <i>a full scholarship for my undergraduate study</i>. <a href="https://www.univ.ox.ac.uk/learn-at-univ/undergraduate-bursaries/">More info</a>.
   </li>
 </ul>
 </p>
