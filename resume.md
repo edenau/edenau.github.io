@@ -67,7 +67,7 @@ I am experienced in developing data-driven solutions.
 I love teaching and helping people.
 <ul>
   <li>
-    2018 – present: <b>Tutor & Demonstrator, <i>University of Edinburgh</i>.</b> Click <a href="https://edenau.github.io/teaching/">here</a> for more details.
+    2018 – present: <b>Tutor & Demonstrator, <i>University of Edinburgh</i>.</b> Click <a href="{{ site.url }}/teaching/">here</a> for more details.
   </li>
   <li>
     2016 – present: <b>Advisory Board Member & Head of Admissions (Engineering Science), <i>Project Access Hong Kong</i>.</b> Providing free mentoring service to widen access into Oxbridge, and help talented less-privileged young people in Hong Kong and around the globe achieve their academic goals.
