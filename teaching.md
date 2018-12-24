@@ -3,8 +3,8 @@ layout: page
 title: Teaching
 ---
 
-<h3>Introduction to Three-Dimensional Climate Modelling</h3>
+<h4>Introduction to Three-Dimensional Climate Modelling</h4>
 
 
-<h3>Physics of Climate</h3>
+<h4>Physics of Climate</h4>
 Coming Soon...
