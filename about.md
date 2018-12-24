@@ -5,7 +5,7 @@ layout: page
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-> Data Scientist 📈 · #Chelsea FC 💙⚽ · 🇭🇰🏴󠁧󠁢󠁥󠁮󠁧󠁿🏴󠁧󠁢󠁳󠁣󠁴󠁿
+> Data Scientist 📈 · #Chelsea FC 💙⚽ · 🇭🇰🇬🇧󠁧󠁧󠁢
 
 <br>
 This is Eden.

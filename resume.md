@@ -28,8 +28,6 @@ title: Resume
 }
 </style>
 
-# Résumé
-
 <center>
 <a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF </span></a>
 </center>
