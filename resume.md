@@ -30,7 +30,7 @@ title: Resume
 
 <p></p>
 <center>
-<a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF </span></a>
+<a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF version</span></a>
 </center>
 
-<i>Last updated on 10 December 2018.</i>
+<i>Last updated on 24 December 2018.</i>
