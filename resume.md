@@ -45,19 +45,32 @@ title: Resume
   </li>
 </ul>
 
+<h4>Experience</h4>
+<ul>
+  <li>
+    2019 – present: <b>Part-time Data Scientist, <i>Royal Botanic Garden Edinburgh</i></b>. Analyzing spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
+  </li>
+  <li>
+    2018 – present: <b>Software Engineer, <i>HYPED</i></b>. Designing a pod navigation system using Kalman filter for Hyperloop, a revolutionary mode of transport.
+  </li>
+  <li>
+    2018: <b>Associate Digital Consultant, <i>Oxford Strategy Group Digital</i></b>. Provided digital consultancy service for international clients in the first student-led digital consultancy in the UK.
+  </li>
+</ul>
+
 <h4>Scholarships</h4>
 <ul>
   <li>
-    2018: <b>Natural Environment Research Council Studentship</b>, Natural Environment Research Council, <i>a full scholarship for my PhD study</i>.
+    2018: <b>CASE Studentship</b>, Natural Environment Research Council (NERC) and the Met Office, <i>a full scholarship for my PhD study</i>. More info <a href="https://www.ed.ac.uk/e4-dtp/how-to-apply/funding-and-eligibility">here</a>.
   </li>
   <li>
     2018: <b>Head of Department&#39;s Prize</b>, Department of Engineering Science, University of Oxford.
   </li>
   <li>
-    2015: <b>University College Scholarship</b>, University College, University of Oxford.
+    2015: <b>University College Finalist&#39;s Scholarship</b>, University College, University of Oxford.
   </li>
   <li>
-    2014: <b>Swire Undergraduate Scholarship</b>, John Swire & Sons Ltd., <i>a full scholarship for my undergraduate study</i>.
+    2014: <b>Undergraduate Swire Scholarship</b>, John Swire & Sons Ltd., <i>a full scholarship for my undergraduate study</i>. More info <a href="https://www.univ.ox.ac.uk/learn-at-univ/undergraduate-bursaries/">here</a>.
   </li>
 </ul>
 
