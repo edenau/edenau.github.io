@@ -64,6 +64,7 @@ I am experienced in developing data-driven solutions.
 </p>
 <h4>Experience in Teaching</h4>
 <p>
+I love teaching and helping people.
 <ul>
   <li>
     2018 – present: <b>Tutor & Demonstrator, <i>University of Edinburgh</i>.</b> Click <a href="https://edenau.github.io/teaching/">here</a> for more details.
