@@ -34,3 +34,10 @@ title: Resume
 </center>
 
 <i>Last updated on 24 December 2018.</i>
+
+<h4>Education</h4>
+<ul>
+  <li>
+    <b>University of Edinburgh</b>
+  </li>
+</ul>
