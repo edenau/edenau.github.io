@@ -28,7 +28,7 @@ title: Resume
 }
 </style>
 
-<p></p>
+<p></p><p></p>
 <center>
 <a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF version</span></a>
 </center>
@@ -36,6 +36,8 @@ title: Resume
 <i>Last updated on 24 December 2018.</i>
 
 <h4>Education</h4>
+<p>
+I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD project is about using machine learning in climate modeling.
 <ul>
   <li>
     2018 – present: <b> PhD in GeoInformatics, <i>University of Edinburgh</i>.</b> Under <a href="http://e3dtp.geos.ed.ac.uk/">E3DTP</a> programme. <i>Thesis topic: Using machine learning to parameterize climate and weather processes: a case-study on convection. Supervisors: <a href="https://www.geos.ed.ac.uk/homes/stett2/">Prof. Simon Tett</a> (<a href="https://en.wikipedia.org/wiki/Simon_Tett">wiki</a>), <a href="https://www.bayeswatch.com/">Prof. Amos Storkey</a>, <a href="https://www.metoffice.gov.uk/research/people/keith-williams">Dr. Keith Williams</a>.</i>
@@ -44,8 +46,10 @@ title: Resume
     2014 – 2018: <b> MEng in Information Engineering, <i>University of Oxford</i>.</b> Specialized in machine learning and control theory, ranked 3<sup>rd</sup> in cohort. <i>Thesis topic: A generic model and a distributed algorithm for station based bike sharing systems. Supervisor: <a href="https://sites.google.com/site/margellosk/home">Prof. Kostas Margellos</a>.</i>
   </li>
 </ul>
-
+</p>
+<p>
 <h4>Experience</h4>
+I am experienced in developing data-driven solutions.
 <ul>
   <li>
     2019 – present: <b>Part-time Data Scientist, <i>Royal Botanic Garden Edinburgh</i></b>. Analyzing spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
@@ -57,7 +61,8 @@ title: Resume
     2018: <b>Associate Digital Consultant, <i>Oxford Strategy Group Digital</i></b>. Provided digital consultancy service for international clients in the first student-led digital consultancy in the UK.
   </li>
 </ul>
-
+</p>
+<p>
 <h4>Scholarships</h4>
 <ul>
   <li>
@@ -73,11 +78,12 @@ title: Resume
     2014: <b>Undergraduate Swire Scholarship</b>, John Swire & Sons Ltd., <i>a full scholarship for my undergraduate study</i>. More info <a href="https://www.univ.ox.ac.uk/learn-at-univ/undergraduate-bursaries/">here</a>.
   </li>
 </ul>
-
+</p>
+<p>
 <h4>Skills</h4>
 <ul>
   <li>
-    Programming languages: Python, MATLAB, C, C++, Java, Pascal, Prolog, LATEX
+    Programming languages: Python, MATLAB, C, C++, Java, Pascal, Prolog, LaTeX
   </li>
   <li>
     Technologies: Tableau, SolidWorks
@@ -86,3 +92,4 @@ title: Resume
     Natural languages: English, Mandarin, Cantonese, Taiwanese, Spanish
   </li>
 </ul>
+</p>
