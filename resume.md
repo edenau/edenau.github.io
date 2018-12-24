@@ -47,18 +47,29 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
   </li>
 </ul>
 </p>
-<h4>Experience</h4>
+<h4>Experience in Data Science</h4>
 <p>
 I am experienced in developing data-driven solutions.
 <ul>
   <li>
-    2019 – present: <b>Part-time Data Scientist, <i>Royal Botanic Garden Edinburgh</i></b>. Analyzing spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
+    2019 – present: <b>Part-time Data Scientist, <i>Royal Botanic Garden Edinburgh</i>.</b> Analyzing spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
   </li>
   <li>
-    2018 – present: <b>Software Engineer, <i>HYPED</i></b>. Designing a pod navigation system using Kalman filter for Hyperloop, a revolutionary mode of transport.
+    2018 – present: <b>Software Engineer, <i>HYPED</i>.</b> Designing a pod navigation system using Kalman filter for Hyperloop, a revolutionary mode of transport.
   </li>
   <li>
-    2018: <b>Associate Digital Consultant, <i>Oxford Strategy Group Digital</i></b>. Provided digital consultancy service for international clients in the first student-led digital consultancy in the UK.
+    2018: <b>Associate Digital Consultant, <i>Oxford Strategy Group Digital</i>.</b> Provided digital consultancy service for international clients in the first student-led digital consultancy in the UK.
+  </li>
+</ul>
+</p>
+<h4>Experience in Teaching</h4>
+<p>
+<ul>
+  <li>
+    2018 – present: <b>Tutor & Demonstrator, <i>University of Edinburgh</i>.</b> Click <a href="https://edenau.github.io/teaching/">here</a> for more details.
+  </li>
+  <li>
+    2016 – present: <b>Advisory Board Member & Head of Admissions (Engineering Science), <i>Project Access Hong Kong</i>.</b> Providing free mentoring service to widen access into Oxbridge, and help talented less-privileged young people in Hong Kong and around the globe achieve their academic goals.
   </li>
 </ul>
 </p>
@@ -85,13 +96,13 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
 I am a fast learner and I am interested in learning new programming and natural languages.
 <ul>
   <li>
-    Programming languages: Python, MATLAB, C, C++, Java, Pascal, Prolog, LaTeX
+    Programming languages: <b>Python, MATLAB, C, C++, Java, Pascal, Prolog, LaTeX</b>
   </li>
   <li>
-    Technologies: Git, Tableau, SolidWorks, GIS
+    Technologies: <b>Git, Tableau, SolidWorks, GIS</b>
   </li>
   <li>
-    Natural languages: English, Mandarin, Cantonese, Taiwanese, Spanish
+    Natural languages: <b>English, Mandarin, Cantonese, Taiwanese, Spanish</b>
   </li>
 </ul>
 </p>
