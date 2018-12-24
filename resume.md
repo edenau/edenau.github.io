@@ -31,8 +31,7 @@ title: Resume
 # My résumé
 
 <center>
-<a class="button" href="https://github.com/edenau/CV/raw/master/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  Full Size </span></a>
-<a class="button" href="/assets/docs/Rodolfo%20Ferro%20-%20CV%20(small).pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  One Page </span></a>
+<a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF </span></a>
 </center>
 
 ---
