@@ -38,6 +38,9 @@ title: Resume
 <h4>Education</h4>
 <ul>
   <li>
-    <b>University of Edinburgh</b>
+    2018 - present: <b>PhD in GeoInformatics, University of Edinburgh.</b>
+  </li>
+  <li>
+    2014 - 2018: <b>MEng in Information Engineering, University of Oxford.</b>
   </li>
 </ul>
