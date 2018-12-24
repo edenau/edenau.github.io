@@ -45,6 +45,22 @@ title: Resume
   </li>
 </ul>
 
+<h4>Scholarships</h4>
+<ul>
+  <li>
+    2018: <b>Natural Environment Research Council Studentship</b>, Natural Environment Research Council, <i>a full scholarship for my PhD study</i>.
+  </li>
+  <li>
+    2018: <b>Head of Department&#39;s Prize</b>, Department of Engineering Science, University of Oxford.
+  </li>
+  <li>
+    2015: <b>University College Scholarship</b>, University College, University of Oxford.
+  </li>
+  <li>
+    2014: <b>Swire Undergraduate Scholarship</b>, John Swire & Sons Ltd., <i>a full scholarship for my undergraduate study</i>.
+  </li>
+</ul>
+
 <h4>Skills</h4>
 <ul>
   <li>
