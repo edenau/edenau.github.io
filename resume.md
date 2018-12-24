@@ -47,8 +47,8 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
   </li>
 </ul>
 </p>
-<p>
 <h4>Experience</h4>
+<p>
 I am experienced in developing data-driven solutions.
 <ul>
   <li>
@@ -62,8 +62,9 @@ I am experienced in developing data-driven solutions.
   </li>
 </ul>
 </p>
-<p>
 <h4>Scholarships</h4>
+<p>
+During my undergraduate years, I was fully funded by Swire, and also funded by both college and department for my excellent academic performance. I am now fully funded by NERC and the Met Office UK.
 <ul>
   <li>
     2018: <b>CASE Studentship</b>, Natural Environment Research Council (NERC) and the Met Office, <i>a full scholarship for my PhD study</i>. More info <a href="https://www.ed.ac.uk/e4-dtp/how-to-apply/funding-and-eligibility">here</a>.
@@ -79,14 +80,15 @@ I am experienced in developing data-driven solutions.
   </li>
 </ul>
 </p>
-<p>
 <h4>Skills</h4>
+<p>
+I am a fast learner and I am interested in learning new programming and natural languages.
 <ul>
   <li>
     Programming languages: Python, MATLAB, C, C++, Java, Pascal, Prolog, LaTeX
   </li>
   <li>
-    Technologies: Tableau, SolidWorks
+    Technologies: Git, Tableau, SolidWorks, GIS
   </li>
   <li>
     Natural languages: English, Mandarin, Cantonese, Taiwanese, Spanish
