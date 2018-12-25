@@ -8,7 +8,7 @@ layout: page
 > Data Scientist 📈 · #Chelsea FC 💙⚽ · Polyglot 🈴 · 🇭🇰🇬🇧
 
 <br>
-This is Eden.
+This is Eden Au. My journey started when I took IT classes in high school where I learned how to code (in Pascal🐆).
 
 <br>
 <center>
