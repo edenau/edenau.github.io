@@ -40,10 +40,10 @@ title: Resume
 I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD project is about using machine learning in climate modeling.
 <ul>
   <li>
-    2018 – present: <b> PhD in GeoInformatics, <i>University of Edinburgh</i>.</b> Under <a href="http://e3dtp.geos.ed.ac.uk/">Specialized in machine learning and climate modeling. E3DTP</a> programme. <i>Thesis topic: Using machine learning to parameterize climate and weather processes: a case-study on convection. Supervisors: <a href="https://www.geos.ed.ac.uk/homes/stett2/">Prof. Simon Tett</a> (<a href="https://en.wikipedia.org/wiki/Simon_Tett">wiki</a>), <a href="https://www.bayeswatch.com/">Prof. Amos Storkey</a>, <a href="https://www.metoffice.gov.uk/research/people/keith-williams">Dr. Keith Williams</a>.</i>
+    2018 – present: <b> PhD in GeoInformatics, <i>University of Edinburgh</i>.</b> Under <a href="http://e3dtp.geos.ed.ac.uk/" target="_blank">Specialized in machine learning and climate modeling. E3DTP</a> programme. <i>Thesis topic: Using machine learning to parameterize climate and weather processes: a case-study on convection. Supervisors: <a href="https://www.geos.ed.ac.uk/homes/stett2/" target="_blank">Prof. Simon Tett</a> (<a href="https://en.wikipedia.org/wiki/Simon_Tett" target="_blank">wiki</a>), <a href="https://www.bayeswatch.com/" target="_blank">Prof. Amos Storkey</a>, <a href="https://www.metoffice.gov.uk/research/people/keith-williams" target="_blank">Dr. Keith Williams</a>.</i>
   </li>
   <li>
-    2014 – 2018: <b> MEng in Information Engineering, <i>University of Oxford</i>.</b> Specialized in machine learning and control theory, ranked 3<sup>rd</sup> in cohort. <i>Thesis topic: A generic model and a distributed algorithm for station based bike sharing systems. Supervisor: <a href="https://sites.google.com/site/margellosk/home">Prof. Kostas Margellos</a>.</i>
+    2014 – 2018: <b> MEng in Information Engineering, <i>University of Oxford</i>.</b> Specialized in machine learning and control theory, ranked 3<sup>rd</sup> in cohort. <i>Thesis topic: A generic model and a distributed algorithm for station based bike sharing systems. Supervisor: <a href="https://sites.google.com/site/margellosk/home" target="_blank">Prof. Kostas Margellos</a>.</i>
   </li>
 </ul>
 </p>
@@ -79,7 +79,7 @@ I love teaching and helping people.
 During my undergraduate years, I was fully funded by Swire, and also funded by both college and department for my excellent academic performance. I am now fully funded by NERC and the Met Office UK.
 <ul>
   <li>
-    2018: <b>CASE Studentship</b>, Natural Environment Research Council (NERC) and the Met Office, <i>a full scholarship for my PhD study</i>. <a href="https://www.ed.ac.uk/e4-dtp/how-to-apply/funding-and-eligibility">More info</a>.
+    2018: <b>CASE Studentship</b>, Natural Environment Research Council (NERC) and the Met Office, <i>a full scholarship for my PhD study</i>. <a href="https://www.ed.ac.uk/e4-dtp/how-to-apply/funding-and-eligibility" target="_blank">More info</a>.
   </li>
   <li>
     2018: <b>Head of Department&#39;s Prize</b>, Department of Engineering Science, University of Oxford.
@@ -88,7 +88,7 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
     2015: <b>University College Finalist&#39;s Scholarship</b>, University College, University of Oxford.
   </li>
   <li>
-    2014: <b>Undergraduate Swire Scholarship</b>, John Swire & Sons Ltd., <i>a full scholarship for my undergraduate study</i>. <a href="https://www.univ.ox.ac.uk/learn-at-univ/undergraduate-bursaries/">More info</a>.
+    2014: <b>Undergraduate Swire Scholarship</b>, John Swire & Sons Ltd., <i>a full scholarship for my undergraduate study</i>. <a href="https://www.univ.ox.ac.uk/learn-at-univ/undergraduate-bursaries/" target="_blank">More info</a>.
   </li>
 </ul>
 </p>
