@@ -22,9 +22,13 @@ After 4 years of undergraduate study in Oxford, I went to Edinburgh in September
 
 My research interest includes using machine learning, control theory, and signal processing techniques in natural sciences and real life applications. One particular interest would be developing physics-informed machine learning models where known physics and prior knowledge are incorporated, such as conservation laws.
 
-I believe we can all contribute to our society in various means. I was a mentor in Boundless where I provided mentorship to under-resourced students that facilitated their personal growth, and training that equipped them with skills that could help them succeed in their respective pursuits. I have also been working in Project Access Hong Kong for more than 2 years to help talented less-privileged young people around the globe achieve their academic goals.
+I believe we can all contribute to our society🗺️ in various means. I was a mentor in Boundless where I provided mentorship to under-resourced students that facilitated their personal growth, and training that equipped them with skills that could help them succeed in their respective pursuits. I have also been working in Project Access Hong Kong for more than 2 years to help talented less-privileged young people around the globe achieve their academic goals.
 
-If you think I would be a great addition to your company/organization/team, please contact me!
+If you think I would be a great addition to your company/organization/team, please contact me🤙!
+
+<h4>Fun facts</h4>
+
+<a href="{{ site.url }}/assets/images/hawking.jpeg" target="_blank">Stephen Hawking visited me.</a>
 
 <br>
 <center>
