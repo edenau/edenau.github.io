@@ -24,6 +24,8 @@ NetCDF is a machine-independent, array-oriented, multi-dimensional, self-describ
 
 I will take climate data from <a href="https://www.arm.gov/" target="_blank">*Atmospheric Radiation Measurement Climate Research Facility*</a> (ARM) in the United States, and <a href="https://www.ecmwf.int/" target="_blank">*European Centre for Medium-Range Weather Forecasts*</a> (ECMWF) in Europe as an example.
 
+<div class="breaker"></div>
+
 # Prerequisites
 
 We will use `xarray` library in Python for data processing. Long story short, it builds upon `numpy` (and `dask`) libraries and leverages the power of `pandas`, but you probably don’t need to know about it. As you might know, package dependency is a pain in Python. That is why the most convenient way to get everything installed is to use the following command:
@@ -58,9 +60,13 @@ Python 3.4.9
 ```
 To check the version of packages, use `pip freeze` or `conda list`. Things should check out if you install `xarray` through `conda`.
 
+<div class="breaker"></div>
+
 # Alternatives
 
 <a href="https://scitools.org.uk/iris/docs/latest/" target="_blank">`iris`</a> is an alternative to `xarray`, but some works need to be done to make it work on Windows, and it does not work well on Mac OS. Iris is also an English word, so googling ‘iris’ gives you many irrelevant results. It was a pain for me to use `iris`.
+
+<div class="breaker"></div>
 
 # Data Preview
 
@@ -114,6 +120,8 @@ $ ncview twparmbeatmC1.c1.20050101.000000.cdf
 ```
 ![Graphical interface in Linux using ncview]({{ site.url }}/assets/posts/ncview.png)
 
+<div class="breaker"></div>
+
 # Terminology
 
 ![Data structures of xarray]({{ site.url }}/assets/posts/dataset-diagram.png)
@@ -127,6 +135,8 @@ $ ncview twparmbeatmC1.c1.20050101.000000.cdf
 
 ## DataSet
 `xarray.DataSet` is a collection of DataArrays. Each NetCDF file contains a DataSet.
+
+<div class="breaker"></div>
 
 # Coding using XArray
 
@@ -218,6 +228,8 @@ You can also export DataArray or DataSet to NetCDF file by
 dataDIR = '../data/new.nc'
 DS.to_netcdf(dataDIR)
 ```
+
+<div class="breaker"></div>
 
 # Remarks
 This tutorial was written for teaching purpose and only included the very basics of `xarray`. Hope this helps!
