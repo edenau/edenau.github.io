@@ -26,6 +26,16 @@ I will take climate data from <a href="https://www.arm.gov/" target="_blank">*At
 
 <div class="breaker"></div>
 
+## Index
+- [Prerequisites](#prerequisites)
+- [Alternatives](#alternatives)
+- [Data Preview](#data-preview)
+- [Terminology](#terminology)
+- [Coding using XArray](#coding)
+- [Remarks](#remarks)
+
+<div class="breaker"></div> <a id="prerequisites"></a>
+
 # Prerequisites
 
 We will use `xarray` library in Python for data processing. Long story short, it builds upon `numpy` (and `dask`) libraries and leverages the power of `pandas`, but you probably don’t need to know about it. As you might know, package dependency is a pain in Python. That is why the most convenient way to get everything installed is to use the following command:
@@ -60,13 +70,13 @@ Python 3.4.9
 ```
 To check the version of packages, use `pip freeze` or `conda list`. Things should check out if you install `xarray` through `conda`.
 
-<div class="breaker"></div>
+<div class="breaker"></div> <a id="alternatives"></a>
 
 # Alternatives
 
 <a href="https://scitools.org.uk/iris/docs/latest/" target="_blank">`iris`</a> is an alternative to `xarray`, but some works need to be done to make it work on Windows, and it does not work well on Mac OS. Iris is also an English word, so googling ‘iris’ gives you many irrelevant results. It was a pain for me to use `iris`.
 
-<div class="breaker"></div>
+<div class="breaker"></div> <a id="data-preview"></a>
 
 # Data Preview
 
@@ -120,7 +130,7 @@ $ ncview twparmbeatmC1.c1.20050101.000000.cdf
 ```
 ![Graphical interface in Linux using ncview]({{ site.url }}/assets/posts/ncview.png)
 
-<div class="breaker"></div>
+<div class="breaker"></div> <a id="terminology"></a>
 
 # Terminology
 
@@ -136,7 +146,7 @@ $ ncview twparmbeatmC1.c1.20050101.000000.cdf
 ## DataSet
 `xarray.DataSet` is a collection of DataArrays. Each NetCDF file contains a DataSet.
 
-<div class="breaker"></div>
+<div class="breaker"></div> <a id="coding"></a>
 
 # Coding using XArray
 
@@ -229,7 +239,7 @@ dataDIR = '../data/new.nc'
 DS.to_netcdf(dataDIR)
 ```
 
-<div class="breaker"></div>
+<div class="breaker"></div> <a id="remarks"></a>
 
 # Remarks
 This tutorial was written for teaching purpose and only included the very basics of `xarray`. Hope this helps!
