@@ -4,7 +4,6 @@ layout: post
 date: 2017-05-04 12:00
 tag:
 - engineering
-- Arduino
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "designing an affordable prosthetic limb"
