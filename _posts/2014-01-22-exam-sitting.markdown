@@ -15,17 +15,21 @@ author: edenau
 
 ***Source code is now available on <a href="https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement" target="_blank">Github</a>. Check it out!***
 
-# Table of Contents
-- [Introduction](#introduction)
+# Introduction
+
+This is my high school project that is specifically designed for secondary schools in Hong Kong to arrange internal examinations automatically.
+
+## Table of Contents
+- [Background](#background)
 - [System Requirements and Benefits](#system)
 - [Work Flow](#work-flow)
 - [Preliminary Design](#pre-design)
 - [Stage Design](#stage-design)
 - [Remarks](#remarks)
 
-<div class="breaker"></div> <a id="introduction"></a>
+<div class="breaker"></div> <a id="background"></a>
 
-# Introduction
+# Background
 
 High school students studying in Hong Kong local schools are required to take part in 4 compulsory subjects, 1-3 elective subjects and an optional extended part of Mathematics module 1 or 2 (M1 or M2) under the New Senior Secondary (NSS) curriculum. There was a huge variety of subject combinations for them. There were about 600 students in Form 4 to Form 6 in my high school, and they all took different combinations of elective courses. Apart from the compulsory subjects, there were 11 elective subjects, and M1, M2 available for students to take.
 
