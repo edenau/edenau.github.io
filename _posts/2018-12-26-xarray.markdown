@@ -11,7 +11,7 @@ tag:
 - DataScience
 category: blog
 author: edenau
-description: xarray basics
+description: "xarray basics"
 # jemoji: '<img class="emoji" title=":open_file_folder:" alt=":open_file_folder:" src="https://assets.github.com/images/icons/emoji/unicode/1f5c2.png" height="20" width="20" align="absmiddle">'
 ---
 
