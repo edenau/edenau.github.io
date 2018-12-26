@@ -26,7 +26,7 @@ I will take climate data from <a href="https://www.arm.gov/" target="_blank">*At
 
 <div class="breaker"></div>
 
-## Index
+## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Alternatives](#alternatives)
 - [Data Preview](#data-preview)
