@@ -17,7 +17,7 @@ author: edenau
 
 # Introduction
 
-This is my high school project that is specifically designed for secondary schools in Hong Kong to arrange internal examinations automatically.
+This was my high school project that was specifically designed for secondary schools in Hong Kong to arrange internal examinations automatically.
 
 ## Table of Contents
 - [Background](#background)
