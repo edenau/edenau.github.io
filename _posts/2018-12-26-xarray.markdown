@@ -1,0 +1,17 @@
+---
+title: "Handling NetCDF files using XArray for absolute beginners"
+layout: post
+date: 2018-12-26 15:00
+published: true
+image: "https://github.com/RodolfoFerro/DataSciPy/blob/master/assets/DataSciPy.png?raw=true"
+headerImage: false
+tag:
+- xarray
+- NetCDF
+- Python
+- DataScience
+category: blog
+author: edenau
+description: xarray basics
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+---
