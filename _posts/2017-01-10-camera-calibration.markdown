@@ -37,7 +37,10 @@ The main point of camera calibration is to reconstruct the world by estimating t
 
 # Outline
 
-To be uploaded...
+A known planar object is used for calibration. A Tsai Tile calibration pattern, which consists of multiple identical tiles, is used. Tile corners are [■(x&y)]' in object coordinate system. By taking a single picture, the corresponding coordinates of tile corners [■(u&v)]' on the image frame can then be measured. Thus, we have a set of ‘Correspondence’ [■(u@v@x@y)] which has its homography H where
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
 
 <div class="breaker"></div> <a id="alg"></a>
 

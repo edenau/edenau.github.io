@@ -13,4 +13,6 @@ category: project
 author: edenau
 ---
 
+***Source code is now available on <a href="https://github.com/edenau/Bike-Sharing-Systems-Optimization" target="_blank">Github</a>. Check it out!***
+
 To be updated...
