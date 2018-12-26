@@ -47,13 +47,13 @@ The intrinsic model of the camera (i.e. K-matrix) can be estimated using the pro
 
 Multiple views are needed, and **K** can be estimated using a similar cost-minimizing technique. Lastly, optimize K, which will be discussed later.
 
-*Private Notes*
+*\<Private Notes\>*
 
 <div class="breaker"></div> <a id="alg"></a>
 
 # Algorithm Performance
 
-*Private Notes*
+*\<Private Notes\>*
 
 <div class="breaker"></div> <a id="future"></a>
 

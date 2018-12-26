@@ -64,7 +64,7 @@ We will discuss each modular component in turn beginning with the socket and pro
 
 # Design
 
-*Confidential*
+*\<Confidential\>*
 
 <div class="breaker"></div> <a id="alg"></a>
 

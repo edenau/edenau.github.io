@@ -15,7 +15,7 @@ author: edenau
 
 ***Source code is now available on <a href="https://github.com/edenau/Bike-Sharing-Systems-Optimization" target="_blank">Github</a>. Check it out!***
 
-***Paper coming soon!***
+***Paper coming soon! I will explain the algorithm once it is published.***
 
 # Abstract
 
