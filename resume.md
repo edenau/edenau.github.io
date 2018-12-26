@@ -111,6 +111,6 @@ I am a fast learner and I am interested in learning new programming and natural 
 </ul>
 </p>
 <p float="left">
-![talk-PAHK]({{ site.url }}/assets/images/talk_pahk.jpeg)
-![talk-ML]({{ site.url }}/assets/images/talk_ml.jpeg)
+<img src="{{ site.url }}/assets/images/talk_pahk.jpeg" width="100" />
+<img src="{{ site.url }}/assets/images/talk_ml.jpeg" width="100" />
 </p>
