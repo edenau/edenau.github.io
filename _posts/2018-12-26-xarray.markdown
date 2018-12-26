@@ -15,4 +15,18 @@ description: xarray basics
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 
-NetCDF is a machine-independent, array-oriented, multi-dimensional, self-describing, and portable data format used by various scientific communities. It has a filename extension of *.nc* or *.cdf* (though it is believed that there are subtle differences between the two). Unlike files in *.csv* or *.xlsx*, NetCDF format cannot be accessed and viewed directly using spreadsheet software.
+This post is now available on [Medium](https://medium.com/@edenau/handling-netcdf-files-using-xarray-for-absolute-beginners-111a8ab4463f).
+
+NetCDF is a machine-independent, array-oriented, multi-dimensional, self-describing, and portable data format used by various scientific communities. It has a filename extension of *.nc* or *.cdf* (though it is believed that there are subtle differences between the two). Unlike files in *.csv* or *.xlsx*, NetCDF format cannot be accessed and viewed directly using spreadsheet software. Even if you could, you would not do that on a 4-dimensional data with a bunch of metadata.
+
+I will take climate data from [*Atmospheric Radiation Measurement Climate Research Facility*](https://www.arm.gov/) (ARM) in the United States, and [*European Centre for Medium-Range Weather Forecasts*](https://www.ecmwf.int/) (ECMWF) in Europe as an example.
+
+# Prerequisites
+
+We will use `xarray` library in Python for data processing. Long story short, it builds upon `numpy` (and `dask`) libraries and leverages the power of `pandas`, but you probably don’t need to know about it. As you might know, package dependency is a pain in Python. That is why the most convenient way to get everything installed is to use the following command:
+
+```
+$ conda install xarray dask netCDF4 bottleneck
+```
+
+Experienced Python programmers are recommended check the relevant [documentation](http://xarray.pydata.org/en/stable/installing.html) for more details. If you are a beginner, no worries. I made a list of dependencies that you need to check:
