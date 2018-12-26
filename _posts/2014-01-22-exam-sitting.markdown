@@ -73,7 +73,7 @@ ESAS requires students’ data and examination information. The former mainly re
 
 I adopted command line interface but it could potentially be upgraded to a graphical one. The interface contains three parts. Part A shows some reminders to the user. Using the following figure as an example, the system is now reminding the user to import a file called ‘all_sub.csv’. Part B shows the menu containing all procedures which the user can choose to do next. Part C provides a space for the user to input their option among those given procedures. They are expected to input the number representation of the corresponding procedures.
 
-![fig1](figures/fig1.png)
+![fig1](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/fig1.png)
 <sup> Yup this was the old name of my system, didn't bother to fix it </sup>
 
 ## Top Level Data Flow
