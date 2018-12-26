@@ -26,7 +26,7 @@ My research interest includes using machine learning, control theory, and signal
 
 I believe we can all contribute to our society🗺️ in various means. I was a mentor in Boundless where I provided mentorship to under-resourced students that facilitated their personal growth, and training that equipped them with skills that could help them succeed in their respective pursuits. I have also been working in Project Access Hong Kong for more than 2 years to help talented less-privileged young people around the globe achieve their academic goals.
 
-If you think I would be a great addition to your company/organization/team, please contact me🤙!
+If you think I would be a great addition to your company/organization/team, please contact me🤙! Here is my [résumé]({{ site.url }}/resume).
 
 <h4>Fun facts</h4>
 
