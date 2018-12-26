@@ -59,6 +59,7 @@ Multiple views are needed, and **K** can be estimated using a similar cost-minim
 
 # Future Works
 
+## Non-linear Distortion
 Real cameras deviate from the simple pinhole model. Non-linear lens distortion is present due to the limitations in manufacturing lens. Straight lines in the real world are curved through real lens. Fortunately, this distortion is always radially symmetric with radius *r*. Debevec (1996, pp.31-37) demonstrates that the centre of distortion <img src="https://latex.codecogs.com/svg.latex?(c_x, c_y)" /> can easily be observed by using a simple edge detector and by shrinking the image in both directions. The radial transformation function is modelled in the form of
 
 <img src="https://latex.codecogs.com/svg.latex?\mathcal{F}(r)=r(1+k_1 r^2+k_2 r^4+\dots)" />
