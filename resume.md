@@ -110,4 +110,4 @@ I am a fast learner and I am interested in learning new programming and natural 
   </li>
 </ul>
 </p>
-![talk-PAHK]({{ site.url }}/assets/images/talk_pahk.jpeg) ![talk-ML]({{ site.url }}/assets/images/talk_ml.jpeg)
+|![talk-PAHK]({{ site.url }}/assets/images/talk_pahk.jpeg)|![talk-ML]({{ site.url }}/assets/images/talk_ml.jpeg)|
