@@ -37,10 +37,14 @@ The main point of camera calibration is to reconstruct the world by estimating t
 
 # Outline
 
-A known planar object is used for calibration. A Tsai Tile calibration pattern, which consists of multiple identical tiles, is used. Tile corners are <img src="https://latex.codecogs.com/svg.latex?[x \ y]'" /> in object coordinate system. By taking a single picture, the corresponding coordinates of tile corners <img src="https://latex.codecogs.com/svg.latex?[u \ v]'" /> on the image frame can then be measured. Thus, we have a set of ‘Correspondence’ <img src="https://latex.codecogs.com/svg.latex?[u \ v \ x \ y]'" /> which has its homography *H* where
+A known planar object is used for calibration. A Tsai Tile calibration pattern, which consists of multiple identical tiles, is used. Tile corners are <img src="https://latex.codecogs.com/svg.latex?[x \ y]'" /> in object coordinate system. By taking a single picture, the corresponding coordinates of tile corners <img src="https://latex.codecogs.com/svg.latex?[u \ v]'" /> on the image frame can then be measured. Thus, we have a set of ‘Correspondence’ <img src="https://latex.codecogs.com/svg.latex?[u \ v \ x \ y]'" /> which has its homography **H** where
 
-<img src="https://latex.codecogs.com/svg.latex?S [u \ v \ 1]'=\mathbf{H} [x \ y \ 1]'" />
+<img src="https://latex.codecogs.com/svg.latex?S\ [u \ v \ 1]'=\mathbf{H}\ [x \ y \ 1]'" />
 
+However, homography **H** is not exactly the same for every Correspondence due to the presence of noise and outliers in <img src="https://latex.codecogs.com/svg.latex?[u \ v]'" />. Despite having an inconsistent solution, a universal homography H can be obtained by minimising a cost function, or in other words, an error function.
+The intrinsic model of the camera (i.e. K-matrix) can be estimated using the property of rotation matrix, since
+
+<img src="https://latex.codecogs.com/svg.latex?\mathbf{H}=\lambda\ \mathbf{K}\ [\mathbf{r_1} \ \mathbf{r_2} \ \mathbf{t}]'" />
 
 <div class="breaker"></div> <a id="alg"></a>
 
