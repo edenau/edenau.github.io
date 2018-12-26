@@ -59,3 +59,55 @@ To check the version of packages, use `pip freeze` or `conda list`. Things shoul
 # Alternatives
 
 <a href="https://scitools.org.uk/iris/docs/latest/" target="_blank">`iris`</a> is an alternative to `xarray`, but some works need to be done to make it work on Windows, and it does not work well on Mac OS. Iris is also an English word, so googling ‘iris’ gives you many irrelevant results. It was a pain for me to use `iris`.
+
+# Data Preview
+
+It is always a good idea to ‘preview’ and ‘get to know’ your data, its metadata and data structures. Assume you have installed `netCDF4-python` and the only two commands you need are `ncdump` and `ncview`. The former gives text representation of your netCDF dataset (basically metadata and the data itself), while the latter is a very powerful graphical interface for instant data visualization.
+
+## ncdump
+Go to the directory of your dataset and try
+```
+$ ncdump -h twparmbeatmC1.c1.20050101.000000.cdf
+```
+As we do not need to see the values of every data entry at the moment, `-h` ensures only header (metadata) is shown. You will get
+```
+netcdf twparmbeatmC1.c1.20050101.000000 {
+dimensions:
+ time = UNLIMITED ; // (8760 currently)
+ range = 2 ;
+ p = 37 ;
+ z = 512 ;
+variables:
+ double base_time ;
+  base_time:long_name = "Base time in Epoch" ;
+  base_time:units = "seconds since 1970-1-1 0:00:00 0:00" ;
+  base_time:string = "2005-01-01 00.00, GMT" ;
+  base_time:ancillary_variables = "time_offset" ;
+ float prec_sfc(time) ;
+  prec_sfc:long_name = "Precipitation Rate" ;
+  prec_sfc:standard_name = "lwe_precipitation_rate" ;
+  prec_sfc:units = "mm/hour" ;
+  prec_sfc:missing_value = -9999.f ;
+  prec_sfc:_FillValue = -9999.f ;
+  prec_sfc:source = "twpsmet60sC1.b1" ;
+ float T_p(time, p) ;
+  T_p:long_name = "Dry Bulb Temperature, from sounding in p coordinate" ;
+  T_p:standard_name = "air_temperature" ;
+  T_p:units = "K" ;
+  T_p:missing_value = -9999.f ;
+  T_p:_FillValue = -9999.f ;
+  T_p:source = "twpsondewnpnC1.b1:tdry" ;
+// global attributes:
+< OTHER METADATA >
+}
+```
+You can see dimensions, variables, and other metadata which are quite self-explanatory. Global attributes (not printed above) tells us how the data is collected and pre-processed. In this example, they are measurement data taken at 147.4E 2.1S, Manus, Papua New Guinea by ARM.
+
+When we look into the list of variables: 1-dim `prec_sfc` and 2-dim `T_p`, we realize that they have different dimensions(!). Precipitation rate is a scalar measurement at each time, whereas temperature is column (measurements at different pressure levels instead of altitude levels this time) at every time. It is quite common to see 4-dim data in climate science — latitude, longitude, altitude/pressure level, time.
+
+## ncview
+Try the following command and it gives you a graphical interface that lists all variables in your dataset, and it is quite straightforward.
+```
+$ ncview twparmbeatmC1.c1.20050101.000000.cdf
+```
+![Graphical interface in Linux using ncview]({{ site.url }}/assets/posts/ncview.png)
