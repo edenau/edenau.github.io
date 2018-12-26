@@ -24,8 +24,6 @@ NetCDF is a machine-independent, array-oriented, multi-dimensional, self-describ
 
 I will take climate data from <a href="https://www.arm.gov/" target="_blank">*Atmospheric Radiation Measurement Climate Research Facility*</a> (ARM) in the United States, and <a href="https://www.ecmwf.int/" target="_blank">*European Centre for Medium-Range Weather Forecasts*</a> (ECMWF) in Europe as an example.
 
-<div class="breaker"></div>
-
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Alternatives](#alternatives)
