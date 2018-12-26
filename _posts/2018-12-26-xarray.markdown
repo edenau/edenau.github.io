@@ -40,6 +40,7 @@ Experienced Python programmers are recommended check the relevant <a href="http:
 - ***bottleneck*** for speeding up NaN-skipping
 - ***netCDF4-python*** for basic netCDF operation such as reading/writing
 - ***dask-array 0.16+*** for parallel computing with *dask*
+
 If you want to visualize your dataset, you will probably need these:
 - ***matplotlib 1.5+*** for plotting
 - ***cartopy*** for maps
@@ -99,7 +100,7 @@ variables:
   T_p:_FillValue = -9999.f ;
   T_p:source = "twpsondewnpnC1.b1:tdry" ;
 // global attributes:
-< OTHER METADATA >
+***< OTHER METADATA >***
 }
 ```
 You can see dimensions, variables, and other metadata which are quite self-explanatory. Global attributes (not printed above) tells us how the data is collected and pre-processed. In this example, they are measurement data taken at 147.4E 2.1S, Manus, Papua New Guinea by ARM.
@@ -126,3 +127,38 @@ $ ncview twparmbeatmC1.c1.20050101.000000.cdf
 
 ## DataSet
 `xarray.DataSet` is a collection of DataArrays. Each NetCDF file contains a DataSet.
+
+# Coding using XArray
+
+## Data Import
+You cannot play with the data until you read it. Use `open_dataset` or `open_mfdataset` to read a single or multiple NetCDF files, and store it in a DataSet called `DS`.
+```
+import xarray as xr
+# single file
+dataDIR = '../data/ARM/twparmbeatmC1.c1.20050101.000000.cdf'
+DS = xr.open_dataset(dataDIR)
+
+# OR multiple files
+mfdataDIR = '../data/ARM/twparmbeatmC1.c1.*.000000.cdf'
+DS = xr.open_mfdataset(mfdataDIR)
+```
+
+## Data Inspection
+Remember the 4 key properties of DataArrays? You can use `DS.values`, `DS.var`, `DS.dims`, `DS.coords`, and `DS.attrs` for data inspection. This will become very handy in interactive Python. Their functionalities are quite obvious and are left as an exercise to the reader(!).
+
+## DataArray Extraction
+Extracting DataArrays from DataSet `DS` is very straightforward, as `DS.<var_name>` will suffice. You might consider dropping NaN entries by `dropna()` and selecting data with `sel()`. The method parameter in `sel()` allows us to enable nearest neighbour (inexact) lookups by use of the methods `'pad'`, `'backfill'`, or `'nearest'`. To specify a range, use `slice()`.
+
+You can transform `xr.DataArray` to `numpy.ndarray` by `da.values`.
+```
+# Extract Dry Bulb Temperature in z-coordinate (T_z)
+# Select the altitude nearest to 500m above surface
+# Drop NaN, convert to Celcius
+da = DS.T_z.sel(z=500,method='nearest').dropna(dim='time') - 273.15  # or .ffill(dim='time')
+
+# Select data in 2000s
+da = da.sel(time=slice('2000-01-01', '2009-12-31'))
+da_numpy = da.values
+```
+
+It is a convention to name DataSet as `DS` in upper case and DataArray as `da` in lower case.
