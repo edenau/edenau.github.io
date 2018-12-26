@@ -3,7 +3,6 @@ title: "Handling NetCDF files using XArray for absolute beginners"
 layout: post
 date: 2018-12-26 15:00
 published: true
-image: "https://github.com/RodolfoFerro/DataSciPy/blob/master/assets/DataSciPy.png?raw=true"
 headerImage: false
 tag:
 - xarray
@@ -15,3 +14,5 @@ author: edenau
 description: xarray basics
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
+
+NetCDF is a machine-independent, array-oriented, multi-dimensional, self-describing, and portable data format used by various scientific communities. It has a filename extension of *.nc* or *.cdf* (though it is believed that there are subtle differences between the two). Unlike files in *.csv* or *.xlsx*, NetCDF format cannot be accessed and viewed directly using spreadsheet software.
