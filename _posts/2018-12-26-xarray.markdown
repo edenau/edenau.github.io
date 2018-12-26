@@ -21,7 +21,7 @@ This post is now available on <a href="https://medium.com/@edenau/handling-netcd
 
 NetCDF is a machine-independent, array-oriented, multi-dimensional, self-describing, and portable data format used by various scientific communities. It has a filename extension of *.nc* or *.cdf* (though it is believed that there are subtle differences between the two). Unlike files in *.csv* or *.xlsx*, NetCDF format cannot be accessed and viewed directly using spreadsheet software. Even if you could, you would not do that on a 4-dimensional data with a bunch of metadata.
 
-I will take climate data from [*Atmospheric Radiation Measurement Climate Research Facility*](https://www.arm.gov/) (ARM) in the United States, and [*European Centre for Medium-Range Weather Forecasts*](https://www.ecmwf.int/) (ECMWF) in Europe as an example.
+I will take climate data from <a href="https://www.arm.gov/" target="_blank">*Atmospheric Radiation Measurement Climate Research Facility*</a> (ARM) in the United States, and <a href="https://www.ecmwf.int/" target="_blank">*European Centre for Medium-Range Weather Forecasts*</a> (ECMWF) in Europe as an example.
 
 # Prerequisites
 
@@ -31,4 +31,31 @@ We will use `xarray` library in Python for data processing. Long story short, it
 $ conda install xarray dask netCDF4 bottleneck
 ```
 
-Experienced Python programmers are recommended check the relevant [documentation](http://xarray.pydata.org/en/stable/installing.html) for more details. If you are a beginner, no worries. I made a list of dependencies that you need to check:
+Experienced Python programmers are recommended check the relevant <a href="http://xarray.pydata.org/en/stable/installing.html" target="_blank">documentation</a> for more details. If you are a beginner, no worries. I made a list of dependencies that you need to check:
+- ***Python 2.7/3.5+*** required
+- ***numpy 1.12+*** required
+- ***pandas 0.19.2+*** required
+- ***scipy*** for interpolation features
+- ***bottleneck*** for speeding up NaN-skipping
+- ***netCDF4-python*** for basic netCDF operation such as reading/writing
+- ***dask-array 0.16+*** for parallel computing with *dask*
+If you want to visualize your dataset, you will probably need these:
+- ***matplotlib 1.5+*** for plotting
+- ***cartopy*** for maps
+- ***seaborn*** for better colour palettes
+
+For absolute beginners, you can check your default version of Python by
+```
+$ python --version
+Python 2.7.5
+```
+You can also check if Python3 is installed by
+```
+$ python3 --version
+Python 3.4.9
+```
+To check the version of packages, use `pip freeze` or `conda list`. Things should check out if you install `xarray` through `conda`.
+
+# Alternatives
+
+<a href="https://scitools.org.uk/iris/docs/latest/" target="_blank">`iris`</a> is an alternative to `xarray`, but some works need to be done to make it work on Windows, and it does not work well on Mac OS. Iris is also an English word, so googling ‘iris’ gives you many irrelevant results. It was a pain for me to use `iris`.
