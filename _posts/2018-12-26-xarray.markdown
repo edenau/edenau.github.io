@@ -1,5 +1,5 @@
 ---
-title: "Handling NetCDF files using XArray for absolute beginners📂"
+title: "Handling NetCDF files using XArray for absolute beginners"
 layout: post
 date: 2018-12-26 15:00
 published: true
@@ -12,7 +12,7 @@ tag:
 category: blog
 author: edenau
 description: xarray basics
-# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+jemoji: '<img class="emoji" title=":folder:" alt=":folder:" src="https://assets.github.com/images/icons/emoji/unicode/1f4c2.png" height="20" width="20" align="absmiddle">'
 ---
 
 ***This post is now available on <a href="https://medium.com/@edenau/handling-netcdf-files-using-xarray-for-absolute-beginners-111a8ab4463f" target="_blank">Medium</a>. Check it out!***
