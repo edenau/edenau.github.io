@@ -15,6 +15,16 @@ author: edenau
 
 ***Source code is now available on <a href="https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement" target="_blank">Github</a>. Check it out!***
 
+# Table of Contents
+- [Introduction](#introduction)
+- [System Requirements and Benefits](#system)
+- [Work Flow](#work-flow)
+- [Preliminary Design](#pre-design)
+- [Stage Design](#stage-design)
+- [Remarks](#remarks)
+
+<div class="breaker"></div> <a id="introduction"></a>
+
 # Introduction
 
 High school students studying in Hong Kong local schools are required to take part in 4 compulsory subjects, 1-3 elective subjects and an optional extended part of Mathematics module 1 or 2 (M1 or M2) under the New Senior Secondary (NSS) curriculum. There was a huge variety of subject combinations for them. There were about 600 students in Form 4 to Form 6 in my high school, and they all took different combinations of elective courses. Apart from the compulsory subjects, there were 11 elective subjects, and M1, M2 available for students to take.
@@ -41,6 +51,8 @@ The specific slip of admission form should look like this:
   <tr><td>18 June (Tue)</td><td>08:30-10:30</td><td>Chemistry</td><td>Hall</td><td>273</td></tr>
 </table>
 
+<div class="breaker"></div> <a id="system"></a>
+
 # System Requirements and Benefits
 The Examination Seating Arrangement System (ESAS) aims to provide a convenient way to lay out pre-exam preparation such as timetable arrangement, seat allocation etc.. The program has the following requirements:
 - Clear interface for users – manager and assistant of examination. Clear instructions should be displayed to guide them.
@@ -56,6 +68,8 @@ It can potentially bring the benefits, for instance
 - Perform tasks effectively and analyze data automatically using imported data
 - Allocate seats for students in good order
 
+<div class="breaker"></div> <a id="work-flow"></a>
+
 # Work Flow
 
 ESAS requires students’ data and examination information. The former mainly refer to personal profile (e.g. name, class, class number) and subjects each student takes, and it is stored in a spreadsheet file; whereas the latter includes number of papers of each subject, duration of each paper and dates available for the examination period. These inputs are used to calculate subject crashes by exhaustive search in order to set an optimal timetable. Hence, we can then generate the timetable and admission forms for every student. The following flowchart (from top to bottom) illustrates how ESAS can be done by breaking it into different sub-problems.
@@ -67,6 +81,8 @@ ESAS requires students’ data and examination information. The former mainly re
   <tr><th colspan="3">Arrange exam setting</th></tr>
   <tr><th>Generate timetable</th><th>Generate seat allocation</th><th>Generate admission forms</th></tr>
 </table>
+
+<div class="breaker"></div> <a id="pre-design"></a>
 
 # Preliminary Design
 ## Interface
@@ -82,7 +98,7 @@ I used Data Flow Diagrams (DFDs) to illustrate how ESAS works. This is a very us
 ### Context (Level 0 DFD)
 It describes the essence of ESAS. The major flows between the system and the stakeholder (i.e. assistant) is shown below.
 
-![dfd0](figures/dfd0.png)
+![dfd0](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/dfd0.png)
 *Input:*
 - Information of each student
 - Basic setting
@@ -107,12 +123,14 @@ There are five various data stored:
 
 The following level 1 DFD constructs the main idea of the system after decomposing it into several processes.
 
-![dfd1](figures/dfd1.png)
+![dfd1](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/dfd1.png)
 
 ### Interface Logic Flow
 The following diagram displays the logic flow on user interface. There should also be one of the options that provide a pathway for user to exit the sysetm if they want to.
 
-![dfd_interface](figures/dfd_interface.png)
+![dfd_interface](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/dfd_interface.png)
+
+<div class="breaker"></div> <a id="stage-design"></a>
 
 # Stage Design
 ## Stage 1.0 - Update basic setting
@@ -123,7 +141,7 @@ For arranging an exam, the first thing to do is to know all the subjects availab
 
 For the format, the first column with all short terms (not exceeding 4 characters) of available elective subjects, with the second column all relevant full names of those elective subjects.
 
-![fig2](figures/fig2.png)
+![fig2](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/fig2.png)
 
 Subfunctions are are illustrated below, just go through the code or run the system for more information.
 <table>
@@ -140,13 +158,13 @@ For analyzing information of students, loads of scattered student information (f
 
 For the format, the first column contains the class which the student belongs to, carrying 2 characters – the form number at the front and the class (latin) letter at the back. The second column contains the class number of the student. The third column contains the full name of him/her. The fourth column contains a short term of an elective subject that the student is taking. Note that almost each student studies more than 1 subjects, a student will occupy more than 1 row of the data in this csv file.
 
-![fig3](figures/fig3.png)
+![fig3](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/fig3.png)
 
 *Output:*
 - 3 tidied student information files (one for each form) – in csv files, see the graph below
 - 3 configuration files for use in other stages (one for each form) - in ini files
 
-![fig4](figures/fig4.png)
+![fig4](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/fig4.png)
 
 The data rows are ordered in alphabetical order of class, followed by ascending order of class number, with each row consisting all information of a single student. The first column is a character showing the form (the form number should be the same inside the same file). The second column is a latin character showing the class of the student. The third column is the class number of the student and the fourth column is the full name of the student. From the fifth to eighth column, it stores some short term of elective subjects that the student is currently taking. Not all cells are filled since not all students take 4 subjects. The leftmost column is preferentially filled than the rightmost, as it is clearly demonstrated in the above example.
 
@@ -180,12 +198,12 @@ Simple stuff. No external files involved in input.
 *Input:*
 - Time (in minutes) needed for each paper
 
-![fig5](figures/fig5.png)
+![fig5](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/fig5.png)
 
 *Output:*
 - Time (in minutes) needed for each paper - in csv file
 
-![fig6](figures/fig6.png)
+![fig6](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/fig6.png)
 
 They are all pretty self explanatory.
 
@@ -208,7 +226,7 @@ Given *n* subjects available, let the queue be the following:
 </table>
 where S stands for subject. The maths comes from the following:
 
-![fig7](figures/fig7.png)
+![fig7](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/fig7.png)
 
 The best solution is the *argmin* of the coefficient function.
 
@@ -242,11 +260,11 @@ For example, in our simulation, the output is
 
 For the first output, each column (from left to right) contains seat number, the number representing their current form, class, class number, and their full name respectively.
 
-![fig8](figures/fig8.png)
+![fig8](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/fig8.png)
 
 For the second output, each column (from left to right) contains the day number, the paper (in short term), the seat number on that paper, and the duration of that exam respectively.
 
-![fig9](figures/fig9.png)
+![fig9](https://github.com/edenau/HKSchool-Exam-Sitting-Arrangement/raw/master/figures/fig9.png)
 
 *File handling (input):*
 <table>
@@ -271,6 +289,8 @@ For the second output, each column (from left to right) contains the day number,
 </table>
 
 Inside the folder of ESAS, there is a folder “seat_allocation”, with 4 different folders inside, as shown above. [subject] represents multiple files, with each one representing each subject. Similarly, [identity] represents multiple files for every student.
+
+<div class="breaker"></div> <a id="remarks"></a>
 
 # Remarks
 Special thanks to my high school ICT teacher - Drizzt Wong for his insight and assistance.
