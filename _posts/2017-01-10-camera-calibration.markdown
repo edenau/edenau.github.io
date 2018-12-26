@@ -20,7 +20,7 @@ Camera is a very common tool to capture our daily lives. Pinhole camera was inve
 
 ## Table of Contents
 - [Objectives](#objectives)
-- [Outline](#outline)
+- [Calibration](#calibration)
 - [Algorithm Performance](#alg)
 - [Future Works](#future)
 
@@ -32,9 +32,9 @@ The main point of camera calibration is to reconstruct the world by estimating t
 -	Image reconstruction
 -	Distance and position measurement
 
-<div class="breaker"></div> <a id="outline"></a>
+<div class="breaker"></div> <a id="calibration"></a>
 
-# Outline
+# Calibration
 
 A known planar object is used for calibration. A Tsai Tile calibration pattern, which consists of multiple identical tiles, is used. Tile corners are <img src="https://latex.codecogs.com/svg.latex?[x \ y]'" /> in object coordinate system. By taking a single picture, the corresponding coordinates of tile corners <img src="https://latex.codecogs.com/svg.latex?[u \ v]'" /> on the image frame can then be measured. Thus, we have a set of ‘Correspondence’ <img src="https://latex.codecogs.com/svg.latex?[u \ v \ x \ y]'" /> which has its homography **H** where
 
@@ -47,13 +47,13 @@ The intrinsic model of the camera (i.e. K-matrix) can be estimated using the pro
 
 Multiple views are needed, and **K** can be estimated using a similar cost-minimizing technique. Lastly, optimize K, which will be discussed later.
 
+*<Private Notes>*
+
 <div class="breaker"></div> <a id="alg"></a>
 
 # Algorithm Performance
 
-## Camera Simulation
-### Camera model
-
+*<Private Notes>*
 
 <div class="breaker"></div> <a id="future"></a>
 
