@@ -222,8 +222,8 @@ DS.to_netcdf(dataDIR)
 # Remarks
 This tutorial was written for teaching purpose and only included the very basics of `xarray`. Hope this helps!
 
-References
-- <a target="_blank">https://www.unidata.ucar.edu/software/netcdf/netcdf-4/newdocs/netcdf/ncdump.html</a>
-- http://xarray.pydata.org/en/stable/
-- https://scitools.org.uk/cartopy/docs/v0.15/matplotlib/intro.html
-- http://earthpy.org/cartopy_backgroung.html
+## References
+- <a href="https://www.unidata.ucar.edu/software/netcdf/netcdf-4/newdocs/netcdf/ncdump.html" target="_blank">https://www.unidata.ucar.edu/software/netcdf/netcdf-4/newdocs/netcdf/ncdump.html</a>
+- <a href="http://xarray.pydata.org/en/stable/" target="_blank">http://xarray.pydata.org/en/stable/</a>
+- <a href="https://scitools.org.uk/cartopy/docs/v0.15/matplotlib/intro.html" target="_blank">https://scitools.org.uk/cartopy/docs/v0.15/matplotlib/intro.html</a>
+- <a href="http://earthpy.org/cartopy_backgroung.html" target="_blank">http://earthpy.org/cartopy_backgroung.html</a>
