@@ -106,11 +106,11 @@ I am a fast learner and I am interested in learning new programming and natural 
     Natural languages: <b>English, Mandarin, Cantonese, Taiwanese, Spanish</b>
   </li>
   <li>
-    Public speaking: gave talks about <a href="{{ site.url }}/assets/images/talk_pahk.jpeg" target="_blank">Project Access</a>, <a href="{{ site.url }}/assets/images/talk_ml.jpeg" target="_blank">machine learning</a> etc.
+    Public speaking: gave talks about Project Access, machine learning etc. (see below)
   </li>
 </ul>
 </p>
 <p float="left">
-<img src="{{ site.url }}/assets/images/talk_pahk.jpeg" width="250" />
-<img src="{{ site.url }}/assets/images/talk_ml.jpeg" width="250" />
+<img src="{{ site.url }}/assets/images/talk_pahk.jpeg" width="400" />
+<img src="{{ site.url }}/assets/images/talk_ml.jpeg" width="400" />
 </p>
