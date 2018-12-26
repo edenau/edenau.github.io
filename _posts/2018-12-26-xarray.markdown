@@ -6,7 +6,7 @@ published: true
 headerImage: false
 tag:
 - xarray
-- NetCDF
+- netCDF
 - Python
 - DataScience
 category: blog
