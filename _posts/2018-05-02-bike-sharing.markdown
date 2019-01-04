@@ -6,6 +6,7 @@ tag:
 - optimization
 - MATLAB
 - system
+- bike
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "A generic model and a distributed algorithm for optimization of station-based bike sharing systems"
