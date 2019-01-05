@@ -2,7 +2,7 @@
 title: "️🗺️ Visualizing bike mobility in London using interactive maps for absolute beginners"
 layout: post
 date: 2019-01-06 15:00
-published: true
+published: false
 headerImage: false
 tag:
 - visualization
@@ -17,7 +17,7 @@ description: "xarray basics"
 
 Page under Construction
 
-https://edenau.github.io/maps/static
+<a href="https://edenau.github.io/maps/static" target="_blank">Static Map</a>
 
 https://edenau.github.io/maps/morning
 
