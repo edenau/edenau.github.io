@@ -39,10 +39,95 @@ I have been working on a data-driven cost-effective algorithm for optimizing (re
 
 <div class="breaker"></div> <a id="data"></a>
 
+# More about Data - the Boring Bit
 
+I obtained data of bicycle journeys from Transport for London (TfL). Every single bike journey made in their system since 2012 was recorded and those open data are available <a href="https://cycling.data.tfl.gov.uk/" target="_blank">online</a>.
 
+A 36-day record of journeys made from 1 August to 13 September 2017 were analyzed. During this period, there were >1.5 million journeys made among >700 bike docking stations in London. From 2014, we have witnessed a >190% rise in bike trips made. The number of bicycles and docking stations in the system both increased more than twofold to accommodate the significant rise in cycling demand in central London and regional areas. Exact data will be shown in my soon-to-be-released paper. Stay tuned.
 
+## Data Manipulation
+I believed there would be a massive difference in journey patterns between weekdays and weekends. Let's do some coding and see if this is true. We first import data of journeys by `pd.read_csv()`.
 
+```
+# Load journey data
+f = 'journeys.csv'
+j = pd.read_csv(f)
+date = j['date'].values
+month = j['month'].values
+year = j['year'].values
+hour = j['hour'].values
+minute = j['minute'].values
+station_start = j['id_start'].values
+station_end = j['id_end'].values
+```
+
+Then we extract weekday data by `date.weekday()` and evenly divide a 24-hour day into 72 time slices, such that each time slice represents a 20-minute interval.
+
+```
+# Compute IsWeekday
+weekday = np.zeros(len(date))
+weekday[:] = np.nan
+cnt = 0
+for _year, _month, _date, _hour, _minute in zip(year, month, date, hour, minute):
+  _dt = datetime.datetime(_year, _month, _date, _hour, _minute)
+  _weekday = _dt.weekday()
+  weekday[cnt] = _weekday
+  cnt += 1
+IsWeekday = weekday < 5
+j['IsWeekday'] = IsWeekday
+# Compute TimeSlice
+j['TimeSlice'] = (hour*3 + np.floor(minute/20)).astype(int)
+```
+
+We also need to check if those bike trips were made from/to abolished stations, as there are no ways to obtain information of those stations, such as locations, station name etc. (good job TfL). We labelled them as 'invalid' journeys.
+
+```
+# Load station data
+f = 'stations.csv'
+stations = pd.read_csv(f)
+station_id = stations['station_id'].values
+# Extract valid journeys
+valid = np.zeros(len(date))
+valid[:] = False
+cnt = 0
+for _start, _end in zip(station_start, station_end):
+  if np.logical_and((_start in station_id), (_end in station_id)):
+    valid[cnt] = True
+  cnt += 1
+j['Valid'] = valid
+```
+
+Finally, we only keep journeys that are 'valid' **and** made on weekdays, which turns out to be around 73% of the data.
+
+```
+df = j[j["IsWeekday"] == True].drop(columns="IsWeekday")
+df = df[df["Valid"] == True].drop(columns="Valid")
+print('Ratio of valid journeys= {:.2f}%'.format(df.shape[0] / j.shape[0] * 100))
+```
+
+<div class="breaker"></div> <a id="bar"></a>
+
+We finally delve into the visualization part! The simplest forms of data visualization are arguably charts. By a simple `groupby('TimeSlice')` function, we can see how frequent journeys were made in different hours.
+
+```
+grp_by_timeslice = df.groupby('TimeSlice').count().values[:,0]
+plt.bar(range(0,72), grp_by_timeslice)
+plt.xlabel('Time Slice')
+plt.ylabel('Departures')
+plt.show()
+```
+
+<div class="breaker"></div> <a id="interactive"></a>
+
+<div class="breaker"></div> <a id="density"></a>
+
+<div class="breaker"></div> <a id="connection"></a>
+
+<div class="breaker"></div> <a id="animations"></a>
+
+<div class="breaker"></div> <a id="conclusions"></a>
+
+<div class="breaker"></div> <a id="remarks"></a>
 
 
 <a href="https://edenau.github.io/maps/static" target="_blank">Static Map</a>
