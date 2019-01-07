@@ -337,7 +337,7 @@ $ ffmpeg -r 10  -i frames/frame_%05d.png -i palette.png -filter_complex \ "fps=1
 
 Check out the animation of density maps throughout a day:
 
-
+`<a href="https://python-visualization.github.io/folium/" target="_blank">folium</a>`
 
 <div class="breaker"></div> <a id="conclusions"></a>
 
