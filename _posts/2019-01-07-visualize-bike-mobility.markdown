@@ -15,6 +15,8 @@ description: "visualizing bike sharing systems"
 # jemoji: '<img class="emoji" title=":open_file_folder:" alt=":open_file_folder:" src="https://assets.github.com/images/icons/emoji/unicode/1f5c2.png" height="20" width="20" align="absmiddle">'
 ---
 
+***Source code is now available on <a href="https://github.com/edenau/maps" target="_blank">Github</a>. Check it out!***
+
 # Introduction
 
 Bike sharing systems have become popular means of travel in recent years, providing a green and flexible transportation scheme to citizens in metropolitan areas. Many governments in the world have seen this as an innovative strategy that could potentially bring a number of societal benefits. For instance, it could reduce the use of automobiles and hence reduce greenhouse gas emission and alleviate traffic congestion in city centres.
