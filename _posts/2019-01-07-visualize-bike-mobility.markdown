@@ -107,6 +107,8 @@ print('Ratio of valid journeys= {:.2f}%'.format(df.shape[0] / j.shape[0] * 100))
 
 <div class="breaker"></div> <a id="bar"></a>
 
+# Bar Charts
+
 We finally delve into the visualization part! The simplest forms of data visualization are arguably charts. By a simple `groupby('TimeSlice')` function, we can see how frequent journeys were made in different hours.
 
 ```
@@ -117,7 +119,17 @@ plt.ylabel('Departures')
 plt.show()
 ```
 
+![Average departure rates on weekdays (left) and weekends (right)]({{ site.url }}/assets/posts/visualize-1.png)
+
+See? our hypothesis is right! Journey patterns on weekdays and weekends are so different, as we can see two peak hours on weekdays, where most people commute, but not on weekends. We can also observe the distribution of journey duration and speed in a similar fashion.
+
+![Distribution of journey duration (left) and speed (right)]({{ site.url }}/assets/posts/visualize-2.png)
+
+Note that we assumed straight paths were taken due to data constraint (they don't track your movement), which would be shorter than the actual paths, and therefore the speeds computed with distances between start and end stations would be ***underestimated***. If customers return the bike at the same station it was rent, the computed speed would be 0, which explains the rather strange spike spotted at 0 km/h.
+
 <div class="breaker"></div> <a id="interactive"></a>
+
+# Interactive Maps
 
 <div class="breaker"></div> <a id="density"></a>
 
