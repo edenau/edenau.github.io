@@ -242,11 +242,15 @@ cnt_departure = df_target.groupby("id_start").count().iloc[:,0]
 vars()[kw] = DensityMap(stations, cnt_departure, cnt_arrival)
 ```
 
+![Density map in morning peak hours]({{ site.url }}/assets/posts/density-1.png)
 
+![Density map in evening peak hours]({{ site.url }}/assets/posts/density-2.png)
 
-
+Density maps are available on <a href="https://edenau.github.io/maps/density-morning/" target="_blank">https://edenau.github.io/maps/density-morning/</a> and <a href="https://edenau.github.io/maps/density-evening/" target="_blank">https://edenau.github.io/maps/density-evening/</a>.
 
 <div class="breaker"></div> <a id="connection"></a>
+
+# Connection Maps
 
 <div class="breaker"></div> <a id="animations"></a>
 
