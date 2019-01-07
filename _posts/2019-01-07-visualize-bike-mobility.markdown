@@ -224,6 +224,28 @@ for index, row in stations.iterrows():
   return map
 ```
 
+I used a different colour scheme here (*target red* and *tiffany blue* are both trademarked colours in the United States) that shows if the number of departures at some station is more or less than the number of arrivals. Big circle markers represent large departure-arrival difference.
+
+Let's see how density maps look like in morning and evening peak hours:
+
+```
+# Select peak hours
+TimeSlice = [25,53] # morning and evening
+keyword = ['map_morning', 'map_evening']
+# Journeys depart between 0820 and 0859, and between 1740 and 1819
+for ts, kw in zip(TimeSlice, keyword):
+  df_1 = df[df["TimeSlice"] == ts]
+  df_2 = df[df["TimeSlice"] == (ts+1)]
+  df_target = df_1.append(df_2)
+cnt_departure = df_target.groupby("id_start").count().iloc[:,0]
+  cnt_arrival = df_target.groupby("id_end").count().iloc[:,0]
+vars()[kw] = DensityMap(stations, cnt_departure, cnt_arrival)
+```
+
+
+
+
+
 <div class="breaker"></div> <a id="connection"></a>
 
 <div class="breaker"></div> <a id="animations"></a>
