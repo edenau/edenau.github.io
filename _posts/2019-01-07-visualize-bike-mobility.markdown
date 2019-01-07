@@ -131,7 +131,62 @@ Note that we assumed straight paths were taken due to data constraint (they don'
 
 # Interactive Maps
 
+If charts are fancy, maps are fancier. We will use `<a href="https://python-visualization.github.io/folium/" target="_blank">folium</a>`, which is a Python wrapper of <a href="https://leafletjs.com" target="_blank">Leaflet.js</a> that makes interactive maps. Make sure you install the latest version by
+
+```
+$ pip install folium==0.7.0
+```
+
+(or its `conda install` equivalent). I worked on Google Colaboratory and the pre-installed version is `0.2.0` with minimal functionalities.
+
+I built a simple template for generating a map with circle markers (with different colours!) using clusters.
+
+```
+import folium
+# Change colours
+def color_change(c):
+    if(c < 15):
+        return('red')
+    elif(15 <= c < 30):
+        return('orange')
+    else:
+        return('green')
+# Create base map
+London = [51.506949, -0.122876]
+map = folium.Map(location = London,
+                 zoom_start = 12,
+                 tiles = "CartoDB positron")
+marker_cluster = MarkerCluster(locations=[lat, lon]).add_to(map)
+# Plot markers
+for _lat, _lon, _cap, _name in zip(lat, lon, cap, name):
+    folium.CircleMarker(location = [_lat, _lon],
+                        radius = 9,
+                        popup = "("+str(_cap)+") "+_name,
+                        fill_color = color_change(_cap),
+                        color = "gray",
+                        fill_opacity = 0.9).add_to(marker_cluster)
+
+f = 'map_station_cluster.html'
+map.save(f)
+```
+
+Why clusters? `MarkerCluster()` enables markers to cluster together when they are too close when you zoom out. You do not want your maps to be too messy, with markers overlapping one another.
+
+![Station cluster map]({{ site.url }}/assets/posts/station-cluster-1.png)
+
+It automatically de-clusters/unfolds when you zoom in:
+
+![Station cluster map - zoomed in]({{ site.url }}/assets/posts/station-cluster-2.png)
+
+But I promised you ***interactive*** maps. You can set `popup` parameter and display station name and its capacity when you click on it. Bravo!
+
+![Interactions in station cluster map]({{ site.url }}/assets/posts/station-cluster-3.png)
+
+*This map is available on <a href="https://edenau.github.io/maps/station-cluster/" target="_blank">https://edenau.github.io/maps/station-cluster/</a>.*
+
 <div class="breaker"></div> <a id="density"></a>
+
+# Density Maps
 
 <div class="breaker"></div> <a id="connection"></a>
 
