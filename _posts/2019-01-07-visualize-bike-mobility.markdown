@@ -337,8 +337,23 @@ $ ffmpeg -r 10  -i frames/frame_%05d.png -i palette.png -filter_complex \ "fps=1
 
 Check out the animation of density maps throughout a day:
 
+![Animation of density maps throughout a day]({{ site.url }}/assets/posts/density.gif)
+
+And also the animation of journeys at different times:
+
+![Animation of journeys in the morning]({{ site.url }}/assets/posts/paths-1.gif)
+
+![Animation of journeys after midnight]({{ site.url }}/assets/posts/paths-2.gif)
 
 <div class="breaker"></div> <a id="conclusions"></a>
+
+# conclusions
+
+This post demonstrates my work on visualizing the bike sharing system in London, with the use of bar charts, density maps, connection maps, and animations.
+
+The abstraction of Python makes it a really nice and fancy tool for spatio-temporal data visualization (at the expense of computational time but whatever). I leveraged `folium`, `selenium`, `chromedriver`, `brew`, `ffmpeg`, and most importantly, part of the building blocks from Vincent’s <a href="https://github.com/vincentropy/python_cartography_tutorial" target="_blank">code</a> to make this happen.
+
+*If you enjoy reading this article, please help others find this post!*
 
 <div class="breaker"></div> <a id="remarks"></a>
 
