@@ -237,8 +237,6 @@ dataDIR = '../data/new.nc'
 DS.to_netcdf(dataDIR)
 ```
 
-*If you enjoy reading this article, please help others find this post!*
-
 <div class="breaker"></div> <a id="remarks"></a>
 
 # Remarks

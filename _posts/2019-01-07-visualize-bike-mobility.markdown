@@ -15,6 +15,8 @@ description: "visualizing bike sharing systems"
 # jemoji: '<img class="emoji" title=":open_file_folder:" alt=":open_file_folder:" src="https://assets.github.com/images/icons/emoji/unicode/1f5c2.png" height="20" width="20" align="absmiddle">'
 ---
 
+***This post is now available on <a href="https://towardsdatascience.com/visualizing-bike-mobility-in-london-using-interactive-maps-for-absolute-beginners-3b9f55ccb59" target="_blank">Towards Data Science — Medium</a>. Check it out!***
+
 ***Source code is now available on <a href="https://github.com/edenau/maps" target="_blank">Github</a>. Check it out!***
 
 # Introduction
@@ -354,8 +356,6 @@ And also the animation of journeys at different times:
 This post demonstrates my work on visualizing the bike sharing system in London, with the use of bar charts, density maps, connection maps, and animations.
 
 The abstraction of Python makes it a really nice and fancy tool for spatio-temporal data visualization (at the expense of computational time but whatever). I leveraged `folium`, `selenium`, `chromedriver`, `brew`, `ffmpeg`, and most importantly, part of the building blocks from Vincent’s <a href="https://github.com/vincentropy/python_cartography_tutorial" target="_blank">code</a> to make this happen.
-
-*If you enjoy reading this article, please help others find this post!*
 
 <div class="breaker"></div> <a id="remarks"></a>
 
