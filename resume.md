@@ -33,7 +33,7 @@ title: Resume
 <a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF version</span></a>
 </center>
 
-<i>Last updated on 24 December 2018.</i>
+<i>Last updated on 8 January 2019.</i>
 
 <h4>Education</h4>
 <p>
@@ -104,6 +104,9 @@ I am a fast learner and I am interested in learning new programming and natural 
   </li>
   <li>
     Natural languages: <b>English, Mandarin, Cantonese, Taiwanese, Spanish</b>
+  </li>
+  <li>
+    Writing: data science blogger on <a href="https://medium.com/@edenau" target="_blank">Medium</a>
   </li>
   <li>
     Public speaking: gave talks about Project Access, machine learning etc. (see below)
