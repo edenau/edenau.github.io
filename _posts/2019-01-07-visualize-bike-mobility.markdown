@@ -361,13 +361,13 @@ The abstraction of Python makes it a really nice and fancy tool for spatio-tempo
 
 Once again, a shout-out to <a href="https://blog.prototypr.io/interactive-maps-in-python-part-3-29f14a9b2f7d" target="_blank">Vincent Lonij</a> and <a href="https://towardsdatascience.com/master-python-through-building-real-world-applications-part-2-60d707955aa3" target="_blank">Dhrumil Patel</a> for their demonstration of relevant works.
 
-This work was based on my Master’s thesis regarding the [optimization of station-based bike sharing systems]({{ site.url }}/bike-sharing). Stay tuned for my soon-to-be-published paper.
+This work was based on my Master’s thesis regarding the ***[optimization of station-based bike sharing systems]({{ site.url }}/bike-sharing)***. Stay tuned for my soon-to-be-published paper.
 
 ## References
 
-http://content.tfl.gov.uk/attitudes-to-cycling-2016.pdf
-https://towardsdatascience.com/master-python-through-building-real-world-applications-part-2-60d707955aa3
-https://blog.prototypr.io/interactive-maps-with-python-part-1-aa1563dbe5a9
-https://python-visualization.github.io/folium/
-https://www.seleniumhq.org/
-https://www.ffmpeg.org/
+- <a href="http://content.tfl.gov.uk/attitudes-to-cycling-2016.pdf" target="_blank">http://content.tfl.gov.uk/attitudes-to-cycling-2016.pdf</a>
+- <a href="https://towardsdatascience.com/master-python-through-building-real-world-applications-part-2-60d707955aa3" target="_blank">https://towardsdatascience.com/master-python-through-building-real-world-applications-part-2-60d707955aa3</a>
+- <a href="https://blog.prototypr.io/interactive-maps-with-python-part-1-aa1563dbe5a9" target="_blank">https://blog.prototypr.io/interactive-maps-with-python-part-1-aa1563dbe5a9</a>
+- <a href="https://python-visualization.github.io/folium/" target="_blank">https://python-visualization.github.io/folium/</a>
+- <a href="https://www.seleniumhq.org/" target="_blank">https://www.seleniumhq.org/</a>
+- <a href="https://www.ffmpeg.org/" target="_blank">https://www.ffmpeg.org/</a>
