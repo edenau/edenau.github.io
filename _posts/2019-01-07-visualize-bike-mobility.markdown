@@ -246,13 +246,26 @@ vars()[kw] = DensityMap(stations, cnt_departure, cnt_arrival)
 
 ![Density map in evening peak hours]({{ site.url }}/assets/posts/density-2.png)
 
-Density maps are available on <a href="https://edenau.github.io/maps/density-morning/" target="_blank">https://edenau.github.io/maps/density-morning/</a> and <a href="https://edenau.github.io/maps/density-evening/" target="_blank">https://edenau.github.io/maps/density-evening/</a>.
+*Density maps are available on <a href="https://edenau.github.io/maps/density-morning/" target="_blank">https://edenau.github.io/maps/density-morning/</a> and <a href="https://edenau.github.io/maps/density-evening/" target="_blank">https://edenau.github.io/maps/density-evening/</a>.*
 
 <div class="breaker"></div> <a id="connection"></a>
 
 # Connection Maps
 
+All the aforementioned maps focus on stations but not journeys, but we can also visualize journeys by what we called ***connection maps***, by simply drawing trips completed on the map. Without delving into much details:
+
+![Connection map]({{ site.url }}/assets/posts/connection-1.png)
+
+We can also add multiple layers of connection by `folium.LayerControl()` to separate layers of frequently and infrequently used paths.
+
+![Multi-layer connection map]({{ site.url }}/assets/posts/connection-2.png)
+
+*Connection maps are available on <a href="https://edenau.github.io/maps/connection-morning/" target="_blank">https://edenau.github.io/maps/connection-morning/</a> and <a href="https://edenau.github.io/maps/connection-morning-layers/" target="_blank">https://edenau.github.io/maps/connection-morning-layers/</a>.*
+
 <div class="breaker"></div> <a id="animations"></a>
+
+# Animations
+
 
 <div class="breaker"></div> <a id="conclusions"></a>
 
