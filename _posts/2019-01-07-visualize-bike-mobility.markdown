@@ -272,7 +272,7 @@ The maps generated are web maps in *.html* files. The idea is to:
 
 > *Generate a map for every time instance, browse it on a web browser, take a screenshot and save the picture, and link all pictures together as a video or a .gif file.*
 
-We are going to automate the web browsing and screen capturing process by `<a href="https://www.seleniumhq.org/" target="_blank">selenium</a>`. We also need a web driver, and as a Chrome user I went for `chromedriver`.
+We are going to automate the web browsing and screen capturing process by <a href="https://www.seleniumhq.org/" target="_blank">`selenium`</a>. We also need a web driver, and as a Chrome user I went for `chromedriver`.
 
 ```
 from selenium import webdriver
@@ -281,7 +281,7 @@ def a_frame(i, frame_time, data):
 
     # Save the web map    
     delay = 5 # give it some loading time
-    fn = 'frame_{:0>5}'.format(i)
+    fn = 'frame_{}:0>5}'.format(i)
     DIR = 'frames'
     f = DIR + '/' + fn + '.html'
     tmpurl='file://{path}/{mapfile}'.format(path=os.getcwd()+/frames',mapfile=fn)
@@ -312,7 +312,7 @@ def a_frame(i, frame_time, data):
     return image
 ```
 
-We can then make the video or gif by `<a href="https://www.ffmpeg.org/" target="_blank">ffmpeg</a>`. For Mac user, installing `ffmpeg` can literally take minimal effort with the aid of <a href="https://brew.sh/" target="_blank">Homebrew</a>, as
+We can then make the video or gif by <a href="https://www.ffmpeg.org/" target="_blank">`ffmpeg`</a>. For Mac user, installing `ffmpeg` can literally take minimal effort with the aid of <a href="https://brew.sh/" target="_blank">Homebrew</a>, as
 
 >> Homebrew installs the stuff you need that Apple didn’t.
 
@@ -337,7 +337,6 @@ $ ffmpeg -r 10  -i frames/frame_%05d.png -i palette.png -filter_complex \ "fps=1
 
 Check out the animation of density maps throughout a day:
 
-<a href="https://python-visualization.github.io/folium/" target="_blank">`folium`</a>
 
 <div class="breaker"></div> <a id="conclusions"></a>
 
