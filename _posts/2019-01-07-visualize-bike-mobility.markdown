@@ -33,7 +33,7 @@ I have been working on a data-driven cost-effective algorithm for optimizing (re
 - [Interactive Maps](#interactive)
 - [Density Maps](#density)
 - [Connection Maps](#connection)
-- [Animation](#animations)
+- [Animations](#animations)
 - [Conclusions](#conclusions)
 - [Remarks](#remarks)
 
@@ -187,6 +187,42 @@ But I promised you ***interactive*** maps. You can set `popup` parameter and dis
 <div class="breaker"></div> <a id="density"></a>
 
 # Density Maps
+
+The above code used dynamic colour scheme that depends on the capacity of stations. We can also implement a dynamic radius scheme for those circle markers that is based on the number of departures and arrivals of each station. We can obtain what we called ***density maps*** that shows the net departures/arrivals of every station.
+
+```
+def DensityMap(stations, cnt_departure, cnt_arrival):
+London = [51.506949, -0.122876]
+
+  map = folium.Map(location = London,
+                   zoom_start = 12,
+                   tiles = "CartoDB dark_matter")
+
+  stations['Total Departure'] = cnt_departure
+  stations['Total Arrival'] = cnt_arrival
+for index, row in stations.iterrows():
+    net_departure = row['Total Departure'] - row['Total Arrival']
+
+    _radius = np.abs(net_departure)
+    if np.isnan(_radius):
+      _radius = 0
+
+    if net_departure > 0:
+      _color= '#E80018' # target red
+    else:
+      _color= '#81D8D0' # tiffany blue
+
+    lat, lon = row['lat'], row['lon']
+    _popup = '('+str(row['capacity'])+'/'+str(int(_radius))+') '+row['station_name']
+
+    folium.CircleMarker(location = [lat,lon],
+                        radius = _radius,
+                        popup = _popup,
+                        color = _color,
+                        fill_opacity = 0.5).add_to(map)
+
+  return map
+```
 
 <div class="breaker"></div> <a id="connection"></a>
 
