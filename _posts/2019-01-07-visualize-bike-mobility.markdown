@@ -347,7 +347,7 @@ And also the animation of journeys at different times:
 
 <div class="breaker"></div> <a id="conclusions"></a>
 
-# conclusions
+# Conclusions
 
 This post demonstrates my work on visualizing the bike sharing system in London, with the use of bar charts, density maps, connection maps, and animations.
 
@@ -357,9 +357,17 @@ The abstraction of Python makes it a really nice and fancy tool for spatio-tempo
 
 <div class="breaker"></div> <a id="remarks"></a>
 
+# Remarks
 
-<a href="https://edenau.github.io/maps/static" target="_blank">Static Map</a>
+Once again, a shout-out to <a href="https://blog.prototypr.io/interactive-maps-in-python-part-3-29f14a9b2f7d" target="_blank">Vincent Lonij</a> and <a href="https://towardsdatascience.com/master-python-through-building-real-world-applications-part-2-60d707955aa3" target="_blank">Dhrumil Patel</a> for their demonstration of relevant works.
 
-https://edenau.github.io/maps/morning
+This work was based on my Master’s thesis regarding the [optimization of station-based bike sharing systems]({{ site.url }}/bike-sharing). Stay tuned for my soon-to-be-published paper.
 
-https://edenau.github.io/maps/evening
+## References
+
+http://content.tfl.gov.uk/attitudes-to-cycling-2016.pdf
+https://towardsdatascience.com/master-python-through-building-real-world-applications-part-2-60d707955aa3
+https://blog.prototypr.io/interactive-maps-with-python-part-1-aa1563dbe5a9
+https://python-visualization.github.io/folium/
+https://www.seleniumhq.org/
+https://www.ffmpeg.org/
