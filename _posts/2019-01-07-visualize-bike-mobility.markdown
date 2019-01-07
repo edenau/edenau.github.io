@@ -266,6 +266,78 @@ We can also add multiple layers of connection by `folium.LayerControl()` to sepa
 
 # Animations
 
+So far we have demonstrated how to visualize temporal and distributional information by charts, and spatial information by various kinds of maps. But what if we generate multiple maps on consecutive time instances? We can visualize *spatio-temporal* information using animations!
+
+The maps generated are web maps in *.html* files. The idea is to:
+
+> *Generate a map for every time instance, browse it on a web browser, take a screenshot and save the picture, and link all pictures together as a video or a .gif file.*
+
+We are going to automate the web browsing and screen capturing process by `<a href="https://www.seleniumhq.org/" target="_blank">selenium</a>`. We also need a web driver, and as a Chrome user I went for `chromedriver`.
+
+```
+from selenium import webdriver
+def a_frame(i, frame_time, data):
+    my_frame = get_image_map(frame_time, data)
+
+    # Save the web map    
+    delay = 5 # give it some loading time
+    fn = 'frame_{:0>5}'.format(i)
+    DIR = 'frames'
+    f = DIR + '/' + fn + '.html'
+    tmpurl='file://{path}/{mapfile}'.format(path=os.getcwd()+/frames',mapfile=fn)
+    my_frame.save(f)
+    # Open the web map and take screenshot
+    browser = webdriver.Chrome()
+    browser.get(tmpurl)
+    time.sleep(delay)
+    f = DIR + '/' + fn + '.png'
+    browser.save_screenshot(f)
+    browser.quit()
+    f = 'frames/frame_{:0>5}.png'.format(i)
+    image = Image.open(io.BytesIO(f))
+    draw = ImageDraw.ImageDraw(image)
+    font = ImageFont.truetype('Roboto-Light.ttf', 30)
+
+    # Add text on picture
+    draw.text((20, image.height - 50),
+              'Time: {}'.format(frame_time),
+              fill=(255, 255, 255),
+              font=font)
+
+    # Write the .png file
+    dir_name = "frames"
+    if not os.path.exists(dir_name):
+        os.mkdir(dir_name)
+    image.save(os.path.join(dir_name, 'frame_{:0>5}.png'.format(i)), 'PNG')
+    return image
+```
+
+We can then make the video or gif by `<a href="https://www.ffmpeg.org/" target="_blank">ffmpeg</a>`. For Mac user, installing `ffmpeg` can literally take minimal effort with the aid of <a href="https://brew.sh/" target="_blank">Homebrew</a>, as
+
+>> Homebrew installs the stuff you need that Apple didn’t.
+
+After installing Homebrew (with a single command), simply type
+
+```
+$ brew install ffmpeg
+```
+
+and voilà! To create a *.mp4* file, try
+
+```
+$ ffmpeg -r 10 -i frames/frame_%05d.png -c:v libx264 -vf fps=25 -crf 17 -pix_fmt yuv420p video.mp4
+```
+
+For *.gif* file, try
+
+```
+$ ffmpeg -y  -t 3 -i frames/frame_%05d.png \ -vf fps=10,scale=320:-1:flags=lanczos,palettegen palette.png
+$ ffmpeg -r 10  -i frames/frame_%05d.png -i palette.png -filter_complex \ "fps=10,scale=720:-1:flags=lanczos[x];[x][1:v]paletteuse" animation.gif
+```
+
+Check out the animation of density maps throughout a day:
+
+
 
 <div class="breaker"></div> <a id="conclusions"></a>
 
