@@ -52,7 +52,7 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
 I am experienced in developing data-driven solutions.
 <ul>
   <li>
-    2019 – present: <b>Part-time Data Scientist, <i>Royal Botanic Garden Edinburgh</i>.</b> Analyzing spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
+    2019 – present: <b>Data Scientist, <i>Royal Botanic Garden Edinburgh</i>.</b> Analyzing spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
   </li>
   <li>
     2018 – present: <b>Software Engineer, <i>HYPED</i>.</b> Designing a pod navigation system using Kalman filter for Hyperloop, a revolutionary mode of transport.
