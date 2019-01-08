@@ -33,7 +33,7 @@ title: Resume
 <a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF version</span></a>
 </center>
 
-<i>Last updated on 8 January 2019.</i>
+<i>Last updated on 9 January 2019.</i>
 
 <h4>Education</h4>
 <p>
@@ -96,25 +96,25 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
 <p>
 <ul>
   <li>
-    <b>Deep learning - TensorFlow</b>: PhD project, analyzing spatio-temporal climate data by supervised learning
+    <b>Deep learning - TensorFlow</b>: PhD project, analyzing spatio-temporal climate data by supervised learning.
   </li>
   <li>
-    <b><a href="{{ site.url }}/visualize-bike-mobility">Data visualization</a></b>: visualized bike sharing systems using interactive maps and animations
+    <b><a href="{{ site.url }}/visualize-bike-mobility">Data visualization</a></b>: visualized bike sharing systems using interactive maps and animations.
   </li>
   <li>
-    <b><a href="{{ site.url }}/bike-sharing">Distributed optimization</a></b>: Master’s project, constructed optimization algorithms in a distributed computing framework, and applied it to balancing bike sharing systems with significant improvement in performance
+    <b><a href="{{ site.url }}/bike-sharing">Distributed optimization</a></b>: Master’s project, constructed optimization algorithms in a distributed computing framework, and applied it to balancing bike sharing systems with significant improvement in performance.
   </li>
   <li>
-    <b><a href="{{ site.url }}/camera-calibration">Camera calibration</a></b>: built a calibration algorithm for pinhole cameras by machine vision techniques
+    <b><a href="{{ site.url }}/camera-calibration">Camera calibration</a></b>: built a calibration algorithm for pinhole cameras by machine vision techniques.
   </li>
   <li>
-    <b><a href="{{ site.url }}/prosthetic-limb">Engineering product design</a></b>: designed a novel prosthetics with use of fast and wireless communication protocols
+    <b><a href="{{ site.url }}/prosthetic-limb">Engineering product design</a></b>: designed a novel prosthetics with use of fast and wireless communication protocols.
   </li>
   <li>
-    <b><a href="{{ site.url }}/checkpoint">Android APP</a></b>: designed a simple APP in four days for one to explore a city with ease
+    <b><a href="{{ site.url }}/checkpoint">Android APP</a></b>: designed a simple APP in four days for one to explore a city with ease.
   </li>
   <li>
-    <b><a href="{{ site.url }}/exam-sitting">Interactive system design</a></b>: high school project, built a user-friendly examination sitting arrangement system
+    <b><a href="{{ site.url }}/exam-sitting">Interactive system design</a></b>: high school project, built a user-friendly examination sitting arrangement system.
   </li>
 </ul>
 </p>
