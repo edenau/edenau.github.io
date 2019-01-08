@@ -97,7 +97,7 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
 I am experienced in developing data-driven solutions and engineering designs.
 <ul>
   <li>
-    <b>Deep learning - TensorFlow</b>: PhD project, analyzing spatio-temporal climate data by supervised learning.
+    <b>Deep learning - <i>TensorFlow</i></b>: PhD project, analyzing spatio-temporal climate data by supervised learning.
   </li>
   <li>
     <b><a href="{{ site.url }}/visualize-bike-mobility">Data visualization</a></b>: visualized bike sharing systems using interactive maps and animations.
