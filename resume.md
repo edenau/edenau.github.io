@@ -99,7 +99,7 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
     <b>Deep learning - TensorFlow</b>: PhD project, analyzing spatio-temporal climate data by supervised learning
   </li>
   <li>
-    <b><a href="{{ site.url }}/visualize-bike-mobility"}Data visualization</a></b>: visualized bike sharing systems using interactive maps and animations
+    <b><a href="{{ site.url }}/visualize-bike-mobility">Data visualization</a></b>: visualized bike sharing systems using interactive maps and animations
   </li>
   <li>
     <b>Distributed optimization</b>: Master’s project, constructed optimization algorithms in a distributed computing framework, and applied it to balancing bike sharing systems with significant improvement in performance
