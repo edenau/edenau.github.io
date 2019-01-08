@@ -49,7 +49,7 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
 </p>
 <h4>Experience in Data Science</h4>
 <p>
-I am experienced in developing data-driven solutions.
+I am an adaptable professional that embraces teamwork, but also enjoys working independently.
 <ul>
   <li>
     2019 – present: <b>Data Scientist, <i>Royal Botanic Garden Edinburgh</i>.</b> Analyzing spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
@@ -94,6 +94,7 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
 </p>
 <h4>Projects</h4>
 <p>
+I am experienced in developing data-driven solutions and engineering designs.
 <ul>
   <li>
     <b>Deep learning - TensorFlow</b>: PhD project, analyzing spatio-temporal climate data by supervised learning.
