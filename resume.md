@@ -99,7 +99,13 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
     <b>Deep learning - TensorFlow</b>: PhD project, analyzing spatio-temporal climate data by supervised learning
   </li>
   <li>
-    <b>Data visualization</b>: visualized bike sharing systems using interactive maps and animations
+    <b>Data visualization</b>: [visualized bike sharing systems using interactive maps and animations]({{ site.url }}/visualize-bike-mobility)
+  </li>
+  <li>
+    <b>Distributed optimization</b>: Master’s project, constructed optimization algorithms in a distributed computing framework, and applied it to balancing bike sharing systems with significant improvement in performance
+  </li>
+  <li>
+    <b>Camera calibration</b>: built a calibration algorithm for pinhole cameras by machine vision techniques
   </li>
 </ul>
 </p>
