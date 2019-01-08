@@ -102,13 +102,19 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
     <b><a href="{{ site.url }}/visualize-bike-mobility">Data visualization</a></b>: visualized bike sharing systems using interactive maps and animations
   </li>
   <li>
-    <b>Distributed optimization</b>: Master’s project, constructed optimization algorithms in a distributed computing framework, and applied it to balancing bike sharing systems with significant improvement in performance
+    <b><a href="{{ site.url }}/bike-sharing">Distributed optimization</a></b>: Master’s project, constructed optimization algorithms in a distributed computing framework, and applied it to balancing bike sharing systems with significant improvement in performance
   </li>
   <li>
-    <b>Camera calibration</b>: built a calibration algorithm for pinhole cameras by machine vision techniques
+    <b><a href="{{ site.url }}/camera-calibration">Camera calibration</a></b>: built a calibration algorithm for pinhole cameras by machine vision techniques
   </li>
   <li>
-    <b>Engineering product design</b>: designed a novel prosthetics with use of fast and wireless communication protocols
+    <b><a href="{{ site.url }}/prosthetic-limb">Engineering product design</a></b>: designed a novel prosthetics with use of fast and wireless communication protocols
+  </li>
+  <li>
+    <b><a href="{{ site.url }}/checkpoint">Android APP</a></b>: designed a simple APP in four days for one to explore a city with ease
+  </li>
+  <li>
+    <b><a href="{{ site.url }}/exam-sitting">Interactive system design</a></b>: high school project, built a user-friendly examination sitting arrangement system
   </li>
 </ul>
 </p>
