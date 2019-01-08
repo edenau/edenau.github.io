@@ -92,9 +92,20 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
   </li>
 </ul>
 </p>
+<h4>Projects</h4>
+<p>
+<ul>
+  <li>
+    <b>Deep learning - TensorFlow</b>: PhD project, analyzing spatio-temporal climate data by supervised learning
+  </li>
+  <li>
+    <b>Data visualization</b>: visualized bike sharing systems using interactive maps and animations
+  </li>
+</ul>
+</p>
 <h4>Skills</h4>
 <p>
-I am a fast learner and I am interested in learning new programming and natural languages.
+I am a fast learner and I am interested in learning new programming and natural languages. I give speeches and love writing.
 <ul>
   <li>
     Programming languages: <b>Python, MATLAB, C, C++, Java, Pascal, Prolog, LaTeX</b>
