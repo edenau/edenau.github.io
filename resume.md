@@ -94,7 +94,7 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
 </p>
 <h4>Projects</h4>
 <p>
-I am experienced in developing data-driven solutions and engineering designs.
+I am experienced in developing data-driven solutions and engineering designs. My codes are available on <a href="https://github.com/edenau" target="_blank">GitHub</a>.
 <ul>
   <li>
     <b>Deep learning - <i>TensorFlow</i></b>: PhD project, analyzing spatio-temporal climate data by supervised learning.
