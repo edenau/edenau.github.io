@@ -19,6 +19,8 @@ description: "visualizing bike sharing systems"
 
 ***Source code is now available on <a href="https://github.com/edenau/maps" target="_blank">Github</a>. Check it out!***
 
+***Data is now available on <a href="https://www.kaggle.com/edenau/london-bike-sharing-system-data" target="_blank">Kaggle</a>.***
+
 # Introduction
 
 Bike sharing systems have become popular means of travel in recent years, providing a green and flexible transportation scheme to citizens in metropolitan areas. Many governments in the world have seen this as an innovative strategy that could potentially bring a number of societal benefits. For instance, it could reduce the use of automobiles and hence reduce greenhouse gas emission and alleviate traffic congestion in city centres.
@@ -29,7 +31,7 @@ I have been working on a data-driven cost-effective algorithm for optimizing (re
 
 >> TL;DR - Let's see how we can visualize a bike sharing system using graphs, maps, and animations.
 
-*You can find web maps in this <a href="https://edenau.github.io/maps/" target="_blank">page</a>. Most maps, animations, and source codes are available on <a href="https://github.com/edenau/maps" target="_blank">GitHub</a>. My work is inspired by <a href="https://blog.prototypr.io/interactive-maps-with-python-part-1-aa1563dbe5a9" target="_blank">Vincent Lonij</a> and <a href="https://towardsdatascience.com/master-python-through-building-real-world-applications-part-2-60d707955aa3" target="_blank">Dhrumil Patel</a>. Check out their posts!*
+*You can find web maps in this <a href="https://edenau.github.io/maps/" target="_blank">page</a>. Most maps, animations, and source codes are available on <a href="https://github.com/edenau/maps" target="_blank">GitHub</a>. Data is now available on <a href="https://www.kaggle.com/edenau/london-bike-sharing-system-data" target="_blank">Kaggle</a>. My work is inspired by <a href="https://blog.prototypr.io/interactive-maps-with-python-part-1-aa1563dbe5a9" target="_blank">Vincent Lonij</a> and <a href="https://towardsdatascience.com/master-python-through-building-real-world-applications-part-2-60d707955aa3" target="_blank">Dhrumil Patel</a>. Check out their posts!*
 
 ## Table of Contents
 - [More about Data - the Boring Bit](#data)
@@ -45,7 +47,7 @@ I have been working on a data-driven cost-effective algorithm for optimizing (re
 
 # More about Data - the Boring Bit
 
-I obtained data of bicycle journeys from Transport for London (TfL). Every single bike journey made in their system since 2012 was recorded and those open data are available <a href="https://cycling.data.tfl.gov.uk/" target="_blank">online</a>.
+I obtained <a href="https://www.kaggle.com/edenau/london-bike-sharing-system-data" target="_blank">data</a> of bicycle journeys from Transport for London (TfL). Every single bike journey made in their system since 2012 was recorded and those open data are available <a href="https://cycling.data.tfl.gov.uk/" target="_blank">online</a>.
 
 A 36-day record of journeys made from 1 August to 13 September 2017 were analyzed. During this period, there were >1.5 million journeys made among >700 bike docking stations in London. From 2014, we have witnessed a >190% rise in bike trips made. The number of bicycles and docking stations in the system both increased more than twofold to accommodate the significant rise in cycling demand in central London and regional areas. Exact data will be shown in my soon-to-be-released paper. Stay tuned.
 
