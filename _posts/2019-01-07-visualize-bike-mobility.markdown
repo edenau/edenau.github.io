@@ -45,7 +45,7 @@ I have been working on a data-driven cost-effective algorithm for optimizing (re
 
 <div class="breaker"></div> <a id="data"></a>
 
-# More about Data - the Boring Bit
+# More about Data – the Boring Bit
 
 I obtained <a href="https://www.kaggle.com/edenau/london-bike-sharing-system-data" target="_blank">data</a> of bicycle journeys from Transport for London (TfL). Every single bike journey made in their system since 2012 was recorded and those open data are available <a href="https://cycling.data.tfl.gov.uk/" target="_blank">online</a>.
 
