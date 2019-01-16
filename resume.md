@@ -133,7 +133,7 @@ I am a fast learner and I am interested in learning new programming and natural 
     Natural languages: <b>English, Mandarin, Cantonese, Taiwanese, Spanish</b>
   </li>
   <li>
-    Writing: data science blogger on <a href="https://medium.com/@edenau" target="_blank">Medium</a>
+    Writing: data science blogger on <a href="https://medium.com/@edenau" target="_blank">Towards Data Science – Medium</a>
   </li>
   <li>
     Public speaking: gave talks about Project Access, machine learning etc. (see below)
