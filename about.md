@@ -18,7 +18,7 @@ I developed several algorithms and applications during my time in Oxford. I made
 
 I was an active university member. I was the Vice-President of Oxford Hong Kong Society, a researcher in OxPolicy: the Oxford Student Think Tank, and a founding member of Oxford Coding Society (help spread the love of coding 💌). I also took the opportunity to gain more experience in data science. Go to my <a href="{{ site.url }}/resume/">resume</a> for more details.
 
-After 4 years of undergraduate study in Oxford, I went to Edinburgh in September 2018 for my PhD study. I am now focused on leveraging machine learning in climate modeling. Since I did general engineering before, I believe it is well-handled. I am now looking for different opportunities to gain more experience in data science (please contact me if you have something to offer!).
+After 4 years of undergraduate study in Oxford, I went to Edinburgh in September 2018 for my PhD study. I am now focused on leveraging machine learning in climate modeling ⛈️. Since I did general engineering before, I believe it is well-handled. I am now looking for different opportunities to gain more experience in data science (please contact me if you have something to offer!).
 
 <h4>Interest</h4>
 
