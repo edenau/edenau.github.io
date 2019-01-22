@@ -1,5 +1,5 @@
 ---
-title: "️👨‍💻 Quick guide to run your Python scripts in Google Colaboratory"
+title: "️👨‍💻 Quick guide to run your Python scripts on Google Colaboratory"
 layout: post
 date: 2019-01-22 23:00
 published: true
@@ -16,7 +16,7 @@ description: "Google Colaboratory"
 
 # Introduction
 
-If you are looking for an interactive way to run your Python script, say you want to start a machine learning project with a couple of friends, look no further — Google Colab is the best solution for you. You can work online and save your code on your local Google Drive, and it allows you to
+If you are looking for an interactive way to run your Python script, say you want to start a machine learning project with a couple of friends, look no further — <a href="https://colab.research.google.com/" target="_blank">Google Colab</a> is the best solution for you. You can work online and save your code on your local Google Drive, and it allows you to
 
 - Run your scripts with free GPUs (and TPUs!)
 - Utilize pre-installed Python libraries and Jupyter Notebook features
