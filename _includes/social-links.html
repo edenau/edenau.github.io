@@ -83,6 +83,12 @@
         </a>
     {% endif %}
 
+    {% if site.codewars %}
+        <a class="link" data-title="codewars.com/users/{{ site.codewars }}" href="https://www.codewars.com/users/{{ site.codewars }}" target="_blank">
+            <svg class="icon icon-codewars"><use xlink:href="#icon-codewars"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.stackoverflow %}
         <a class="link" data-title="stackoverflow.com/users/{{ site.stackoverflow }}" href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank">
             <svg class="icon icon-stackoverflow"><use xlink:href="#icon-stackoverflow"></use></svg>
