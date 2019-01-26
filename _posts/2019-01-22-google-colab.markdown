@@ -14,6 +14,8 @@ description: "Google Colaboratory"
 # jemoji: '<img class="emoji" title=":open_file_folder:" alt=":open_file_folder:" src="https://assets.github.com/images/icons/emoji/unicode/1f5c2.png" height="20" width="20" align="absmiddle">'
 ---
 
+***This post is now available on <a href="https://towardsdatascience.com/google-colab-59ad8510eb7e" target="_blank">Towards Data Science — Medium</a>. Check it out!***
+
 # Introduction
 
 If you are looking for an interactive way to run your Python script, say you want to start a machine learning project with a couple of friends, look no further — <a href="https://colab.research.google.com/" target="_blank">Google Colab</a> is the best solution for you. You can work online and save your code on your local Google Drive, and it allows you to
