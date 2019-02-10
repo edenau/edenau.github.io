@@ -10,5 +10,4 @@ title: Teaching
 Coming Soon...
 
 <b>Drop-in:</b>
-Location: Room 4, Crew Annexe, King's Buildings
-Times: 2pm - 5pm on Mon, Thur, and Fri
+2pm-5pm on Mon, Thur, and Fri at Room 4, Crew Annexe, KB
