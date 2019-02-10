@@ -9,7 +9,6 @@ title: Teaching
 <h4>Physics of Climate</h4>
 Coming Soon...
 
-<h5>How to find me</h5>
-Location: Room 4, Crew Annexe, King's Buildings, Alexander Crum Brown Road, Edinburgh EH9 3FF
-
-Times: 2pm - 5.30pm on Mon, Thur, and Fri
+<b>Drop-in:</b>
+Location: Room 4, Crew Annexe, King's Buildings
+Times: 2pm - 5pm on Mon, Thur, and Fri
