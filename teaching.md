@@ -10,4 +10,4 @@ title: Teaching
 Coming Soon...
 
 <b>Drop-in:</b>
-2pm-5pm on Mon, Thur, and Fri at Room 4, Crew Annexe, KB
+2pm-5pm on Mon, Thur, and Fri at Room 6, Crew Annexe, KB
