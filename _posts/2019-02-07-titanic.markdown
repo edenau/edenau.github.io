@@ -68,7 +68,7 @@ Here goes the overview of the technical bit. I first found the dataset on Kaggle
 There are many tutorials online that focus on how to code and develop a machine learning model in Python and other languages. Therefore, I will only explain my work in a relatively qualitative manner with graphs and results, instead of bombarding you with codes. If you really want to go through my codes, they are available on <a href="https://github.com/edenau/Titanic" target="_blank">GitHub</a>.
 
 ## Tools
-I decided to use Python since it is the most popular programming language for machine learning with numerous libraries. And I don’t know R. And no one uses MATLAB for machine learning. Instead of my local machine, I went for <a https://edenau.github.io/google-colab/>Google Colab</a> so that I could work cross-platform without any hassle.
+I decided to use Python since it is the most popular programming language for machine learning with numerous libraries. And I don’t know R. And no one uses MATLAB for machine learning. Instead of my local machine, I went for <a href="{{ site.url }}/google-colab/">Google Colab</a> so that I could work cross-platform without any hassle.
 
 ***Sit tight, here we go!***
 
@@ -93,3 +93,6 @@ I decided to drop variable `Ticket` for now for simplicity. It could possibly be
 ![d2]({{ site.url }}/assets/posts/titanic/data-2.png)
 
 On the other hand, let’s take a closer look at the missing data. There are a few missing entries in variables `Embarked` and `Fare`, which should be able to be inferred by other variables. Around 20% passenger ages were not recorded. This might pose a problem to us, since `Age` is likely to be one of the key predictors in the dataset. ‘Women and children first’ was a code of conduct back then, and reports suggested that they were indeed saved first. There are >77% of missing entries in `Cabin`, which is unlikely to be very helpful, and let’s drop it for now.
+
+## Data Visualization
+Pair plot (not shown) is usually my go-to at the beginning of a data visualization task, as it is usually helpful, and it has a high information-to-lines-of-code ratio. One single line of `seaborn.pairplot()` gives you n² plots (technically n(n+1)/2 distinct plots), where n represents the number of variables. It gives you a basic understanding of the relationship between every pair of variables, and the distribution of each variable itself. Let’s dive into different variables.
