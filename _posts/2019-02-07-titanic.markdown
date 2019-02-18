@@ -94,5 +94,23 @@ I decided to drop variable `Ticket` for now for simplicity. It could possibly be
 
 On the other hand, let’s take a closer look at the missing data. There are a few missing entries in variables `Embarked` and `Fare`, which should be able to be inferred by other variables. Around 20% passenger ages were not recorded. This might pose a problem to us, since `Age` is likely to be one of the key predictors in the dataset. ‘Women and children first’ was a code of conduct back then, and reports suggested that they were indeed saved first. There are >77% of missing entries in `Cabin`, which is unlikely to be very helpful, and let’s drop it for now.
 
+![d3]({{ site.url }}/assets/posts/titanic/data-3.png)
+
 ## Data Visualization
 Pair plot (not shown) is usually my go-to at the beginning of a data visualization task, as it is usually helpful, and it has a high information-to-lines-of-code ratio. One single line of `seaborn.pairplot()` gives you n² plots (technically n(n+1)/2 distinct plots), where n represents the number of variables. It gives you a basic understanding of the relationship between every pair of variables, and the distribution of each variable itself. Let’s dive into different variables.
+
+![d4]({{ site.url }}/assets/posts/titanic/data-4.png)
+
+Meanwhile, women and children were more likely to survive, which aligned with the aforementioned theory of ***‘women and children first’***. First-class young female passengers would now be the ones with the highest chance of survival, if we only examine variable `Pclass`, `Sex`, and `Age`.
+
+![d5]({{ site.url }}/assets/posts/titanic/data-5.png)
+
+Nevertheless, it might be harder to interpret the density plot `seaborn.kdeplot()` of passenger fare. For both ‘survived’ and ‘not survived’ classes, they span over a wide range of fare, with the ‘not survived’ class having a smaller mean and variance. Note that there is a funny tail in the ‘survived’ class, which corresponds to three people getting their first-class tickets with $512 each (no idea what currency the dataset was referring to). They all got onboard at the port of Cherbourg, and all of them survived.
+
+![d6]({{ site.url }}/assets/posts/titanic/data-6.png)
+
+On the other hand, the port of embarkation seems to also play a role in determining who would survive. Most people embarked at the port of Southampton — the first stop of the journey, and they had the lowest survival rate. Maybe they were assigned to cabins further away from exits, or spending more time on a cruise would make people relaxed or tired. No one knows. Or maybe it’s just indirectly caused by some third variable — say maybe there were fewer women/children/first-class passengers that got onboard at the first port. This plot does not provide such information. Further investigation is required, ***and is left as an exercise for the reader***. ***(Nani?)***
+
+![d7]({{ site.url }}/assets/posts/titanic/data-7.png)
+
+If you are a fan of tables instead of plots, we can also visualize the data by `pandas.DataFrame.groupby()` and take the mean for each class. However, I don’t think there is a clear pattern shown in the table of `Parch` below.
