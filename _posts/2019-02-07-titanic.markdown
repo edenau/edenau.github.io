@@ -233,7 +233,9 @@ Data science is not just about training and tuning neural networks. It requires 
 
 **To technology enthusiasts:**
 
-AI is no magic. There is nothing new under the sun.
+AI is no magic.
+
+>> There is nothing new under the sun.
 
 **To future me:**
 
