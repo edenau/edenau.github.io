@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - Python
 - DataScience
-- Colab
+- Kaggle
 category: blog
 author: edenau
 description: "The journey on the unsinkable — what AI can learn from the disaster"
@@ -22,4 +22,21 @@ Have you ever thought of being one of the passengers on the Titanic in 1912? Wou
 — William Arthur Ward
 
 ## TL;DR
-I developed a machine learning model that does so, and deployed it as a Web App. Check out http://18.212.193.40:8888/ and complete the quiz to find out your chance of survival.
+I developed a machine learning model that does so, and deployed it as a <a href="http://18.212.193.40:8888/" target="_blank">Web App</a>. Check out <a href="http://18.212.193.40:8888/" target="_blank">http://18.212.193.40:8888/</a> and complete the quiz to find out your chance of survival.
+
+![1]({{ site.url }}/assets/posts/titanic/titanic-1.png)
+Mmm… borderline for me…
+![2]({{ site.url }}/assets/posts/titanic/titanic-2.png)
+
+## Table of Contents
+- [Introduction](#intro)
+- [Data](#data)
+- [Machine Learning](#ml)
+- [Web App Deployment](#webapp)
+- [The Takeaway](#takeaway)
+
+<div class="breaker"></div> <a id="intro"></a>
+
+# Introduction
+## Motivation
+For data scientists, <a href="https://www.kaggle.com/c/titanic" target="_blank">Titanic Kaggle dataset</a> is arguably one of the most widely used datasets in the field of machine learning, along with MNIST hand-written digit, Iris flower etc.. For some non-data scientists, machine learning is a black box that does magic; but for some sceptics who ‘learn from the past’ (and inadvertently human-trained a classification model in their head), they foresee that
