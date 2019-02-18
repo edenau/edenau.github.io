@@ -24,7 +24,7 @@ Have you ever thought of being one of the passengers on the Titanic in 1912? Wou
 — William Arthur Ward
 
 ## TL;DR
-I developed a machine learning model that does so, and deployed it as a <a href="http://18.212.193.40:8888/" target="_blank">Web App</a>. Check out <a href="http://18.212.193.40:8888/" target="_blank">http://18.212.193.40:8888/</a> and complete the quiz to find out your chance of survival.
+I developed a machine learning model that does so, and deployed it as a <a href="http://18.212.193.40:8888/" target="_blank">Web App</a>. Check out **<a href="http://18.212.193.40:8888/" target="_blank">http://18.212.193.40:8888/</a>** and complete the quiz to find out your chance of survival.
 
 ![t1]({{ site.url }}/assets/posts/titanic/titanic-1.png)
 Mmm… borderline for me…
@@ -202,7 +202,7 @@ fare = DecimalField('Passenger Fare:',default=33,places=1,
 
  I found an HTML template from <a href="https://towardsdatascience.com/deploying-a-keras-deep-learning-model-as-a-web-application-in-p-fc0f2354a7ff" target="_blank">Will Koehrsen</a> and built on top of it.
 
- > You look at the people who have been there before you, the people who have dealt with this before, the people who have built the spaghetti code, and you thank them very much for making it open source, *and you give them credit*, and you take what they have made and you put it in your program, and you never ever look at it again. — Tom Scott
+ > You look at the people who have been there before you, the people who have dealt with this before, the people who have built the spaghetti code, and you thank them very much for making it open source, ***and you give them credit***, and you take what they have made and you put it in your program, and you never ever look at it again. — Tom Scott
 
  No way I delve into a CSS spaghetti.
 
@@ -214,3 +214,30 @@ I connected to the Linux server instance with my private key, migrated my reposi
 ```
 [ec2-user@ip-<SOME_IP> ~]$ screen
 ```
+
+When you want to check the status next time, use `screen -r` to resume your screen session. You can exit the session by `Ctrl+A` followed by `D`.
+
+And now, it is running 24/7 non-stop! Check it out at **<a href="http://18.212.193.40:8888" target="_blank">http://18.212.193.40:8888</a>**.
+
+<div class="breaker"></div> <a id="takeaway"></a>
+
+# The Takeaway
+## Endnotes
+**To sceptics:**
+
+AI is not false hope. They are backed by sophisticated statistical theories. They are hard works. They are keys to revolutionize industries.
+
+**To new learners:**
+
+Data science is not just about training and tuning neural networks. It requires curiosity to drive us, knowledge to kick-start, energy to clean data, experience (i.e. trial and error) to engineer features, patience to train models, maturity to handle failure, and wisdom to explain.
+
+**To technology enthusiasts:**
+
+AI is no magic. There is nothing new under the sun.
+
+**To future me:**
+
+> Doing data science is one thing, writing it is a different story. — current me
+
+## Remarks
+If you want to contribute in any means, feel free to drop me an email or find me on Twitter. As you can see, this project would definitely benefit from getting a domain name!
