@@ -141,6 +141,27 @@ While most of them had titles of ‘Mr’, ‘Mrs’, and ‘Miss’, there were
 
 Categorical data requires extra care before model training. Classifiers simply cannot process string inputs like ‘Mr’, ‘Southampton’ etc.. While we can map them to integers, say (‘Mr’, ‘Miss’, ‘Mrs’, ‘Rare’) → (1, 2, 3, 4), there should be no concept of ordering amongst titles. *Being a Dr does not make you superior.* In order not to mislead machines and accidentally construct a sexist AI, we should one-hot-encode them. They become:
 
-( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+<img src="https://latex.codecogs.com/svg.latex?\big( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) \big)" />
 
 On the other hand, I decided to add two more variables — `FamilySize` and `IsAlone`. Adding `FamilySize = SibSp + Parch + 1` makes more sense since the whole family would have stayed together on the cruise. You wouldn’t have a moment with your partner but abandon your parents, would you? Besides, being alone might be one of the crucial factors. You could be more likely to make reckless decisions, or you could be more flexible without taking care of your family. Experiments (adding variables one at a time) suggested that their addition did improve the overall predictability.
+
+## Model Evaluation
+Codes are available on <a href="https://github.com/edenau/titanic" target="_blank">Github</a>.
+
+Before picking and tuning any classifiers, it is VERY important to standardize the data. Variables measured at various scales would screw things up. `Fare` covers a range between 0 and 512, whereas `Sex` is binary (in our dataset) — 0 or 1. ***You wouldn’t want to weigh `Fare` more than `Sex`.***
+
+I have some thoughts (and guesses) on which classifiers would perform well enough, often by experience. I personally prefer Random Forest as it usually guarantees good enough results. But let’s just try out all the classifiers we know — SVM, KNN, AdaBoost, you name it, and they were all tuned by grid search. XGBoost stands out eventually with an 87% test accuracy, but that does not mean it would perform the best in inferring unknown data subsets.
+
+To increase the robustness of our classifier, an ensemble of classifiers ***with different natures*** was trained and final results were obtained by ***majority voting***. It is vital to embed models with different strengths into the ensemble, otherwise there is no point building an ensemble model at the expense of computation time.
+
+Finally, I submitted it to Kaggle and achieved around **80%** accuracy. Not bad. There is always room for improvement. For instance, there is surely some useful information hidden in `Cabin` and `Ticket`, but we dropped them for simplicity. We could also create more features, e.g. a binary class `Underage` that is 1 if `Age < 18` or 0 otherwise.
+
+But we will move on for now.
+
+## Saving and Loading Model
+I am not satisfied with just a trained machine learning model. I want it to be accessible by everyone (sorry for people who don’t have internet access). Therefore, we have to save the model and deploy it elsewhere, and this can be done by pickle library. Parameters `'wb'` and `'rb'` in `open()` function represent write access and read-only in binary mode respectively.
+
+```
+pickle.dump(<model>, open(<file_path>, 'wb'))
+pickle.load(open(<file_path>, 'rb'))
+```
