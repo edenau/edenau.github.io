@@ -39,4 +39,33 @@ Mmm… borderline for me…
 
 # Introduction
 ## Motivation
-For data scientists, <a href="https://www.kaggle.com/c/titanic" target="_blank">Titanic Kaggle dataset</a> is arguably one of the most widely used datasets in the field of machine learning, along with MNIST hand-written digit, Iris flower etc.. For some non-data scientists, machine learning is a black box that does magic; but for some sceptics who ‘learn from the past’ (and inadvertently human-trained a classification model in their head), they foresee that
+For data scientists, <a href="https://www.kaggle.com/c/titanic" target="_blank">Titanic Kaggle dataset</a> is arguably one of the most widely used datasets in the field of machine learning, along with <a href="http://yann.lecun.com/exdb/mnist/" target="_blank">MNIST hand-written digit</a>, <a href="https://archive.ics.uci.edu/ml/datasets/iris" target="_blank">Iris flower</a> etc.. For some non-data scientists, machine learning is a black box that does magic; but for some sceptics who ‘learn from the past’ (and inadvertently human-trained a classification model in their head), they foresee that
+
+>> AI is the new dot-com.
+
+One of my professors argued that machine learning-driven time-series forecasting model would not perform with flying colours, as it is just ***looking in the rearview mirror***.
+
+However, the omnipresence of machine learning models proves their values to our society, and the fact that they have already brought a lot of convenience to us is undeniable — Google auto-completes email sentences which really saves me a lot of time. I hope I can share my experience, help spread the knowledge, and demonstrate how new technologies can achieve things that we could not in the last century.
+
+>> AI is the new electricity.
+— Andrew Ng
+
+PS: machine learning is a subset of artificial intelligence, in case you are confused.
+
+## What is Kaggle?
+Kaggle is a platform for data scientists to share data, exchange thoughts, and compete in predictive analytics problems. There are many high-quality datasets that are freely accessible on Kaggle. Some Kaggle competitions even offer prize money, and they attract a lot of famous machine learning practitioners to participate. People often think that Kaggle is not for beginners, or it has a very steep learning curve.
+
+They are not wrong. But they do offer challenges for people who are ‘getting started’. As a (junior) data scientist, I could not resist searching for interesting datasets to start my journey on Kaggle. ***And I bumped into the Titanic.***
+
+>> Kaggle is an Airbnb for data scientists — this is where they spend their nights and weekends.
+— Zeeshan-ul-hassan Usmani
+
+## Overview
+Here goes the overview of the technical bit. I first found the dataset on Kaggle and decided to work on it and analyze it with *Python*. I used it to develop and train an ensemble of classifiers using *scikit-learn* that would predict one’s chances of survival. I then saved it by *pickle* and deployed it as a Web App on localhost using *Flask*. Finally, I leveraged AWS free tier (available for 12 months) to cloud-host it.
+
+There are many tutorials online that focus on how to code and develop a machine learning model in Python and other languages. Therefore, I will only explain my work in a relatively qualitative manner with graphs and results, instead of bombarding you with codes. If you really want to go through my codes, they are available on <a href="https://github.com/edenau/Titanic" target="_blank">GitHub</a>.
+
+## Tools
+I decided to use Python since it is the most popular programming language for machine learning with numerous libraries. And I don’t know R. And no one uses MATLAB for machine learning. Instead of my local machine, I went for <a https://edenau.github.io/google-colab/>Google Colab</a> so that I could work cross-platform without any hassle.
+
+***Sit tight, here we go!***
