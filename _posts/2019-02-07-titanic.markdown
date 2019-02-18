@@ -165,3 +165,52 @@ I am not satisfied with just a trained machine learning model. I want it to be a
 pickle.dump(<model>, open(<file_path>, 'wb'))
 pickle.load(open(<file_path>, 'rb'))
 ```
+
+<div class="breaker"></div> <a id="webapp"></a>
+
+# Web App Deployment
+## Web Framework
+*Flask* is an easy-to-use web framework in Python. I only had little prior experience in building websites (HTML in primary school, GitHub pages last year, Wix doesn’t count), and I found it straightforward and simple. The simplest thing you can do is:
+
+```
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def hello():
+    return "<h1>Write something here.</h1>"
+app.run(host='0.0.0.0', port=60000)
+```
+And voilà! You can browse it in your localhost.
+
+What else do we need? We want people to fill in a form to collect the data required and pass it to the machine learning model (and not sell it, Mark). The model would have an output, which we will redirect users to that page.
+
+We will use WTForms to build a form in Python, and a single form is defined by a class, which looks like the following:
+
+```
+from wtforms import Form, TextField, validators, SubmitField,  DecimalField, IntegerField, SelectField
+class ReusableForm(Form):
+ sex = SelectField('Sex:',choices=[('1', 'Male'), ('0', 'Female') ],
+                   validators=[validators.InputRequired()])
+fare = DecimalField('Passenger Fare:',default=33,places=1,
+                     validators=[validators.InputRequired(),
+                                 validators.NumberRange(min=0,
+                                                        max=512,
+
+                         message='Fare must be between 0 and 512')])
+ submit = SubmitField('Predict')
+ ```
+
+ I found an HTML template from <a href="https://towardsdatascience.com/deploying-a-keras-deep-learning-model-as-a-web-application-in-p-fc0f2354a7ff" target="_blank">Will Koehrsen</a> and built on top of it.
+
+ > You look at the people who have been there before you, the people who have dealt with this before, the people who have built the spaghetti code, and you thank them very much for making it open source, *and you give them credit*, and you take what they have made and you put it in your program, and you never ever look at it again. — Tom Scott
+
+ No way I delve into a CSS spaghetti.
+
+## Cloud Hosting
+Now that the webpage can be viewed via my localhost, and everything works fine. The last step would be hosting it online. Unfortunately, I only used one site hosting service before, GitHub Pages, which only hosts static sites. There are 3 major cloud hosting services now — AWS, GCP, and Azure. AWS is by far the most popular one, so I went for its 12-month free tier. They had lots of tutorials and documentation (and customer services), and it is quite easy to follow.
+
+I connected to the Linux server instance with my private key, migrated my repository to the server, ran my script, and it worked! The only problem was system timeout when it was idle for too long. By some googling, turns out it can be fixed by starting a screen session, which we run the scripts inside the session.
+
+```
+[ec2-user@ip-<SOME_IP> ~]$ screen
+```
