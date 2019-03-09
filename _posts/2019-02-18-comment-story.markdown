@@ -21,3 +21,25 @@ When you share this letter on Facebook, you create a ***post***. Your friends ca
 But when you share your thoughts on Medium, you write a ***story***. Everyone can respond to your story by writing a ***response***, which itself is a ***story***. If you want to reply to that response/story, you then create another response which itself is also a story. It can technically go infinitely deep. You can read a response without reading the main story. More like linked lists of stories.
 
 Who cares? I didn’t know it mattered until I bumped into this:
+
+![1]({{ site.url }}/assets/posts/medium/fig.png)
+
+I have published 10 ‘stories’ in 1.5 months, but only 4 of those are ‘true stories’, i.e. not responses. I cannot imagine how can experienced writers stand this. In my opinion, grouping stories and comments together are bad, as
+
+## It is a mess.
+I have had a hard time trying to find my own real stories in my own profile. Many people are complaining. <a href="https://medium.com/@gubatron/dear-medium-comments-are-not-stories-dacdef44b255" target="_blank">Here</a> and <a href="https://medium.com/@ourielohayon/medium-please-fix-your-product-b063f800cb9d" target="_blank">there</a>.
+
+## It is not intuitive.
+We are not yet ready for the post-Facebook era.
+
+## They are intrinsically different.
+A comment itself is not a story. Stories are **self-contained** ideas and opinions.
+
+Comments are strongly **context-dependent** and often shorter in length. Most of the comments are simply expressing gratitude or anger (or other emotions). Some of them are redirecting the audience to their own stories.
+
+They have different natures, and sometimes values.
+
+## This is just a symbolic thing.
+>> Every voice is a story.
+
+![2]({{ site.url }}/assets/posts/medium/trump.gif)
