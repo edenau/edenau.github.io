@@ -43,3 +43,26 @@ They have different natures, and sometimes values.
 >> Every voice is a story.
 
 ![2]({{ site.url }}/assets/posts/medium/trump.gif)
+
+<div class="breaker"></div> <a id="breaker"></a>
+
+# However...
+
+## It encourages me to write more.
+
+Responses live at their own URLs. They have all the features that a ‘top-level’ story has. They are all the same thing to search engines, which offers an ‘equal playing field’ to responders, according to the <a href="https://medium.com/@ev/there-are-few-ways-medium-responses-are-different-than-comment-systems-as-we-ve-know-them-on-the-9d2a9cb24a09" target="_blank">CEO of Medium</a>. If you produce a brilliant piece of response, the algorithm lets you shine. I even got followers just because I left a critical comment on some article.
+
+## The Takeaway
+
+I sometimes can’t think of anything to write. But that should not stop me from writing more ***stories***. Although Medium could have made the UI clearer, this distinctive mechanism makes it a near-perfect platform to write and share our thoughts, as
+
+>> We value good contents regardless of their intrinsic nature.
+
+With warmest regards,
+Eden
+
+## About Me
+
+Thank you for reading! Do you think comments are stories? Write your own stories in <a href="https://writingcooperative.com/dear-medium-comments-are-not-stories-6ce5e3f328a6" target="_blank">Medium</a>!
+
+I am an Edinburgh-based data scientist and PhD student. I started writing on Medium last December, and I would like to improve my writing skills.
