@@ -1,5 +1,5 @@
 ---
-title: "📷 Camera calibration"
+title: "📷 Camera Calibration"
 layout: post
 date: 2017-01-10 12:00
 tag:

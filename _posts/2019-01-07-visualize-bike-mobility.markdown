@@ -1,5 +1,5 @@
 ---
-title: "️🗺️ Visualizing bike mobility in London using interactive maps and animations"
+title: "️🗺️ Visualizing Bike Mobility in London using Interactive Maps and Animations"
 layout: post
 date: 2019-01-07 23:00
 published: true

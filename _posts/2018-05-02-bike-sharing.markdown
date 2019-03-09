@@ -1,5 +1,5 @@
 ---
-title: "🚲 Optimizing station-based bike sharing systems"
+title: "🚲 Optimizing Station-based Bike Sharing Systems"
 layout: post
 date: 2018-05-02 12:00
 tag:

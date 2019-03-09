@@ -1,5 +1,5 @@
 ---
-title: "️👨‍💻 Quick guide to run your Python scripts on Google Colaboratory"
+title: "️👨‍💻 Quick Guide to Run your Python Scripts on Google Colaboratory"
 layout: post
 date: 2019-01-22 23:00
 published: true

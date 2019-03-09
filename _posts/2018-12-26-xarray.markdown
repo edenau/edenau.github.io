@@ -1,5 +1,5 @@
 ---
-title: "🗂️ Handling NetCDF files using XArray for absolute beginners"
+title: "🗂️ Handling NetCDF Files using XArray for Absolute Beginners"
 layout: post
 date: 2018-12-26 15:00
 published: true

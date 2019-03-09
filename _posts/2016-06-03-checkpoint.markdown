@@ -1,5 +1,5 @@
 ---
-title: "📱 CheckPoint Android application"
+title: "📱 CheckPoint Android Application"
 layout: post
 date: 2016-06-03 18:00
 tag:

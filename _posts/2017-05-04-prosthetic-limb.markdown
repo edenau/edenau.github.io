@@ -1,5 +1,5 @@
 ---
-title: "💪 Affordable wearable technology for disrupting the prosthetic limb market"
+title: "💪 Affordable Wearable Technology for Disrupting the Prosthetic Limb Market"
 layout: post
 date: 2017-05-04 12:00
 tag:
