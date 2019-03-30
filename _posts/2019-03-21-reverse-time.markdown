@@ -5,7 +5,7 @@ date: 2019-03-21 23:00
 published: true
 headerImage: false
 tag:
-- science
+- academia
 - critique
 category: blog
 author: edenau
@@ -26,7 +26,7 @@ It is claimed that the ***second law of thermodynamics can be violated, irrevers
 
 Are we able to reverse time? **Kind of**.
 
-Are we one step closer to a time machine? **Not really**\*.
+Are we one step closer to a time machine? **Not really\***.
 
 Did they violate any physics that we think we know of? **Nah**.
 
@@ -54,4 +54,4 @@ Most of the headlines and buzzwords probably don’t do justice to the findings,
 
 >It is not the media’s job to tell the truth. They are a business, just like any other business, and their job is to make money. — Jay Foreman
 
-\*Are we one step closer to a time machine? Assuming it does exist in the future, we are technically getting closer to that time. ***Time moves forward.***
+**\***Are we one step closer to a time machine? Assuming it does exist in the future, we are technically getting closer to that time. ***Time moves forward.***
