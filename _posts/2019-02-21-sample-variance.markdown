@@ -96,3 +96,23 @@ This suggests that **the usage of pseudo-mean generates bias**. However, this do
 Our sole goal is to investigate how biased this variance estimator ***^μ*** is. We expect that pseudo-variance is a biased estimator, as it **underestimates** true variance all the time as mentioned earlier. By checking the expected value of our pseudo-variance, we discover that:
 
 ![1]({{ site.url }}/assets/posts/variance/proof@2x.png)
+
+One step at a time. The expected value of ***x_j*** ***x_k*** (as shown below) depends on whether you are sampling different (independent) samples where ***j≠k***, or the same (definitely dependent in this case!) sample where ***j=k***. Since we have ***n*** samples, the possibility of getting the same sample is ***1/n***. Therefore,
+
+![1]({{ site.url }}/assets/posts/variance/jk@2x.png)
+
+Remember the expected value of ***x_i²*** mentioned at the start? By expanding ***^μ***, we have
+
+![1]({{ site.url }}/assets/posts/variance/explain@2x.png)
+
+Substitute these formulae back in, and we find out that the *expected value* of pseudo-variance is NOT population variance, but ***(n-1)/n*** of it. Since the scaling factor is smaller than ***1*** for all finite positive ***n***, this again proves that our pseudo-variance underestimates the true population variance.
+
+In order to tune an unbiased variance estimator, we simply apply *Bessel’s correction* that makes the expected value of estimator to be aligned with the true population variance.
+
+![1]({{ site.url }}/assets/posts/variance/s@2x.png)
+
+There you have it. We define ***s²*** in a way such that it is an ***unbiased sample variance***. The ***(n-1)*** denominator arises from Bessel’s correction, which is resulted from the ***1/n*** probability of sampling the same sample (with replacement) in two consecutive trials.
+
+As the number of samples increases to infinity ***n→∞***, the bias goes away ***(n-1)/n→1***, since the probability of sampling the same sample in two trials tends to ***0***.
+
+Thank you for reading!
