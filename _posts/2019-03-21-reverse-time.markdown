@@ -25,7 +25,9 @@ It is claimed that the ***second law of thermodynamics can be violated, irrevers
 # So... What is Happening?
 
 Are we able to reverse time? **Kind of**.
-Are we one step closer to a time machine? **Not really**.
+
+Are we one step closer to a time machine? **Not really**\*.
+
 Did they violate any physics that we think we know of? **Nah**.
 
 Scientists are now able to ‘simulate’ the previous state correctly given the current state 85% of the time in a two-qubit quantum computer, and only 50% in a three-qubit setting. Let’s be clear, **that is by no means a violation of the second law of thermodynamics or any physics.** We all could play a video backward and we would have ‘reversed time’, without violating any physics of course. In general, you could theoretically simulate any reversible process backward in time.
@@ -52,4 +54,4 @@ Most of the headlines and buzzwords probably don’t do justice to the findings,
 
 >It is not the media’s job to tell the truth. They are a business, just like any other business, and their job is to make money. — Jay Foreman
 
-Are we one step closer to a time machine? Assuming it does exist in the future, we are technically getting closer to that time. ***Time moves forward.***
+\*Are we one step closer to a time machine? Assuming it does exist in the future, we are technically getting closer to that time. ***Time moves forward.***
