@@ -50,3 +50,49 @@ The unbiased estimator’s **expected value** is equal to the true value of the 
 Given a large Gaussian population distribution with an **unknown** population mean ***μ*** and population variance ***σ²***, we draw ***n*** i.i.d. samples from the population, such that for each sample ***x_i*** from a set ***X***,
 
 ![1]({{ site.url }}/assets/posts/variance/true@2x.png)
+
+While the expected value of ***x_i*** is ***μ***, the expected value of ***x_i²*** is more than ***μ²***. It is because of the non-linear mapping of square function, where the increment of larger numbers is larger than that of smaller numbers. For instance, set (1,2,3,4,5) has mean 3 and variance 2. By squaring every element, we get (1,4,9,16,25) with mean 11=3²+2. **We need this property at a later stage.**
+
+## Estimators
+Since we do not know the true population properties, we can try our best to define estimators of those properties from the sample set using a similar construction.
+
+Let’s put a hat (***^***) on ***μ*** and ***σ²*** and call them ‘pseudo-’ mean and variance, and we define it in the following manner:
+
+![1]({{ site.url }}/assets/posts/variance/pseudo@2x.png)
+
+The definitions are a bit arbitrary. You can, in theory, define them in much fancier ways and test them, but let’s try the most straightforward ones. We define pseudo-mean ***^μ*** as the average of all samples ***X***. It feels like this is the best that we can do. A quick check on the pseudo-mean suggested that it is an **unbiased population mean estimator**:
+
+![1]({{ site.url }}/assets/posts/variance/mean_est@2x.png)
+
+Easy. Nevertheless, true sample variance depends on the population mean ***μ***, which is unknown. We, therefore, substitute it with pseudo-mean ***^μ*** as shown above, such that pseudo-variance is dependent on pseudo-mean instead.
+
+<div class="breaker"></div> <a id="1"></a>
+
+# 1. Degree of Freedom
+Assume we have a fair dice, but no one knows it is fair, except Jason. He knows the population mean ***μ*** (3.5 pts). Poor William begs for getting the statistical property, but Jason won’t budge. William has to make estimations by sampling, i.e. rolling the dice as many times as he can. He gets tired after rolling it three times, and he got 1 and 3 pts in the first two trials.
+
+Given the true population mean ***μ*** (3.5 pts), you would still have no idea what the third roll was. However, if you knew the sample mean ***^μ*** was 3.33 pts, you would be certain that the third roll was 6, since (1+3+6)/3=3.33 — quick maths.
+
+In other words, the sample mean encapsulates exactly one bit of information from the sample set, while the population mean does not. Thus, the sample mean gives ***one less degree of freedom*** to the sample set.
+
+This is the reasons that we were usually told, but this is not a robust and complete proof of why we have to replace the denominator by ***(n-1)***.
+
+<div class="breaker"></div> <a id="2"></a>
+
+# 2. Source of Bias
+Using the same dice example. Jason knows the true mean ***μ***, thus he can calculate the population variance using true population mean (3.5 pts) and gets a true variance of 4.25 pts². William has to take pseudo-mean ***^μ*** (3.33 pts in this case) in calculating the pseudo-variance (a variance estimator we defined), which is 4.22 pts².
+
+In fact, pseudo-variance always ***underestimates*** the true sample variance (unless sample mean coincides with the population mean), as pseudo-mean is the ***minimizer*** of the pseudo-variance function as shown below.
+
+![1]({{ site.url }}/assets/posts/variance/argmin@2x.png)
+
+You can check this statement by the first derivative test, or by inspection based on the convexity of the function.
+
+This suggests that **the usage of pseudo-mean generates bias**. However, this does not give us the value of bias.
+
+<div class="breaker"></div> <a id="3"></a>
+
+# 3. Bessel’s Correction
+Our sole goal is to investigate how biased this variance estimator ***^μ*** is. We expect that pseudo-variance is a biased estimator, as it **underestimates** true variance all the time as mentioned earlier. By checking the expected value of our pseudo-variance, we discover that:
+
+![1]({{ site.url }}/assets/posts/variance/proof@2x.png)
