@@ -1,7 +1,7 @@
 ---
 title: "️➖ Why Sample Variance is Divided by n-1"
 layout: post
-date: 2019-02-18 23:00
+date: 2019-02-21 23:00
 published: true
 headerImage: false
 tag:
