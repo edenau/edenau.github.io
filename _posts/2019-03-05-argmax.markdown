@@ -1,0 +1,76 @@
+---
+title: "️🎩 There is No Argmax Function for Python List"
+layout: post
+date: 2019-03-05 23:00
+published: true
+headerImage: false
+tag:
+- Python
+category: blog
+author: edenau
+description: "And three ways to fix it"
+# jemoji: '<img class="emoji" title=":open_file_folder:" alt=":open_file_folder:" src="https://assets.github.com/images/icons/emoji/unicode/1f5c2.png" height="20" width="20" align="absmiddle">'
+---
+
+***This post is now available on <a href="https://towardsdatascience.com/there-is-no-argmax-function-for-python-list-cd0659b05e49" target="_blank">Towards Data Science — Medium</a>. Check it out!***
+
+## Dear Python programmers,
+
+Given a Python list `l = [50, 99, 67, 99, 48]`, how do you find the ***argmax*** of the list? Turns out there is no built-in ***argmax*** function for Python list! You can’t just do `argmax(l)` or `max(l).index`. The first thing I can think of is to convert the list to a *numpy* array, or *pandas* DataFrame, or even *Tensorflow* tensor if you believe it is okay to overkill:
+
+```
+import numpy as np
+l_np = np.asarray(l)
+print(l_np.argmax())
+
+import pandas as pd
+l_pd = pd.DataFrame({'l': l})
+print(l_pd.idxmax())
+
+import tensorflow as tf
+l_tf = tf.constant(l)
+with tf.Session() as sess:
+    print(sess.run(tf.argmax(l_tf)))
+```
+
+They all return `1`, as they should be. If multiple items are maximal, the function returns the first one encountered. But it feels like cheating transforming an object to another data type, and it also requires more execution time. Here are several ways to fix it:
+
+<div class="breaker"></div> <a id="1"></a>
+
+# 1. Traditional C logic
+Construct a for-loop and check every single element manually, and it works perfectly well. However, it is composed of multiple lines of codes that are not very readable. It also requires slightly more computation time compared to the alternatives discussed below.
+
+```
+index, max_val = -1, -1
+for i in range(len(l)):
+    if l[i] > max_val:
+        index, max_val = i, l[i]
+print(index)
+```
+
+<div class="breaker"></div> <a id="2"></a>
+
+# 2. Enumerate with counter
+We can leverage the built-in counter of `enumerate` function in Python. Note that `max((x,i) for i,x in enumerate(l))[1]` returns the index of **last** maximal item, but it can be fixed by
+
+```
+-max((x,-i) for i,x in enumerate(l))[1]
+```
+
+But this is by no means readable. We can also mimic the `enumerate` function by using `zip` and make it more readable:
+
+```
+max(zip(l, range(len(l))))[1]
+```
+
+<div class="breaker"></div> <a id="3"></a>
+
+# 3. Change key
+This is perhaps the most readable hack. It turns out that we can still use the default `max` function. But instead of passing the list as an argument, we pass the list of indexes as the argument, and also a function as ‘key’. That function maps indexes to their corresponding elements in the list.
+
+```
+f = lambda i: l[i]
+max(range(len(l)), key=f)
+```
+
+There you go, three ways to perform `argmax` on Python list.
