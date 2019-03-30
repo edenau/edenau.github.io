@@ -28,20 +28,25 @@ If you are reading this article, I assume you have encountered the formula of sa
 ## Terminology
 
 *Population*: a set that contains **ALL** members of a group
+
 *Sample*: a set that contains **some** members of a population (technically a multi-subset of a population)
 
-Independent and identically distributed (i.i.d.) random variables:
-An assumption that all samples (a) are mutually independent, and (b) have the same probability distribution.
+*Independent and identically distributed (i.i.d.) random variables*:
+An assumption that all samples (a) are **mutually independent**, and (b) have the same probability distribution.
 
-Central limit theorem:
-The sampling distribution of i.i.d. random variables tend toward a normal (Gaussian) distribution when the sample size is large enough.
+*Central limit theorem*:
+The sampling distribution of i.i.d. random variables tend toward a **normal (Gaussian) distribution** when the sample size is large enough.
 
-Expected value:
-Long-run average value of repetitions of the same experiment.
+*Expected value*:
+**Long-run average value** of repetitions of the same experiment.
 
-Unbiased estimator:
-The unbiased estimator’s expected value is equal to the true value of the parameter being estimated. In other words, the distributions of unbiased estimators are centred at the correct value.
-
-
+*Unbiased estimator*:
+The unbiased estimator’s **expected value** is equal to the true value of the parameter being estimated. In other words, the distributions of unbiased estimators are centred at the correct value.
 
 <div class="breaker"></div> <a id="settings"></a>
+
+# Settings
+
+Given a large Gaussian population distribution with an **unknown** population mean ***μ*** and population variance ***σ²***, we draw ***n*** i.i.d. samples from the population, such that for each sample ***x_i*** from a set ***X***,
+
+![1]({{ site.url }}/assets/posts/variance/true@2x.png)
