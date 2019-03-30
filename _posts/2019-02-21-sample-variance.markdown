@@ -5,7 +5,7 @@ date: 2019-02-21 23:00
 published: true
 headerImage: false
 tag:
-- Statistics
+- statistics
 category: blog
 author: edenau
 description: "Explaining high school statistics that your teachers didn’t teach
