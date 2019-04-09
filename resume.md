@@ -47,6 +47,8 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
   </li>
 </ul>
 </p>
+
+
 <h4>Experience in Data Science</h4>
 <p>
 I am an adaptable professional that embraces teamwork, but also enjoys working independently.
@@ -65,6 +67,18 @@ I am an adaptable professional that embraces teamwork, but also enjoys working i
   </li>
 </ul>
 </p>
+
+
+<h4>Experience in Leadership</h4>
+<p>
+<ul>
+  <li>
+    2015 - 2016: <b>Vice President, <i>Oxford University Hong Kong Society</i>.</b>
+  </li>
+</ul>
+</p>
+
+
 <h4>Experience in Teaching</h4>
 <p>
 I love teaching and helping people.
