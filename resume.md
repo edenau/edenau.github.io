@@ -73,16 +73,16 @@ I am an adaptable professional that embraces teamwork, but also enjoys working i
 <p>
 <ul>
   <li>
-    2019 - present: <b>Vice President, <i>Edinburgh University Hong Kong Public Affairs and Social Service Society</i>.</b>
+    2019 - present: <b>Vice President, <i>Edinburgh University Hong Kong Public Affairs and Social Service Society</i>.</b> Promoting students' public affairs awareness and providing assistance to the underprivileged through social service activities.
     </li>
   <li>
-    2016 - 2018: <b>Founding Member, <i>Oxford University Coding Society</i>.</b>
+    2016 - 2018: <b>Founding Member, <i>Oxford University Coding Society</i>.</b> Provided an opportunity for Oxford students to learn how to code, and assisted in the provision of coding class materials.
   </li>
   <li>
-    2016: <b>Leading Researcher, <i>OxPolicy: The Oxford Think Tank</i>.</b>
+    2016: <b>Leading Researcher, <i>OxPolicy: The Oxford Think Tank</i>.</b> Led a team to investigate racial bullying issues in the UK.
   </li>
   <li>
-    2015 - 2016: <b>Vice President, <i>Oxford University Hong Kong Society</i>.</b>
+    2015 - 2016: <b>Vice President, <i>Oxford University Hong Kong Society</i>.</b> Represented the interests and welfare of Hong Kong students.
   </li>
 </ul>
 </p>
