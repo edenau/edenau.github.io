@@ -71,6 +71,7 @@ I am an adaptable professional that embraces teamwork, but also enjoys working i
 
 <h4>Experience in Leadership</h4>
 <p>
+I am able to motivate colleagues and maintain morale and workplace harmony.
 <ul>
   <li>
     2019 - present: <b>Vice President, <i>Edinburgh University Hong Kong Public Affairs and Social Service Society</i>.</b> Promoting students' public affairs awareness and providing assistance to the underprivileged through social service activities.
