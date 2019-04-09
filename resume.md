@@ -69,26 +69,6 @@ I am an adaptable professional that embraces teamwork, but also enjoys working i
 </p>
 
 
-<h4>Extracurricular Activities</h4>
-<p>
-I am able to motivate colleagues and maintain morale and workplace harmony.
-<ul>
-  <li>
-    2019 - present: <b>Vice President, <i>Edinburgh University Hong Kong Public Affairs and Social Service Society</i>.</b> Promoting students' public affairs awareness and providing assistance to the underprivileged through social service activities.
-    </li>
-  <li>
-    2016 - 2018: <b>Founding Member, <i>Oxford University Coding Society</i>.</b> Provided an opportunity for Oxford students to learn how to code, and assisted in the provision of coding class materials.
-  </li>
-  <li>
-    2016: <b>Leading Researcher, <i>OxPolicy: The Oxford Think Tank</i>.</b> Investigated racial bullying issues in the UK.
-  </li>
-  <li>
-    2015 - 2016: <b>Vice President, <i>Oxford University Hong Kong Society</i>.</b> Represented the interests and welfare of Hong Kong students.
-  </li>
-</ul>
-</p>
-
-
 <h4>Experience in Teaching</h4>
 <p>
 I love teaching and helping people.
@@ -101,6 +81,8 @@ I love teaching and helping people.
   </li>
 </ul>
 </p>
+
+
 <h4>Scholarships</h4>
 <p>
 During my undergraduate years, I was fully funded by Swire, and also funded by both college and department for my excellent academic performance. I am now fully funded by NERC and the Met Office UK.
@@ -119,6 +101,8 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
   </li>
 </ul>
 </p>
+
+
 <h4>Projects</h4>
 <p>
 I am experienced in developing data-driven solutions and engineering designs. My codes are available on <a href="https://github.com/edenau" target="_blank">GitHub</a>.
@@ -146,6 +130,27 @@ I am experienced in developing data-driven solutions and engineering designs. My
   </li>
 </ul>
 </p>
+
+<h4>Extracurricular Activities</h4>
+<p>
+I am able to motivate colleagues and maintain morale and workplace harmony.
+<ul>
+  <li>
+    2019 – present: <b>Vice President, <i>Edinburgh University Hong Kong Public Affairs and Social Service Society</i>.</b> Promoting students' public affairs awareness and providing assistance to the underprivileged through social service activities.
+    </li>
+  <li>
+    2016 – 2018: <b>Founding Member, <i>Oxford University Coding Society</i>.</b> Provided an opportunity for Oxford students to learn how to code, and assisted in the provision of coding class materials.
+  </li>
+  <li>
+    2016: <b>Researcher, <i>OxPolicy: The Oxford Think Tank</i>.</b> Investigated racial bullying issues in the UK.
+  </li>
+  <li>
+    2015 – 2016: <b>Vice President, <i>Oxford University Hong Kong Society</i>.</b> Represented the interests and welfare of Hong Kong students.
+  </li>
+</ul>
+</p>
+
+
 <h4>Skills</h4>
 <p>
 I am a fast learner and I am interested in learning new programming and natural languages. I give speeches and love writing.
