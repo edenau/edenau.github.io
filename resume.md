@@ -156,7 +156,7 @@ I am able to motivate colleagues and maintain morale and workplace harmony.
 I am a fast learner and I am interested in learning new programming and natural languages. I give speeches and love writing.
 <ul>
   <li>
-    Programming languages: <b>Python, MATLAB, C, C++, Java, Pascal, Prolog, LaTeX</b>
+    Programming languages: <b>Python, MATLAB, C, C++, Java, Pascal, LaTeX</b>
   </li>
   <li>
     Technologies: <b>Git, Tableau, SolidWorks, GIS</b>
