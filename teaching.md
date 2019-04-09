@@ -37,6 +37,4 @@ title: Teaching
 }
 </style>
 
-<center>
 <a class="button" href="/assets/docs/ml_in_climate.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  Presentation</span></a>
-</center>
