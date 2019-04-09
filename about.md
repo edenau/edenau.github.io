@@ -33,7 +33,7 @@ I am also a writer on <a href="https://medium.com/@edenau" target="_blank">Towar
 <a href="{{ site.url }}/assets/images/hawking.jpeg" target="_blank">Stephen Hawking visited me.</a>
 
 <h4>Office</h4>
-Room 4, Crew Annexe, King's Buildings, Alexander Crum Brown Road, Edinburgh EH9 3FF, United Kingdom
+Room 6, Crew Annexe, King's Buildings, Alexander Crum Brown Road, Edinburgh EH9 3FF, United Kingdom
 
 <br>
 <center>
