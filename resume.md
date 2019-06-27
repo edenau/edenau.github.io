@@ -33,7 +33,7 @@ title: Resume
 <a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF version</span></a>
 </center>
 
-<i>Last updated on 9 April 2019.</i>
+<i>Last updated on 27 June 2019.</i>
 
 <h4>Education</h4>
 <p>
@@ -54,13 +54,17 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
 I am an adaptable professional that embraces teamwork, but also enjoys working independently.
 <ul>
   <li>
+    2019 – present: <b>Research Assistant, <i>Lawrence Berkeley National Laboratory</i>.</b> Developing generative deep learning models for super-resolution of clouds.
+
+  </li>
+  <li>
     2019 – present: <b>Co-founder, <i>Taro Studio</i>.</b> Designing a next-gen <a href="https://itunes.apple.com/gb/app/taro-weather/id1451553639" target="_blank">weather app</a> that understands personalized environmental perception using machine learning.
   </li>
   <li>
-    2019: <b>Data Scientist, <i>Royal Botanic Garden Edinburgh</i>.</b> Analyzing spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
+    2019: <b>Data Scientist, <i>Royal Botanic Garden Edinburgh</i>.</b> Analyzed spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
   </li>
   <li>
-    2018 – present: <b>Software Engineer, <i>HYPED</i>.</b> Designing a pod navigation system using Kalman filter for Hyperloop, a revolutionary mode of transport.
+    2018 – 2019: <b>Software Engineer, <i>HYPED</i>.</b> Designed a pod navigation system using Kalman filter for Hyperloop, a revolutionary mode of transport.
   </li>
   <li>
     2018: <b>Associate Digital Consultant, <i>Oxford Strategy Group Digital</i>.</b> Provided digital consultancy service for international clients in the first student-led digital consultancy in the UK.
