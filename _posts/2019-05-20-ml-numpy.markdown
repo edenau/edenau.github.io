@@ -35,7 +35,7 @@ Step one. Import NumPy. Seriously.
 
 # 2. Data Generation
 
-Deep learning is data-hungry. Although there are many clean datasets available online, we will generate our own for simplicity — for inputs **a** and **b**, we have outputs **a+b**, **a-b**, and **|a-b|**. 10,000 datum points are generated.
+Deep learning is data-hungry. Although there are many clean datasets available online, we will generate our own for simplicity — for inputs **a** and **b**, we have outputs **a+b**, **a-b**, and **\|a-b\|**. 10,000 datum points are generated.
 
 {% gist d375786fd1452841e01820d2bdffae6c %}
 
@@ -60,11 +60,13 @@ We have now completed the data pre-processing procedures in ***4 steps***.
 
 # 5. Neural Net Construction
 
-We objectify a ‘layer’ using class in Python. Every layer (except the input layer) has a weight matrix W, a bias vector b, and an activation function. Each layer is appended to a list called neural_net. That list would then be a representation of your fully connected neural network.
+We objectify a ‘layer’ using class in Python. Every layer (except the input layer) has a weight matrix **W**, a bias vector ***b***, and an activation function. Each layer is appended to a list called neural_net. That list would then be a representation of your fully connected neural network.
 
 {% gist 8d338a1c4e631f5d80960fe695dd7ca4 %}
 
 Finally, we do a sanity check on the number of hyperparameters using the following formula, and by counting. The number of datums available should exceed the number of hyperparameters, otherwise it will definitely overfit.
+
+![1]({{ site.url }}/assets/posts/ml-numpy/nn-hp@2x.png)
 
 <div class="breaker"></div> <a id="3"></a>
 
