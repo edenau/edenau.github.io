@@ -1,0 +1,74 @@
+---
+title: "️💡 Machine Learning in Python NumPy: Neural Network in 9 Steps"
+layout: post
+date: 2019-05-20 23:00
+published: true
+headerImage: false
+tag:
+- DataScience
+- MachineLearning
+- DeepLearning
+- Python
+category: blog
+author: edenau
+description: "Understanding neural networks by coding"
+# jemoji: '<img class="emoji" title=":open_file_folder:" alt=":open_file_folder:" src="https://assets.github.com/images/icons/emoji/unicode/1f5c2.png" height="20" width="20" align="absmiddle">'
+---
+
+***This post is now available on <a href="https://towardsdatascience.com/machine-learning-in-python-numpy-neural-network-in-9-steps-eafd0db25906" target="_blank">Towards Data Science — Medium</a>. Check it out!***
+
+***Source code is now available on <a href="https://github.com/edenau/ML-in-NumPy/blob/master/neural-net.ipynb" target="_blank">Github</a>. Check it out!***
+
+# Motivation
+
+If you are a **junior data scientist** who sort of understands how neural nets work, or a **machine learning enthusiast** who only knows a little about deep learning, this is the article that you cannot miss. Here is how you can build a neural net from scratch using NumPy in ***9 steps*** — from data pre-processing to back-propagation — a must-do practice.
+
+Basic understanding of machine learning, artificial neural network, Python syntax, and programming logic is preferred (but not necessary as you can learn on the go).
+
+<div class="breaker"></div> <a id="1"></a>
+
+# Initialization
+
+Step one. Import NumPy. Seriously.
+
+{% gist b68b9803d38b691ab90680975b9bee24 %}
+
+<div class="breaker"></div> <a id="2"></a>
+
+# Life without phones
+
+Still able to access my Google calendar on my laptop, I realised that I had multiple appointments on the next day. I needed to 1) head to HSBC to sort out some account issues, 2) go to Carphone Warehouse to buy a new phone, 3) attend a meeting at the Royal Botanic Garden Edinburgh where I had not been to, and 4) do grocery shopping.
+
+The plan was to walk to every checkpoint and take a bus route 8 (as shown) from the Botanic Garden to the Tesco near my home. Having no Google Maps or any physical folded alternatives, I decided to draw a map myself. I would then have to trust my instinct and my drawings to head to the Botanic Garden (indicated as 20a).
+
+![Trying to draw a map]({{ site.url }}/assets/posts/phoneless/map_drawing.jpeg)
+
+I own no coins. They are clumsy and useless. I have always used mobile tickets for buses in Edinburgh. Losing access to my phone means that I would need some coins so as to take a bus ride. This could be done while I was at the bank. Great.
+
+For the first time since primary school, I walked on the street without carrying a phone. The front left pocket of my pants was empty, like a fish out of water. I was walking down the hill (the Pleasance) alone without listening to music or podcast or anything.
+
+I paid attention to my surroundings. I observed strangers on the streets. I reflected my weekend times with my friend, the work I had completed, the accomplishments I had achieved, and the people I had met. I thought about the immediate future (i.e. me having a new phone); I dreamed about my life five years ahead — Buying a car, buying a house, having kids, shaping a better world; I visualized different versions of the future — no deal Brexit, third World War, cashless world, Jerusalem, Mars, AI dystopia, having my ashes buried in serenity in outer space.
+
+I did not miss a single intersection. I was early for my appointment. I felt less burden and more freedom to think, to overthink, to dream. No more hassle from WhatsApp. No more temptation from Facebook.
+
+<div class="breaker"></div> <a id="3"></a>
+
+# Life with phones
+
+Life with phones is all about replying to emails, messages, posts, comments, stories etc.. You always feel like you are lagging behind whilst the Earth keeps spinning (this part is true). You are going to miss a party invitation, or a job offer, or a piece of breaking news. Nothing pops up. Clack. You unlock your phone — maybe the data was off, let’s be sure.
+
+I have come to accept the fact that I am always lagging behind. It is impossible to get up to speed. I might as well pause a little when necessary. Anxiety fades away. The world stops rotating for a while. No more music. No more noise. (Music is noise.)
+
+>>Phonelessness is a pause button in life.
+
+I did not activate my new phone until late evening when I finally had time to do so. I enjoyed my 24-hour phoneless experience. Whenever I feel like I have had enough, I turn off data (no one would call me anyway). I wish I could really go phoneless for a day, or a week.
+
+I am going to a not-so-remote island next month for two weeks, and I aim to practice phonelessness willingly for the first time. Stay tuned.
+
+
+
+<div class="breaker"></div> <a id="4"></a>
+
+# About Me
+
+Thanks for reading. I am an Edinburgh-based PhD student/data scientist. ***I write to find out what I think.***
