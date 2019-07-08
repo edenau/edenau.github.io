@@ -27,29 +27,44 @@ Basic understanding of machine learning, artificial neural network, Python synta
 
 <div class="breaker"></div> <a id="1"></a>
 
-# Initialization
+# 1. Initialization
 
 Step one. Import NumPy. Seriously.
 
 {% gist b68b9803d38b691ab90680975b9bee24 %}
 
+# 2. Data Generation
+
+Deep learning is data-hungry. Although there are many clean datasets available online, we will generate our own for simplicity — for inputs **a** and **b**, we have outputs **a+b**, **a-b**, and **|a-b|**. 10,000 datum points are generated.
+
+{% gist d375786fd1452841e01820d2bdffae6c %}
+
+
+# 3. Train-test Splitting
+
+Our dataset is split into training (70%) and testing (30%) set. Only training set is leveraged for tuning neural networks. Testing set is used only for performance evaluation when the training is complete.
+
+{% gist 95fa2ebc761b5a2ce3b5bc6389eec9d9 %}
+
+# 4. Data Standardization
+
+Data in the training set is standardized so that the distribution for each standardized feature is zero-mean and unit-variance. The scalers generated from the abovementioned procedure can then be applied to the testing set.
+
+{% gist 81693265394ce40090d5bb037d9a009a %}
+
+The scaler therefore does not contain any information from our testing set. We do not want our neural net to gain any information regarding testing set before network tuning.
+
+We have now completed the data pre-processing procedures in ***4 steps***.
+
 <div class="breaker"></div> <a id="2"></a>
 
-# Life without phones
+# 5. Neural Net Construction
 
-Still able to access my Google calendar on my laptop, I realised that I had multiple appointments on the next day. I needed to 1) head to HSBC to sort out some account issues, 2) go to Carphone Warehouse to buy a new phone, 3) attend a meeting at the Royal Botanic Garden Edinburgh where I had not been to, and 4) do grocery shopping.
+We objectify a ‘layer’ using class in Python. Every layer (except the input layer) has a weight matrix W, a bias vector b, and an activation function. Each layer is appended to a list called neural_net. That list would then be a representation of your fully connected neural network.
 
-The plan was to walk to every checkpoint and take a bus route 8 (as shown) from the Botanic Garden to the Tesco near my home. Having no Google Maps or any physical folded alternatives, I decided to draw a map myself. I would then have to trust my instinct and my drawings to head to the Botanic Garden (indicated as 20a).
+{% gist 8d338a1c4e631f5d80960fe695dd7ca4 %}
 
-![Trying to draw a map]({{ site.url }}/assets/posts/phoneless/map_drawing.jpeg)
-
-I own no coins. They are clumsy and useless. I have always used mobile tickets for buses in Edinburgh. Losing access to my phone means that I would need some coins so as to take a bus ride. This could be done while I was at the bank. Great.
-
-For the first time since primary school, I walked on the street without carrying a phone. The front left pocket of my pants was empty, like a fish out of water. I was walking down the hill (the Pleasance) alone without listening to music or podcast or anything.
-
-I paid attention to my surroundings. I observed strangers on the streets. I reflected my weekend times with my friend, the work I had completed, the accomplishments I had achieved, and the people I had met. I thought about the immediate future (i.e. me having a new phone); I dreamed about my life five years ahead — Buying a car, buying a house, having kids, shaping a better world; I visualized different versions of the future — no deal Brexit, third World War, cashless world, Jerusalem, Mars, AI dystopia, having my ashes buried in serenity in outer space.
-
-I did not miss a single intersection. I was early for my appointment. I felt less burden and more freedom to think, to overthink, to dream. No more hassle from WhatsApp. No more temptation from Facebook.
+Finally, we do a sanity check on the number of hyperparameters using the following formula, and by counting. The number of datums available should exceed the number of hyperparameters, otherwise it will definitely overfit.
 
 <div class="breaker"></div> <a id="3"></a>
 
