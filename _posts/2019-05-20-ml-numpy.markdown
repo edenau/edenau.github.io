@@ -67,25 +67,65 @@ We objectify a ‘layer’ using class in Python. Every layer (except the input 
 Finally, we do a sanity check on the number of hyperparameters using the following formula, and by counting. The number of datums available should exceed the number of hyperparameters, otherwise it will definitely overfit.
 
 ![1]({{ site.url }}/assets/posts/ml-numpy/nn-hp@2x.png)
+N^l is number of hyperparameters at l-th layer, L is number of layers (excluding input layer)
+
+# 6. Forward Propagation
+
+We define a function for forward propagation given a certain set of weights and biases. The connection between layers is defined in matrix form as:
+
+![2]({{ site.url }}/assets/posts/ml-numpy/forward_prop@2x.png)
+σ is element-wise activation function, superscript T means transpose of a matrix
+
+{% gist 00ad12e1bc45db76c3e67d0e9ab69d15 %}
+
+Activation functions are defined one by one. ReLU is implemented as ***a → max(a,0)***, whereas sigmoid function should return ***a → 1/(1+e^(-a))***, and its implementation is left as an exercise to the reader.
+
+# 7. Back-propagation
+
+This is the most tricky part where many of us simply do not understand. Once we have defined a loss metric *e* for evaluating performance, we would like to know how the loss metric change when we perturb each weight or bias.
+
+>We want to know how sensitive each weight and bias is with respect to the loss metric.
+
+This is represented by partial derivatives **∂e/∂W** (denoted dW in code) and **∂e/∂b** (denoted db in code) respectively, and can be calculated analytically.
+
+![3]({{ site.url }}/assets/posts/ml-numpy/dz@2x.png)
+⊙ represents element-wise multiplication
+
+![4]({{ site.url }}/assets/posts/ml-numpy/dW@2x.png)
+
+![5]({{ site.url }}/assets/posts/ml-numpy/db@2x.png)
+
+These back-propagation equations assume only one datum y is compared. The gradient update process would be very noisy as the performance of each iteration is subject to one datum point only. Multiple datums can be used to reduce the noise where **∂W(y_1, y_2, …)** would be the mean of **∂W(y_1)**, **∂W(y_2)**, **…**, and likewise for **∂b**. This is not shown above in those equations, but is implemented in the code below.
+
+{% gist 375003e850a2f53241547c75a8ce1a40 %}
 
 <div class="breaker"></div> <a id="3"></a>
 
-# Life with phones
+# 8. Iterative Optimization
 
-Life with phones is all about replying to emails, messages, posts, comments, stories etc.. You always feel like you are lagging behind whilst the Earth keeps spinning (this part is true). You are going to miss a party invitation, or a job offer, or a piece of breaking news. Nothing pops up. Clack. You unlock your phone — maybe the data was off, let’s be sure.
+We now have every building block for training a neural network.
 
-I have come to accept the fact that I am always lagging behind. It is impossible to get up to speed. I might as well pause a little when necessary. Anxiety fades away. The world stops rotating for a while. No more music. No more noise. (Music is noise.)
+Once we know the sensitivities of weights and biases, we try to ***minimize*** (hence the minus sign) the loss metric iteratively by gradient descent using the following update rule:
 
->>Phonelessness is a pause button in life.
+```
+W = W - learning_rate * ∂W
+b = b - learning_rate * ∂b
+```
 
-I did not activate my new phone until late evening when I finally had time to do so. I enjoyed my 24-hour phoneless experience. Whenever I feel like I have had enough, I turn off data (no one would call me anyway). I wish I could really go phoneless for a day, or a week.
+{% gist f2fedaee8478d073b972f218f91ffc81 %}
+Training loss should be going down as it iterates
 
-I am going to a not-so-remote island next month for two weeks, and I aim to practice phonelessness willingly for the first time. Stay tuned.
+# 9. Testing
 
+The model generalizes well if the testing loss is not much higher than the training loss. We also make some test cases to see how the model performs.
+
+{% gist 6d92f4a4be3d4a7af6f36d6a4d19f0c3 %}
 
 
 <div class="breaker"></div> <a id="4"></a>
 
-# About Me
+# The Takeaway
 
-Thanks for reading. I am an Edinburgh-based PhD student/data scientist. ***I write to find out what I think.***
+This is how you can build a neural net from scratch using NumPy in ***9 steps***. Some of you might have already built neural nets using some high-level frameworks such as TensorFlow, PyTorch, or Keras. However, building a neural net using only low-level libraries enable us to truly understand the mathematics behind the mystery.
+
+My implementation by no means is the most efficient way to build and train a neural net. There is so much room for improvement but that is a story for another day. Happy coding!
