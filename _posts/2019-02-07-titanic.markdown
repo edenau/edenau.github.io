@@ -8,6 +8,7 @@ tag:
 - Python
 - DataScience
 - Kaggle
+- MachineLearning
 category: blog
 author: edenau
 description: "The journey on the unsinkable — what AI can learn from the disaster"
