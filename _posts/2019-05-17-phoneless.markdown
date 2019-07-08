@@ -67,6 +67,4 @@ I am going to a not-so-remote island next month for two weeks, and I aim to prac
 
 # About Me
 
->>There is only one truth, but there are infinite interpretations of the truth.
-
 Thanks for reading. I am an Edinburgh-based PhD student/data scientist. ***I write to find out what I think.***
