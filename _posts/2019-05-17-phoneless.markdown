@@ -1,5 +1,5 @@
 ---
-title: "️📵 I Went Phoneless After My Phone Had Died'"
+title: "️📵 I Went Phoneless After My Phone Had Died"
 layout: post
 date: 2019-05-17 23:00
 published: true
