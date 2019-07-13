@@ -1,5 +1,5 @@
 ---
-title: "️💡 Machine Learning in Python NumPy: Neural Network in 9 Steps"
+title: "️💡 Machine Learning in Python NumPy (Part 1): Neural Network in 9 Steps"
 layout: post
 date: 2019-05-20 23:00
 published: true
