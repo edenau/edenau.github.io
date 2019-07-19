@@ -181,7 +181,7 @@ I am a fast learner and I am interested in learning new programming and natural 
     Public speaking: gave talks about Project Access, machine learning etc. (see below)
   </li>
   <li>
-    Extracurricular: <b>Hass.io, neo-classical music, (association) football</b>
+    Extracurricular: Hass.io, neo-classical music, (association) football
   </li>
 </ul>
 </p>
