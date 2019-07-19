@@ -33,7 +33,7 @@ title: Resume
 <a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF version</span></a>
 </center>
 
-<i>Last updated on 8 July 2019.</i>
+<i>Last updated on 19 July 2019.</i>
 
 <h4>Education</h4>
 <p>
@@ -54,7 +54,7 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
 I am an adaptable professional that embraces teamwork, but also enjoys working independently.
 <ul>
   <li>
-    2019 – present: <b>Research Assistant, <i>Lawrence Berkeley National Laboratory</i>.</b> Developing generative deep learning models for super-resolution of clouds.
+    2019 – present: <b>Research Assistant, <i>Lawrence Berkeley National Laboratory</i>.</b> Developing generative deep learning models for super-resolution of cloud resolving models.
 
   </li>
   <li>
@@ -112,7 +112,10 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
 I am experienced in developing data-driven solutions and engineering designs. My codes are available on <a href="https://github.com/edenau" target="_blank">GitHub</a>.
 <ul>
   <li>
-    <b>Deep learning - <i>TensorFlow</i></b>: PhD project, analyzing spatio-temporal climate data by supervised learning.
+    <b>Generative adversarial network</b>: developing SRGAN in enhancing spatial resolution of cloud resolving model outputs.
+  </li>
+  <li>
+    <b>Deep learning</b>: PhD project, analyzing spatio-temporal climate data by supervised learning.
   </li>
   <li>
     <b><a href="{{ site.url }}/visualize-bike-mobility">Data visualization</a></b>: visualized bike sharing systems using interactive maps and animations.
@@ -160,10 +163,13 @@ I am able to motivate colleagues and maintain morale and workplace harmony.
 I am a fast learner and I am interested in learning new programming and natural languages. I give speeches and love writing.
 <ul>
   <li>
-    Programming languages: <b>Python, MATLAB, Pascal, Java (Android app), LaTeX</b>
+    Programming languages: <b>Python, MATLAB, Pascal, LaTeX</b>
   </li>
   <li>
-    Technologies: <b>Git, Tableau, SolidWorks, GIS</b>
+    Frameworks: <b>Keras, TensorFlow, Sphinx, Flask</b>
+  </li>
+  <li>
+    Technologies: <b>Git, SolidWorks, Rose-Cylc</b>
   </li>
   <li>
     Natural languages: <b>English, Mandarin, Cantonese, Taiwanese, Spanish</b>
@@ -173,6 +179,9 @@ I am a fast learner and I am interested in learning new programming and natural 
   </li>
   <li>
     Public speaking: gave talks about Project Access, machine learning etc. (see below)
+  </li>
+  <li>
+    Extracurricular: <b>Hass.io, neo-classical music, (association) football</b>
   </li>
 </ul>
 </p>
