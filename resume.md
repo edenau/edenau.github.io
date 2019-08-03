@@ -33,7 +33,7 @@ title: Resume
 <a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF version</span></a>
 </center>
 
-<i>Last updated on 19 July 2019.</i>
+<i>Last updated on 2 August 2019.</i>
 
 <h4>Education</h4>
 <p>
@@ -54,7 +54,7 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
 I am an adaptable professional that embraces teamwork, but also enjoys working independently.
 <ul>
   <li>
-    2019 – present: <b>Research Assistant, <i>Lawrence Berkeley National Laboratory</i>.</b> Developing generative deep learning models for super-resolution of cloud resolving models.
+    2019 – present: <b>Research Fellow, <i>Lawrence Berkeley National Laboratory</i>.</b> Developing generative deep learning models for super-resolution of cloud resolving models.
 
   </li>
   <li>
