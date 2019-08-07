@@ -33,7 +33,7 @@ title: Resume
 <a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF version</span></a>
 </center>
 
-<i>Last updated on 2 August 2019.</i>
+<i>Last updated on 7 August 2019.</i>
 
 <h4>Education</h4>
 <p>
@@ -169,7 +169,7 @@ I am a fast learner and I am interested in learning new programming and natural 
     Frameworks: <b>Keras, TensorFlow, Sphinx, Flask</b>
   </li>
   <li>
-    Technologies: <b>Git, SolidWorks, Rose-Cylc</b>
+    Technologies: <b>GitHub, GitBook, FFmpeg, SolidWorks, Rose-Cylc</b>
   </li>
   <li>
     Natural languages: <b>English, Mandarin, Cantonese, Taiwanese, Spanish</b>
