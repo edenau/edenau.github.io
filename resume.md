@@ -54,7 +54,7 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
 I am an adaptable professional that embraces teamwork, but also enjoys working independently.
 <ul>
   <li>
-    2019 – present: <b>Research Fellow, <i>Lawrence Berkeley National Laboratory</i>.</b> Developing generative deep learning models for super-resolution of cloud resolving models.
+    2019: <b>Research Fellow, <i>Lawrence Berkeley National Laboratory</i>.</b> Developed generative deep learning models for super-resolution of cloud resolving models.
 
   </li>
   <li>
@@ -112,7 +112,7 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
 I am experienced in developing data-driven solutions and engineering designs. My codes are available on <a href="https://github.com/edenau" target="_blank">GitHub</a>.
 <ul>
   <li>
-    <b>Generative adversarial network</b>: developing SRGAN in enhancing spatial resolution of cloud resolving model outputs.
+    <b>Super-resolution GAN</b>: leveraged SRGAN in enhancing spatial resolution of cloud resolving model outputs.
   </li>
   <li>
     <b>Deep learning</b>: PhD project, analyzing spatio-temporal climate data by supervised learning.
