@@ -36,7 +36,7 @@ In general, I am interested in a) data science (machine learning, control theory
 
 
 <h4>Office</h4>
-Room 6, Crew Annexe, King's Buildings, Alexander Crum Brown Road, Edinburgh EH9 3FF, United Kingdom
+Crew Attic, King's Buildings, Alexander Crum Brown Road, Edinburgh EH9 3FF, United Kingdom
 
 <br>
 <center>
