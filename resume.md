@@ -166,7 +166,7 @@ I am a fast learner and I am interested in learning new programming and natural 
     Programming languages: <b>Python, MATLAB, Pascal, LaTeX</b>
   </li>
   <li>
-    Frameworks: <b>NumPy, Matplotlib, TensorFlow 2.0, Keras, Sphinx, Flask</b>
+    Frameworks: <b>NumPy, Matplotlib, scikit-learn, TensorFlow 2.0, Keras, Sphinx, Flask</b>
   </li>
   <li>
     Technologies: <b>GitHub, GitBook, FFmpeg, SolidWorks, Rose-Cylc</b>
