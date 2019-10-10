@@ -1,5 +1,5 @@
 ---
-title: "️🏠 Building a Minimal Blockchain in Python"
+title: "️⛓️ Building a Minimal Blockchain in Python"
 layout: post
 date: 2019-07-13 23:00
 published: true
@@ -36,3 +36,7 @@ This is how Google stores your ‘password’ without actually storing your pass
 <div class="breaker"></div> <a id="1"></a>
 
 # A Minimal Block
+
+Let’s make an object class called `MinimalBlock()`. It is initialized by providing an `index`, a `timestamp`, some `data` you want to store, and something called `previous_hash`. The previous hash is the hash (key) of the previous block, and it acts as a pointer such that we know which block is the previous block, and hence how blocks are connected.
+
+{% gist ef9f235e6c5f6267079cd06062ae1270 %}
