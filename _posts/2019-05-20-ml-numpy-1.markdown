@@ -19,6 +19,9 @@ description: "Understanding neural networks by coding"
 
 ***Source code is now available on <a href="https://github.com/edenau/ML-in-NumPy/blob/master/neural-net.ipynb" target="_blank">Github</a>. Check it out!***
 
+
+**Check out <a href="https://edenau.github.io/ml-numpy-2/">Part 2</a> of this series as we try to implement linear regression using NumPy in 3 steps.**
+
 # Motivation
 
 If you are a **junior data scientist** who sort of understands how neural nets work, or a **machine learning enthusiast** who only knows a little about deep learning, this is the article that you cannot miss. Here is how you can build a neural net from scratch using NumPy in ***9 steps*** — from data pre-processing to back-propagation — a must-do practice.
