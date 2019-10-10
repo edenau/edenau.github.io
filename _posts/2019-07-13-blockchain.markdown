@@ -33,10 +33,47 @@ We want a ‘key’ that can represent a block of data. We want a key that is <b
 
 This is how Google stores your ‘password’ without actually storing your password. They store the hash of your password `H(password)` such that they can verify your password by hashing your input and compare. Without going into too much details, we will use SHA-256 algorithm to hash our block.
 
-<div class="breaker"></div> <a id="1"></a>
+<div class="breaker"></div> <a id="2"></a>
 
 # A Minimal Block
 
 Let’s make an object class called `MinimalBlock()`. It is initialized by providing an `index`, a `timestamp`, some `data` you want to store, and something called `previous_hash`. The previous hash is the hash (key) of the previous block, and it acts as a pointer such that we know which block is the previous block, and hence how blocks are connected.
 
 {% gist ef9f235e6c5f6267079cd06062ae1270 %}
+
+In other words, `Block[x]` contains index `x`, a timestamp, some data, and the hash of the previous block x-1 `H(Block[x-1])`. Now that this block is complete, it can be hashed to generate `H(Block[x])` as a pointer in the next block.
+
+<div class="breaker"></div> <a id="3"></a>
+
+# A Minimal Chain
+
+Blockchain is essentially a chain of blocks, and the connection is made by storing the hash of the previous block. Therefore, a chain can be implemented using a Python list, and `blocks[i]` representing the {i}th block.
+
+{% gist b5205a4b850b2c7f59374f34983d2593 %}
+
+When we initialize a chain, we automatically assign a 0th block (also known as Genesis block) to the chain with function `get_genesis_block()`. This block marks the start of your chain. Note that `previous_hash` is arbitrary in the Genesis block. Adding a block can be achieved by calling `add_block()`.
+
+<div class="breaker"></div> <a id="4"></a>
+
+# Data Verification
+
+Data integrity is important to databases, and blockchains provide an easy way to verify all the data. In function `verify()`, we check the following:
+
+- Index in `blocks[i]` is `i`, and hence no missing or extra blocks.
+- Compute block hash `H(blocks[i])` and cross-check with the recorded hash. Even if a single bit in a block is altered, the computed block hash would be entirely different.
+- Verify if `H(blocks[i])` is correctly stored in next block’s `previous_hash`.
+- Check if there is any backdating by looking into the timestamps.
+
+<div class="breaker"></div> <a id="5"></a>
+
+# Forking
+
+In some case you might want to branch out of a chain. This is called forking as demonstrated as `fork()` in the code. You would copy a chain (or root of a chain) and then go separate ways. It is vital to use `deepcopy()` in Python since Python list is mutable.
+
+<div class="breaker"></div> <a id="6"></a>
+
+# The Takeaway
+
+Hashing a block creates a unique identifier of a block, and a block’s hash forms part of the next block to establish a link between blocks. Only the same data would create the same hash.
+
+If you want to amend data in the 3rd block, the hash of the 3rd block is changed and the `previous_hash` in the 4th block needs to change as well. `previous_hash` is part of the 4th block, and hence its hash changes as well, and so on.
