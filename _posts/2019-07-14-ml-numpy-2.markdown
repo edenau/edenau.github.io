@@ -1,0 +1,79 @@
+---
+title: "️📈 Machine Learning in Python NumPy (Part 2): Linear Regression in 3 Steps"
+layout: post
+date: 2019-07-14 23:00
+published: true
+headerImage: false
+tag:
+- DataScience
+- MachineLearning
+- Python
+category: blog
+author: edenau
+description: "Introducing gradient descent"
+# jemoji: '<img class="emoji" title=":open_file_folder:" alt=":open_file_folder:" src="https://assets.github.com/images/icons/emoji/unicode/1f5c2.png" height="20" width="20" align="absmiddle">'
+---
+
+***This post is now available on <a href="https://towardsdatascience.com/machine-learning-in-python-numpy-part-2-linear-regression-in-3-steps-cad77bd92717" target="_blank">Towards Data Science — Medium</a>. Check it out!***
+
+***Source code is now available on <a href="https://github.com/edenau/ML-in-NumPy/blob/master/linear-regression.ipynb" target="_blank">Github</a>. Check it out!***
+
+# Motivation
+
+We demonstrated how we build a neural net using Python NumPy in ***9 steps*** in <a href="https://edenau.github.io/ml-numpy-1/"><b>Part 1</b></a> of this series, but it might be way too difficult for beginners to understand. In this case, we will use NumPy library to implement **linear regression**, one of the simplest machine learning models. Basic understanding of calculus and Python syntax is preferred (but not necessary as you can learn on the go).
+
+<div class="breaker"></div> <a id="1"></a>
+
+# 1. Initialize
+
+Step one. Import NumPy. Seriously.
+
+{% gist 74447bbccec797093cee28d66de62552 %}
+
+<div class="breaker"></div> <a id="2"></a>
+
+# 2. Generate Data
+
+We generate ten thousand points for scalar input `X`, and its corresponding Gaussian `noise`, such that for some fixed slope `w_true=7.6` and intercept `b_true=-3.3`, we can generate `y` by the following linear relationship. Values for `w_true` and `b_true` are entirely arbitrary.
+
+```
+y = w_true * X + b_true + noise
+```
+
+{% gist 864dfdc77ee07e687f36f41203ea8332 %}
+
+Adding zero-mean Gaussian noise makes our data more realistic.
+
+![1]({{ site.url }}/assets/posts/ml-numpy/lin_reg_plot@2x.png)
+
+<div class="breaker"></div> <a id="3"></a>
+
+# 3. Gradient Descent
+
+In reality, we do not know the values of linear function parameters `w` and `b`, and this is where gradient descent comes in. We define an error function `e` as the **sum of the squared difference** between actual `y` and predicted `y=wx+b` for some ``(w,b)``.
+
+![1]({{ site.url }}/assets/posts/ml-numpy/lin_reg@2x.png)
+
+This error function penalizes the mismatch between actual and predicted `y` value. The squared difference is used instead of absolute difference `||.||` such that we can calculate **∂e/∂w** and **∂e/∂b** analytically, which is left as an exercise to the reader. ***These gradients are representations of the directions of increasing `w` and `b` respectively.*** Therefore, if we want to ***reduce*** the error `e`, we should update parameters by going to the ***negative direction*** of the derivatives. This can be expressed by
+
+```
+w ← w - learning_rate * ∂e/∂w
+b ← b - learning_rate * ∂e/∂b
+# The key is the minus signs
+```
+
+If we do these updates iteratively until `(w,b)` converge, we will get an optimal set of parameters that can represent the linear relationship between `X` and `y`.
+
+{% gist 3c737eceb0cddb610748ea9d75991dd6 %}
+
+# The Takeaway
+
+This is a minimal implementation of the linear regression algorithm using NumPy library in ***3 steps***. If you want to test your understanding of linear regression, here is a list of things you might want to try:
+
+- Implementation of linear regression using other libraries (on <a href="https://github.com/edenau/ML-in-NumPy/blob/master/linear-regression.ipynb" target="_blank">Github</a>)
+- Train-test dataset split
+- Multiple input features
+- Non-Gaussian distributed noise
+- Different error functions
+
+Happy Coding!
