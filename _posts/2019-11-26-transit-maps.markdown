@@ -7,12 +7,12 @@ tag:
 - visualization
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "Making Transit Maps"
+description: "Transit Maps"
 category: project
 author: edenau
 ---
 
-# Planned Light Rapid Transit Network
+# Planned Light Rapid Transit Network in Macao
 
 ![macau-lrt]({{ site.url }}/assets/posts/transit-maps/macau-lrt.png)
 
