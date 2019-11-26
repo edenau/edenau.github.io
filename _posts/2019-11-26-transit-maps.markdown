@@ -1,5 +1,5 @@
 ---
-title: "🚈 Making Transit Maps"
+title: "🚈 Transit Maps"
 layout: post
 date: 2019-11-26 23:00
 tag:
@@ -16,4 +16,4 @@ author: edenau
 
 ![macau-lrt]({{ site.url }}/assets/posts/transit-maps/macau-lrt.png)
 
-Last updated in 26 November 2019.
+<i>Last updated in 26 November 2019.</i>
