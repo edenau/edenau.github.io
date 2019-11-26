@@ -119,11 +119,17 @@ This concludes Part 1 of the <i>Football Rules</i> series. Please clap and follo
 ## References
 
 [1] <a href="https://www.premierleague.com/news/844127" target="_blank">EPL — 2018/19 Premier League squads</a>
+
 [2] <a href="http://news.bbc.co.uk/sport2/hi/football/eng_prem/8255784.stm" target="_blank">BBC Sport — Clubs agree to ‘home-grown’ quota</a>
+
 [3] <a href="https://www.efl.com/-more/governance/efl-rules--regulations/section-5--fixtures/" target="_blank">EFL — Section 5 — Fixtures</a>
+
 [4] <a href="https://www.bbc.com/sport/football/39517843" target="_blank">BBC Sport — EFL teams must name ‘club-developed’ player on matchdays from 2018–19</a>
+
 [5] <a href="https://www.uefa.com/MultimediaFiles/Download/Regulations/uefaorg/Regulations/02/60/88/40/2608840_DOWNLOAD.pdf" target="_blank">UEFA — Regulations of the UEFA Europa League 2018–21 Cycle</a>
+
 [6] <a href="https://www.uefa.com/uefachampionsleague/news/newsid=2400510.html" target="_blank">UEFA — UEFA Champions League squads: how it works</a>
 
 [7] <a href="https://www.espn.com/soccer/uefa-champions-league/story/3432917/champions-league-cup-tied-rule-abolished-what-does-it-mean" target="_blank">ESPN — Champions League ‘cup-tied’ rule abolished: What does it mean?</a>
+
 [8] <a href="https://www.goal.com/en-gb/news/2914/champions-league/2012/05/21/3116874/chelseas-lukaku-i-did-not-deserve-champions-league-medal" target="_blank">Goal.com — Chelsea’s Lukaku: I did not deserve Champions League medal thanks to Villas-Boas snub</a>
