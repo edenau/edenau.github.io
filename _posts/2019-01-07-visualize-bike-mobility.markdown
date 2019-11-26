@@ -6,6 +6,7 @@ published: true
 headerImage: false
 tag:
 - visualization
+- map
 - bike
 - Python
 - DataScience
