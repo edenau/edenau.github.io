@@ -112,7 +112,7 @@ During my undergraduate years, I was fully funded by Swire, and also funded by b
 I am experienced in developing data-driven solutions and engineering designs. My codes are available on <a href="https://github.com/edenau" target="_blank">GitHub</a>.
 <ul>
   <li>
-    <b>Super-resolution GAN</b>: leveraged SRGAN in enhancing spatial resolution of cloud resolving model outputs.
+    <b><a href="https://github.com/edenau/srgan">Super-resolution GAN</a></b>: leveraged SRGAN in enhancing spatial resolution of cloud resolving model outputs.
   </li>
   <li>
     <b>Deep learning</b>: PhD project, analyzing spatio-temporal climate data by supervised learning.

@@ -12,6 +12,8 @@ category: project
 author: edenau
 ---
 
+I made these transit maps using Adobe Illustrator.
+
 # Planned Light Rapid Transit Network in Macao
 
 ![macau-lrt]({{ site.url }}/assets/posts/transit-maps/macau-lrt.png)
