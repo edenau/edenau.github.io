@@ -163,19 +163,22 @@ I am able to motivate colleagues and maintain morale and workplace harmony.
 I am a fast learner and I am interested in learning new programming and natural languages. I give speeches and love writing.
 <ul>
   <li>
-    Programming languages: <b>Python, MATLAB, Pascal, LaTeX</b>
+    Programming languages: <b>Python, C++, MATLAB, Pascal</b>
   </li>
   <li>
-    Frameworks: <b>NumPy, Matplotlib, scikit-learn, TensorFlow 2.0, Keras, Sphinx, Flask</b>
+    Markup languages: <b>Markdown, LaTeX, Beamer</b>
   </li>
   <li>
-    Technologies: <b>GitHub, GitBook, FFmpeg, SolidWorks, Rose-Cylc</b>
+    Frameworks: <b>NumPy, SciPy, pandas, Matplotlib, seaborn, scikit-learn, TensorFlow 2.0, Sphinx, Flask</b>
+  </li>
+  <li>
+    Technologies: <b>GitHub, FFmpeg, SolidWorks, Rose-Cylc</b>
   </li>
   <li>
     Natural languages: <b>English, Mandarin, Cantonese, Taiwanese, Spanish</b>
   </li>
   <li>
-    Writing: data science blogger on <a href="https://medium.com/@edenau" target="_blank">Medium</a>
+    Writing: data science and technology blogger on <a href="https://medium.com/@edenau" target="_blank">Medium</a>
   </li>
   <li>
     Public speaking: gave talks about Project Access, machine learning etc. (see below)
