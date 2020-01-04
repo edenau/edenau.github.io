@@ -169,7 +169,7 @@ I am a fast learner and I am interested in learning new programming and natural 
     Markup languages: <b>Markdown, LaTeX, Beamer</b>
   </li>
   <li>
-    Frameworks: <b>NumPy, SciPy, pandas, Matplotlib, seaborn, scikit-learn, TensorFlow 2.0, Sphinx, Flask</b>
+    Python frameworks: <b>NumPy, SciPy, pandas, Matplotlib, seaborn, scikit-learn, TensorFlow 2.0, Sphinx, Flask</b>
   </li>
   <li>
     Technologies: <b>GitHub, FFmpeg, SolidWorks, Rose-Cylc</b>
@@ -178,7 +178,7 @@ I am a fast learner and I am interested in learning new programming and natural 
     Natural languages: <b>English, Mandarin, Cantonese, Taiwanese, Spanish</b>
   </li>
   <li>
-    Writing: data science and technology blogger on <a href="https://medium.com/@edenau" target="_blank">Medium</a>
+    Writing: one of 50 Top Writers in data science and technology on <a href="https://medium.com/@edenau" target="_blank">Medium</a>
   </li>
   <li>
     Public speaking: gave talks about Project Access, machine learning etc. (see below)
