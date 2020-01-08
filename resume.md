@@ -54,8 +54,10 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
 I am an adaptable professional that embraces teamwork, but also enjoys working independently.
 <ul>
   <li>
+    2018 – present: <b>Top Writer in Technology, <i>Medium</i>.</b> One of top 10 writers in technology. <a href="https://medium.com/@edenau" target="_blank">@edenau</a>
+  </li>
+  <li>
     2019: <b>Research Fellow, <i>Lawrence Berkeley National Laboratory</i>.</b> Developed generative deep learning models for super-resolution of cloud resolving models.
-
   </li>
   <li>
     2019: <b>Co-founder, <i>Taro Studio</i>.</b> Designed a next-gen <a href="https://itunes.apple.com/gb/app/taro-weather/id1451553639" target="_blank">weather app</a> that understands personalized environmental perception using machine learning.
@@ -176,9 +178,6 @@ I am a fast learner and I am interested in learning new programming and natural 
   </li>
   <li>
     Natural languages: <b>English, Mandarin, Cantonese, Taiwanese, Spanish</b>
-  </li>
-  <li>
-    Writing: one of 50 Top Writers in data science and technology on <a href="https://medium.com/@edenau" target="_blank">Medium</a>
   </li>
   <li>
     Public speaking: gave talks about Project Access, machine learning etc. (see below)
