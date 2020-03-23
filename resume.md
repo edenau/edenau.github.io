@@ -196,8 +196,10 @@ I am a fast learner and I am interested in learning new programming and natural 
 </p>
 
 <h4>Posters</h4>
+<p>
 <ul>
   <li>
-    <b>Au, E.K.L.</b>, Kashinath, K., Albert, A., Prabhat, M., Tett, S.F. and Brenowitz, N., 2019. Towards sub-grid scale parameterizations using a super-resolution generative adversarial network. In AGU Fall Meeting 2019. AGU.
+    <b>Au, E.K.L.</b>, Kashinath, K., Albert, A., Prabhat, M., Tett, S.F. and Brenowitz, N., 2019. Towards sub-grid scale parameterizations using a super-resolution generative adversarial network. In AGU Fall Meeting 2019. AGU. (<a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/583528" target="_blank">abstract</a>)
   </li>
 </ul>
+</p>
