@@ -54,6 +54,9 @@ I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD pro
 I am an adaptable professional that embraces teamwork, but also enjoys working independently.
 <ul>
   <li>
+    2020 – present: <b>Digital Research Services Ambassador, <i>Information Services Group, The University of Edinburgh</i>.</b> Identifying and documenting cases of good practice in using digital research services (e.g. HPC), and promoting digital research services in local research communities.
+  </li>
+  <li>
     2018 – present: <b>Top Writer in Technology, <i>Medium</i>.</b> One of top 10 writers in technology. <a href="https://medium.com/@edenau" target="_blank">@edenau</a>
   </li>
   <li>
