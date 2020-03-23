@@ -145,7 +145,7 @@ I am experienced in developing data-driven solutions and engineering designs. My
 I am able to motivate colleagues and maintain morale and workplace harmony.
 <ul>
   <li>
-    2019 – present: <b>Vice President, <i>Edinburgh University Hong Kong Public Affairs and Social Service Society</i>.</b> Promoting students' public affairs awareness and providing assistance to the underprivileged through social service activities.
+    2019 – 2020: <b>Vice President, <i>Edinburgh University Hong Kong Public Affairs and Social Service Society</i>.</b> Promoting students' public affairs awareness and providing assistance to the underprivileged through social service activities.
     </li>
   <li>
     2016 – 2018: <b>Founding Member, <i>Oxford University Coding Society</i>.</b> Provided an opportunity for Oxford students to learn how to code, and assisted in the provision of coding class materials.
