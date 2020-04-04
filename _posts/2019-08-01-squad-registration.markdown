@@ -12,7 +12,7 @@ description: "Case studies on homegrown players"
 # jemoji: '<img class="emoji" title=":open_file_folder:" alt=":open_file_folder:" src="https://assets.github.com/images/icons/emoji/unicode/1f5c2.png" height="20" width="20" align="absmiddle">'
 ---
 
-***This post is now available on <a href="https://medium.com/@edenau/squad-registration-rules-in-english-and-european-football-584dcc3fecf7" target="_blank">Medium</a>. Check it out!***
+***This post is now available on <a href="https://medium.com/garden-of-eden/squad-registration-rules-in-english-and-european-football-c0225014a279" target="_blank">Medium</a>. Check it out!***
 
 >> Why don’t rich football clubs just buy most of the big names on the market?
 
