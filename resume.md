@@ -57,7 +57,7 @@ I am an adaptable professional that embraces teamwork, but also enjoys working i
     2020 – present: <b>Digital Research Services Ambassador, <i>Information Services Group, The University of Edinburgh</i>.</b> Identifying and documenting cases of good practice in using digital research services (e.g. HPC), and promoting digital research services in local research communities.
   </li>
   <li>
-    2018 – present: <b>Top Writer in Technology, <i>Medium</i>.</b> <a href="https://medium.com/@edenau" target="_blank">@edenau</a> One of top 10 writers in technology with a total reach of 600k+. Some articles were translated and republished in <a href="https://www.infoq.cn/article/DzbdLevAqB4etWb41mCX" target="_blank">Chinese</a> and Polish.
+    2018 – present: <b>Top Writer in Technology, <i>Medium</i>.</b> <a href="https://medium.com/@edenau" target="_blank">@edenau</a> One of top 10 writers in technology with a total reach of 600k+. Some articles were translated and republished in <a href="https://www.infoq.cn/article/DzbdLevAqB4etWb41mCX" target="_blank">Chinese</a> and <a href="https://bulldogjob.pl/news/1016-4-czeste-bledy-poczatkujacych-pythonowcow" target="_blank">Polish</a>.
   </li>
   <li>
     2019: <b>Research Fellow, <i>Lawrence Berkeley National Laboratory</i>.</b> Developed generative deep learning models for super-resolution of cloud resolving models.
