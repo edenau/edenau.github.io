@@ -33,17 +33,17 @@ title: Resume
 <a class="button" href="/assets/docs/Au.pdf" target="_blank"><span><img src="../assets/images/download.png" height="18px" style="padding-top:5px; margin-right:5px;">  PDF version</span></a>
 </center>
 
-<i>Last updated on 23 March 2020.</i>
+<i>Last updated on 5 June 2020.</i>
 
 <h4>Education</h4>
 <p>
-I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD project is about using machine learning in climate modeling.
+I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD project is about using machine learning in climate modelling.
 <ul>
   <li>
-    2018 – present: <b> PhD in GeoSciences, <i>The University of Edinburgh</i>. </b> Specialized in machine learning and climate modeling. Under <a href="http://e3dtp.geos.ed.ac.uk/" target="_blank"> E3DTP</a> programme. <i>Thesis topic: Using machine learning to parameterize climate and weather processes: a case-study on convection. Supervisors: <a href="https://www.geos.ed.ac.uk/homes/stett2/" target="_blank">Prof. Simon Tett</a> (<a href="https://en.wikipedia.org/wiki/Simon_Tett" target="_blank">wiki</a>), <a href="https://www.bayeswatch.com/" target="_blank">Prof. Amos Storkey</a>, <a href="https://www.metoffice.gov.uk/research/people/keith-williams" target="_blank">Dr. Keith Williams</a>.</i>
+    2018 – present: <b> PhD in GeoSciences, <i>The University of Edinburgh</i>. </b> Specialised in machine learning and climate modelling. Under <a href="http://e3dtp.geos.ed.ac.uk/" target="_blank"> E3DTP</a> programme. <i>Thesis topic: Using machine learning to parameterise climate and weather processes: a case-study on convection. Supervisors: <a href="https://www.geos.ed.ac.uk/homes/stett2/" target="_blank">Prof. Simon Tett</a> (<a href="https://en.wikipedia.org/wiki/Simon_Tett" target="_blank">wiki</a>), <a href="https://www.bayeswatch.com/" target="_blank">Prof. Amos Storkey</a>, <a href="https://www.metoffice.gov.uk/research/people/keith-williams" target="_blank">Dr. Keith Williams</a>.</i>
   </li>
   <li>
-    2014 – 2018: <b> MEng in Information Engineering, <i>University of Oxford</i>.</b> Specialized in machine learning and control theory, ranked 3<sup>rd</sup> in cohort. <i>Thesis topic: <a href="{{ site.url}}/bike-sharing">A generic model and a distributed algorithm for station based bike sharing systems</a>. Supervisor: <a href="https://sites.google.com/site/margellosk/home" target="_blank">Prof. Kostas Margellos</a>.</i>
+    2014 – 2018: <b> MEng in Information Engineering, <i>University of Oxford</i>.</b> Specialised in machine learning and control theory, ranked 3<sup>rd</sup> in cohort. <i>Thesis topic: <a href="{{ site.url}}/bike-sharing">A generic model and a distributed algorithm for station based bike sharing systems</a>. Supervisor: <a href="https://sites.google.com/site/margellosk/home" target="_blank">Prof. Kostas Margellos</a>.</i>
   </li>
 </ul>
 </p>
@@ -63,10 +63,10 @@ I am an adaptable professional that embraces teamwork, but also enjoys working i
     2019: <b>Student Assistant, <i>Lawrence Berkeley National Laboratory</i>.</b> Developed generative deep learning models for super-resolution of cloud resolving models.
   </li>
   <li>
-    2019: <b>Co-founder, <i>Taro Studio</i>.</b> Designed a next-gen <a href="https://itunes.apple.com/gb/app/taro-weather/id1451553639" target="_blank">weather app</a> that understands personalized environmental perception using machine learning.
+    2019: <b>Co-founder, <i>Taro Studio</i>.</b> Designed a next-gen <a href="https://itunes.apple.com/gb/app/taro-weather/id1451553639" target="_blank">weather app</a> that understands personalised environmental perception using machine learning.
   </li>
   <li>
-    2019: <b>Intern, <i>Royal Botanic Garden Edinburgh</i>.</b> Analyzed spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
+    2019: <b>Intern, <i>Royal Botanic Garden Edinburgh</i>.</b> Analysed spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
   </li>
   <li>
     2018 – 2019: <b>Software Engineer, <i>HYPED</i>.</b> Designed a pod navigation system using Kalman filter for Hyperloop, a revolutionary mode of transport.
@@ -120,13 +120,13 @@ I am experienced in developing data-driven solutions and engineering designs. My
     <b><a href="https://github.com/edenau/srgan">Super-resolution GAN</a></b>: leveraged SRGAN in enhancing spatial resolution of cloud resolving model outputs.
   </li>
   <li>
-    <b>Deep learning</b>: PhD project, analyzing spatio-temporal climate data by supervised learning.
+    <b>Deep learning</b>: PhD project, analysing spatio-temporal climate data by supervised learning.
   </li>
   <li>
-    <b><a href="{{ site.url }}/visualize-bike-mobility">Data visualization</a></b>: visualized bike sharing systems using interactive maps and animations.
+    <b><a href="{{ site.url }}/visualize-bike-mobility">Data visualisation</a></b>: visualised bike sharing systems using interactive maps and animations.
   </li>
   <li>
-    <b><a href="{{ site.url }}/bike-sharing">Distributed optimization</a></b>: Master’s project, constructed optimization algorithms in a distributed computing framework, and applied it to balancing bike sharing systems with significant improvement in performance.
+    <b><a href="{{ site.url }}/bike-sharing">Distributed optimisation</a></b>: Master’s project, constructed optimisation algorithms in a distributed computing framework, and applied it to balancing bike sharing systems with significant improvement in performance.
   </li>
   <li>
     <b><a href="{{ site.url }}/camera-calibration">Camera calibration</a></b>: built a calibration algorithm for pinhole cameras by machine vision techniques.
