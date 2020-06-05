@@ -40,7 +40,7 @@ title: Resume
 I received MEng (Oxon.) in 2018, before starting my PhD in Edinburgh. My PhD project is about using machine learning in climate modeling.
 <ul>
   <li>
-    2018 – present: <b> PhD in GeoInformatics, <i>The University of Edinburgh</i>. </b> Specialized in machine learning and climate modeling. Under <a href="http://e3dtp.geos.ed.ac.uk/" target="_blank"> E3DTP</a> programme. <i>Thesis topic: Using machine learning to parameterize climate and weather processes: a case-study on convection. Supervisors: <a href="https://www.geos.ed.ac.uk/homes/stett2/" target="_blank">Prof. Simon Tett</a> (<a href="https://en.wikipedia.org/wiki/Simon_Tett" target="_blank">wiki</a>), <a href="https://www.bayeswatch.com/" target="_blank">Prof. Amos Storkey</a>, <a href="https://www.metoffice.gov.uk/research/people/keith-williams" target="_blank">Dr. Keith Williams</a>.</i>
+    2018 – present: <b> PhD in GeoSciences, <i>The University of Edinburgh</i>. </b> Specialized in machine learning and climate modeling. Under <a href="http://e3dtp.geos.ed.ac.uk/" target="_blank"> E3DTP</a> programme. <i>Thesis topic: Using machine learning to parameterize climate and weather processes: a case-study on convection. Supervisors: <a href="https://www.geos.ed.ac.uk/homes/stett2/" target="_blank">Prof. Simon Tett</a> (<a href="https://en.wikipedia.org/wiki/Simon_Tett" target="_blank">wiki</a>), <a href="https://www.bayeswatch.com/" target="_blank">Prof. Amos Storkey</a>, <a href="https://www.metoffice.gov.uk/research/people/keith-williams" target="_blank">Dr. Keith Williams</a>.</i>
   </li>
   <li>
     2014 – 2018: <b> MEng in Information Engineering, <i>University of Oxford</i>.</b> Specialized in machine learning and control theory, ranked 3<sup>rd</sup> in cohort. <i>Thesis topic: <a href="{{ site.url}}/bike-sharing">A generic model and a distributed algorithm for station based bike sharing systems</a>. Supervisor: <a href="https://sites.google.com/site/margellosk/home" target="_blank">Prof. Kostas Margellos</a>.</i>
@@ -57,16 +57,16 @@ I am an adaptable professional that embraces teamwork, but also enjoys working i
     2020 – present: <b>Digital Research Services Ambassador, <i>Information Services Group, The University of Edinburgh</i>.</b> Identifying and documenting cases of good practice in using digital research services (e.g. HPC), and promoting digital research services in local research communities.
   </li>
   <li>
-    2018 – present: <b>Top Writer in Technology, <i>Medium</i>.</b> <a href="https://medium.com/@edenau" target="_blank">@edenau</a> One of top 10 writers in technology with a total reach of 600k+. Some articles were translated and republished in <a href="https://www.infoq.cn/article/DzbdLevAqB4etWb41mCX" target="_blank">Chinese</a> and <a href="https://bulldogjob.pl/news/1016-4-czeste-bledy-poczatkujacych-pythonowcow" target="_blank">Polish</a>.
+    2018 – present: <b>Top Writer in Technology, <i>Medium</i>.</b> <a href="https://medium.com/@edenau" target="_blank">@edenau</a> One of top 10 writers in technology with a total reach of 767k+. Some articles were translated and republished in <a href="https://www.infoq.cn/article/DzbdLevAqB4etWb41mCX" target="_blank">Chinese</a> and <a href="https://bulldogjob.pl/news/1016-4-czeste-bledy-poczatkujacych-pythonowcow" target="_blank">Polish</a>.
   </li>
   <li>
-    2019: <b>Research Fellow, <i>Lawrence Berkeley National Laboratory</i>.</b> Developed generative deep learning models for super-resolution of cloud resolving models.
+    2019: <b>Student Assistant, <i>Lawrence Berkeley National Laboratory</i>.</b> Developed generative deep learning models for super-resolution of cloud resolving models.
   </li>
   <li>
     2019: <b>Co-founder, <i>Taro Studio</i>.</b> Designed a next-gen <a href="https://itunes.apple.com/gb/app/taro-weather/id1451553639" target="_blank">weather app</a> that understands personalized environmental perception using machine learning.
   </li>
   <li>
-    2019: <b>Data Scientist, <i>Royal Botanic Garden Edinburgh</i>.</b> Analyzed spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
+    2019: <b>Intern, <i>Royal Botanic Garden Edinburgh</i>.</b> Analyzed spatial climate data to investigate the threats to tropical forest and carbon and biodiversity loss.
   </li>
   <li>
     2018 – 2019: <b>Software Engineer, <i>HYPED</i>.</b> Designed a pod navigation system using Kalman filter for Hyperloop, a revolutionary mode of transport.
@@ -168,16 +168,13 @@ I am able to motivate colleagues and maintain morale and workplace harmony.
 I am a fast learner and I am interested in learning new programming and natural languages. I give speeches and love writing.
 <ul>
   <li>
-    Programming languages: <b>Python, C++, MATLAB, Pascal</b>
+    Programming languages: <b>Python, MATLAB, SQL, Pascal, C++</b>
   </li>
   <li>
-    Markup languages: <b>Markdown, LaTeX, Beamer</b>
+    Markup languages: <b>Markdown, LaTeX</b>
   </li>
   <li>
-    Python frameworks: <b>NumPy, SciPy, pandas, Matplotlib, seaborn, scikit-learn, TensorFlow 2.0, Sphinx, Flask</b>
-  </li>
-  <li>
-    Technologies: <b>GitHub, FFmpeg, SolidWorks, Rose-Cylc</b>
+    Frameworks: <b>NumPy, SciPy, Matplotlib, scikit-learn, TensorFlow 2.0, Git</b>
   </li>
   <li>
     Natural languages: <b>English, Mandarin, Cantonese, Taiwanese, Spanish</b>
