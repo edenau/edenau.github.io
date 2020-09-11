@@ -5,8 +5,6 @@ layout: page
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-> Data Scientist 📈 · Blogger ✍️ · Polyglot 🈴 · #ChelseaFC 💙⚽ · 🇭🇰🇬🇧
-
 <br>
 <h4>Background</h4>
 
